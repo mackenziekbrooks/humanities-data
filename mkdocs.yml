@@ -1,0 +1,29 @@
+site_name: Humanities Data Coursebook
+base_url: 
+
+theme: 
+  name: 
+  custom_dir: mkdocs_gitbook/
+
+features:
+  - tabs
+    #- instant
+
+
+extra_css: 
+  - styles/website.css
+
+markdown_extensions:
+    - toc:
+        permalink: "#"
+
+nav:
+  - Introduction: introduction.md
+  - How the Web Works: how-the-web-works.md
+  - Your Computer: your-computer.md
+  - Data: data.md
+  - Visualization: visualization.md
+  - Network Analysis: network-analysis.md
+  - Spatial Analysis: spatial-analysis.md
+  - Text Analysis: text-analaysis.md
+  - Process: process.md

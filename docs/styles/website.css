@@ -1,0 +1,33 @@
+/* CSS for website */
+
+
+
+body {
+	font-size: 150%;
+
+}
+
+.headerlink {
+    font-family: FontAwesome;
+    font-size: 14px;
+    display: none;
+    padding-left: .5em;
+}
+
+h1:hover .headerlink, h2:hover .headerlink, h3:hover .headerlink, h4:hover .headerlink, h5:hover .headerlink, h6:hover .headerlink{
+    display:inline-block;
+}
+
+.book-summary {
+	background-color: #fff;
+}
+
+.img-title {
+	display:block;
+	margin:auto;
+	width:40%;
+}
+
+#site-title {
+	font-weight:bold;
+}
