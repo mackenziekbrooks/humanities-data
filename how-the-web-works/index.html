@@ -28,11 +28,13 @@
 <nav role="navigation">
 <ul class="summary">
 <li>
-<a href=".." class="custom-link">Humanities Data Coursebook</a>
+<a href=".." class="custom-link" id="site-title">  
+<img src="/images/manatee144.png" class="img-title">
+Humanities Data Coursebook</a>
 </li>
 <li class="divider"></li>
-<li class="chapter" data-path="introduction/">
-<a href="../introduction/">Introduction</a>
+<li class="chapter" data-path="what-is-humanities-data/">
+<a href="../what-is-humanities-data/">What is Humanities Data?</a>
 <li class="chapter active" data-path="how-the-web-works/">
 <a href="./">How the Web Works</a>
 <li class="chapter" data-path="your-computer/">
@@ -79,38 +81,60 @@ Theme by GitBook
 </div> <!-- end of book-header -->
 
 <div class="page-wrapper" tabindex="-1" role="main">
+
 <div class="page-inner">
 <div id="mkdocs-search-results">
 <div class="search-noresults">
+
 
 <section class="normal markdown-section">
 
 
 
-<h1 id="how-the-web-works">How the Web Works<a class="headerlink" href="#how-the-web-works" title="Permanent link">#</a></h1>
-<h2 id="what-even-is-the-internet">What even is the Internet?<a class="headerlink" href="#what-even-is-the-internet" title="Permanent link">#</a></h2>
+<h1>How the Web Works</h1>
+<p>In this module, we'll explore how Internet works, learn the basics of HTML and CSS, and setup your own website on WordPress.</p>
+<p><strong>Table of Contents:</strong></p>
+<div class="toc">
+<ul>
+<li><a href="#what-even-is-the-internet">What even is the Internet?</a></li>
+<li><a href="#html">HTML</a></li>
+<li><a href="#css">CSS</a></li>
+<li><a href="#your-domain">Your domain</a></li>
+<li><a href="#activities">Activities</a><ul>
+<li><a href="#activity-1-install-wordpress">Activity 1: Install WordPress</a></li>
+<li><a href="#activity-2-customize-wordpress">Activity 2: Customize WordPress</a></li>
+<li><a href="#activity-3-html">Activity 3: HTML</a></li>
+<li><a href="#activity-4-css">Activity 4: CSS</a></li>
+<li><a href="#activity-5-make-it-live">Activity 5: Make it live</a></li>
+<li><a href="#activity-6">Activity 6</a></li>
+</ul>
+</li>
+<li><a href="#readings">Readings</a></li>
+<li><a href="#resources">Resources</a></li>
+</ul>
+</div>
+<h2 id="what-even-is-the-internet">What even is the Internet?</h2>
 <p>The Internet is magic! Just kidding, it's really not. The Internet is made up of computers connected to other computers. Even though you often connect to the internet wirelessly, the internet is still a very physical thing. The information you send and receive travels through wires and fiber-optic cables in the ground and under the ocean. These networked computers talk to each other using protocols. Every computer has an address, known as an IP (Internet Protocol) address, to help direct traffic.</p>
 <p>Another protocol that you use, even if you don't realize it, is the Hypertext Transfer Protocol, or HTTP. Your browser uses HTTP to render websites. When you type in <code>http://www.wlu.edu</code> your browser sends out a request to the computer that can serve up all the files at that particular address. The "server" returns the files and your browser renders them into a website. At its simplest, a website is just a folder full of text files and images.</p>
-<p>Here are a few videos that might help:
-{:purple} </p>
+<p>Here are a few videos that might help:</p>
 <ul>
 <li><a href="https://www.youtube.com/watch?v=Dxcc6ycZ73M">What is the Internet? </a></li>
 <li><a href="https://www.youtube.com/watch?v=ZhEf7e4kopM">The Internet: Wires, Cables, and Wi-fi</a></li>
 </ul>
-<h2 id="html">HTML<a class="headerlink" href="#html" title="Permanent link">#</a></h2>
+<h2 id="html">HTML</h2>
 <p>HTML, or Hypertext Markup Language, is one of the basic building blocks of the web. HTML is a set of tags that add structure to documents.</p>
 <p>When you write a document, you rely on style to indicate something about the text. You might put the title in a bigger font or break up paragraphs with tabs or new lines. Markup languages do this by adding tags around the content you wish to set apart. For example: <code>&lt;title&gt;The Lord of the Rings&lt;/title&gt;</code> or <code>&lt;p&gt;This is a whole paragraph.&lt;/p&gt;</code> Your human eyes and brain can infer things based on visual appear that computers need to be told explicitly. That's why we need semantic markup.</p>
 <p>You can see the HTML for a basic website at the <a href="http://www.w3schools.com/html/">W3 Schools HTML tutorial</a>.</p>
 <p>In fact, you can see the HTML for any page on the web by right clicking anywhere on the page and selecting "view page source."</p>
 <p>HTML documents are just plain text documents. You can write and read HTML in a text editor like Notepad++ or Sublime. The magic happens when you open an HTML document in the browser.</p>
-<h2 id="css">CSS<a class="headerlink" href="#css" title="Permanent link">#</a></h2>
+<h2 id="css">CSS</h2>
 <p>Our next building block of the web is CSS, or Cascading Style Sheets. HTML structures your webpage, but you need something else to add the pretty colors and images.</p>
 <p>CSS has a different syntax than HTML. First you identify the HTML tag, then you declare the styles you wish to apply. <code>title {color: red;}</code></p>
 <p>See some basic CSS at the <a href="http://www.w3schools.com/css/default.asp">W3 Schools CSS tutorial</a>.</p>
 <p>The beauty of CSS is that you can keep all your styles in one stylesheet which you link to all your HTML pages.</p>
-<h2 id="your-domain">Your domain<a class="headerlink" href="#your-domain" title="Permanent link">#</a></h2>
-<h2 id="activities">Activities<a class="headerlink" href="#activities" title="Permanent link">#</a></h2>
-<h3 id="activity-1-install-wordpress">Activity 1: Install WordPress<a class="headerlink" href="#activity-1-install-wordpress" title="Permanent link">#</a></h3>
+<h2 id="your-domain">Your domain</h2>
+<h2 id="activities">Activities</h2>
+<h3 id="activity-1-install-wordpress">Activity 1: Install WordPress</h3>
 <ol>
 <li>Login to the Cpanel for your domain by adding <code>/cpanel</code> to the end of your URL. Use the username and password sent to you by Reclaim Hosting/Jason Mickel. </li>
 <li>You should see a Wordpress icon near the top of the page. Click on it to begin installing Wordpress.</li>
@@ -131,14 +155,14 @@ Theme by GitBook
 <p>Add your website address to the class Box folder <code>DCI102-F19-data &gt; Website Registry.boxnote</code></p>
 </li>
 </ol>
-<h3 id="activity-2-customize-wordpress">Activity 2: Customize WordPress<a class="headerlink" href="#activity-2-customize-wordpress" title="Permanent link">#</a></h3>
+<h3 id="activity-2-customize-wordpress">Activity 2: Customize WordPress</h3>
 <ol>
 <li>Change your theme by going to <code>Appearance &gt; Themes</code>. Select an installed theme, or find a new one with the <code>Add New</code> button. Activate multiple themes to try them out!</li>
 <li>Check your comment settings in <code>Settings &gt; Discussion</code> to make sure your classmates will be able to comment on your posts. </li>
 <li>Set up your menu (remember we'll have 3 units with similar assignments) by going to <code>Appearance &gt; Menus</code>. You will need to create a menu, add pages to it, and select a location for that menu. This is usually the most confusing part of Wordpress! </li>
 <li>Before you start adding content to your site, play around with as many of the settings and features as possible. What do all the bells and whistles do? Add your own images or colors. This is <em>your</em> site!</li>
 </ol>
-<h3 id="activity-3-html">Activity 3: HTML<a class="headerlink" href="#activity-3-html" title="Permanent link">#</a></h3>
+<h3 id="activity-3-html">Activity 3: HTML</h3>
 <ul>
 <li>Open your favorite text editor and using the <a href="http://w3schools.com/">W3 Schools</a> as a guide, write your own HTML document.</li>
 <li>Save the file as <code>index.html</code> in your Box folder. I'm not grading this, but it will help me troubleshoot if necessary.</li>
@@ -147,7 +171,7 @@ Theme by GitBook
 <li>Add seven additional types of tags to the body of your HTML document, including a table, link, and image.</li>
 <li>Add an additional HTML page and link the two pages.</li>
 </ul>
-<h3 id="activity-4-css">Activity 4: CSS<a class="headerlink" href="#activity-4-css" title="Permanent link">#</a></h3>
+<h3 id="activity-4-css">Activity 4: CSS</h3>
 <p>Create a separate CSS document and save it as <code>style.css</code> in the same folder you created for Activity 1.</p>
 <ul>
 <li>Link the <code>style.css</code> file to your HTML document. Consult the <a href="http://w3schools.com/">W3 Schools</a> to figure out how to do this.</li>
@@ -155,7 +179,7 @@ Theme by GitBook
 <li>Change the border on your table. </li>
 <li>Add style to your links when you hover over them. </li>
 </ul>
-<h3 id="activity-5-make-it-live">Activity 5: Make it live<a class="headerlink" href="#activity-5-make-it-live" title="Permanent link">#</a></h3>
+<h3 id="activity-5-make-it-live">Activity 5: Make it live</h3>
 <p>When you opened your HTML files in your browser, you were viewing your files locally. Only you could see them on your computer. Now it's time to upload them to your domain so other people can view them.</p>
 <ul>
 <li>Navigate to <code>http://yourdomain.wludci.info/cpanel</code> and login. </li>
@@ -166,7 +190,7 @@ Theme by GitBook
 <li>Navigate to your equivalent of <code>www.yourdomain.com/activities</code>. What do you see?  </li>
 <li>Add a link to this URL to our shared Box folder in the website registry. </li>
 </ul>
-<h3 id="activity-6">Activity 6<a class="headerlink" href="#activity-6" title="Permanent link">#</a></h3>
+<h3 id="activity-6">Activity 6</h3>
 <ul>
 <li>First, share with your partner one realization you had while learning HTML/CSS. It can be technical like "don't forget that slash" or conceptual "I realized I need to read directions more closely."</li>
 <li>Second, visit each other's new website. Right click/Ctrl + Click to <code>view page source</code>. </li>
@@ -178,8 +202,8 @@ Theme by GitBook
 </li>
 <li>Be sure to upload your changes to your website. </li>
 </ul>
-<h2 id="readings">Readings<a class="headerlink" href="#readings" title="Permanent link">#</a></h2>
-<h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">#</a></h2>
+<h2 id="readings">Readings</h2>
+<h2 id="resources">Resources</h2>
 
 
 </section>
