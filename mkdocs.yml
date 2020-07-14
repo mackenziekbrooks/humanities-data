@@ -9,16 +9,15 @@ features:
   - tabs
     #- instant
 
-
 extra_css: 
   - styles/website.css
 
-markdown_extensions:
-    - toc:
-        permalink: "#"
+
+plugins:
+  - search
 
 nav:
-  - Introduction: introduction.md
+  - What is Humanities Data?: what-is-humanities-data.md
   - How the Web Works: how-the-web-works.md
   - Your Computer: your-computer.md
   - Data: data.md

@@ -1,9 +1,5 @@
-# Your Computer
 
-Jump to: 
-[Exercises](#exercises)
-[Readings](#readings)
-[Resources](#resources)
+
 
 ## What is your 
 

@@ -1,4 +1,9 @@
-# How the Web Works 
+
+In this module, we'll explore how Internet works, learn the basics of HTML and CSS, and setup your own website on WordPress.
+
+**Table of Contents:**
+
+[TOC]
 
 ## What even is the Internet? 
 
@@ -7,7 +12,6 @@ The Internet is magic! Just kidding, it's really not. The Internet is made up of
 Another protocol that you use, even if you don't realize it, is the Hypertext Transfer Protocol, or HTTP. Your browser uses HTTP to render websites. When you type in `http://www.wlu.edu` your browser sends out a request to the computer that can serve up all the files at that particular address. The "server" returns the files and your browser renders them into a website. At its simplest, a website is just a folder full of text files and images.
 
 Here are a few videos that might help:
-{:purple} 
 
 * [What is the Internet? ](https://www.youtube.com/watch?v=Dxcc6ycZ73M)
 * [The Internet: Wires, Cables, and Wi-fi](https://www.youtube.com/watch?v=ZhEf7e4kopM)

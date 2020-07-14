@@ -4,7 +4,12 @@
 
 body {
 	font-size: 150%;
+	font-family: Helvetica Neue;
 
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: Courier New;
 }
 
 .headerlink {
@@ -20,6 +25,8 @@ h1:hover .headerlink, h2:hover .headerlink, h3:hover .headerlink, h4:hover .head
 
 .book-summary {
 	background-color: #fff;
+	font-family:Courier New;
+	color: #000;
 }
 
 .img-title {
@@ -30,4 +37,17 @@ h1:hover .headerlink, h2:hover .headerlink, h3:hover .headerlink, h4:hover .head
 
 #site-title {
 	font-weight:bold;
+	text-align: center;
+	font-family: Courier New;
 }
+
+.label, .label-blue { display: inline-block; padding-top: 0.16em; padding-right: 0.42em; padding-bottom: 0.16em; padding-left: 0.42em; margin-right: 0.25rem; margin-left: 0.25rem; color: #fff; text-transform: uppercase; vertical-align: middle; background-color: #2869e6; font-size: 11px !important; }
+@media (min-width: 31.25rem) { .label, .label-blue { font-size: 12px !important; } }
+
+.label-green { background-color: #009c7b; }
+
+.label-purple { background-color: #5e41d0; }
+
+.label-red { background-color: #e94c4c; }
+
+.label-yellow { color: #44434d; background-color: #f7d12e; }
