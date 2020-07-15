@@ -29,7 +29,7 @@
 <ul class="summary">
 <li>
 <a href=".." class="custom-link" id="site-title">  
-<img src="https://mackenziekbrooks.github.io/humanities-data/images/manatee144.png" class="img-title">
+<img src="https://mackenziekbrooks.github.io/humanities-data/images/manatee144.png" alt="this is a cute manatee icon" class="img-title">
 Humanities Data Coursebook</a>
 </li>
 <li class="divider"></li>
@@ -102,8 +102,17 @@ Theme by GitBook
 </ul>
 </li>
 <li><a href="#css">CSS</a></li>
-<li><a href="#your-domain">Your domain</a></li>
+<li><a href="#your-domain">Your domain</a><ul>
+<li><a href="#privacy">Privacy</a></li>
+<li><a href="#reclaim-hosting">Reclaim Hosting</a></li>
+<li><a href="#wordpress">WordPress</a></li>
+</ul>
+</li>
 <li><a href="#activities">Activities</a><ul>
+<li><a href="#activity-1-html">Activity 1: HTML</a></li>
+<li><a href="#activity-2-css">Activity 2: CSS</a></li>
+<li><a href="#activity-3-installing-wordpress">Activity 3: Installing Wordpress</a></li>
+<li><a href="#activity-4-more-with-your-domain">Activity 4: More with your domain</a></li>
 <li><a href="#activity-1-install-wordpress">Activity 1: Install WordPress</a></li>
 <li><a href="#activity-2-customize-wordpress">Activity 2: Customize WordPress</a></li>
 <li><a href="#activity-3-html">Activity 3: HTML</a></li>
@@ -145,7 +154,7 @@ Theme by GitBook
 </code></pre>
 
 <p>As you can see, angle brackets surround each tag. The tags themselves around pieces of content. There's an opening tag and a closing tag. You can tell the closing tag by the slash after the angle bracket <code>&lt;/title&gt;</code>. You should also notice that the tags are nested. The <code>&lt;head&gt;</code> and <code>&lt;body&gt;</code> tag are both children of <code>&lt;html&gt;</code>, and each of those tags has their own children. We'll learn more HTML down in Activity X. </p>
-<p>For now, the thing to remember is that HTML exists to tell the computer, specifically the browser, what to do with each piece of content. Another way to say this is <em>semantic markup</em>. Attaching structural or semantic meaning to content is especially important because not everyone (people or computers) uses their eyes to read the Web. Using valid HTML ensures that the Web is <a href="https://www.w3.org/WAI/">accessible</a> to everyone, regardless of their ability. Even if you don't go on to build websites for a living, something as simple as adding a caption to any image you publish can improve accessibility.</p>
+<p>For now, the thing to remember is that HTML exists to tell the computer, specifically the browser, what to do with each piece of content. Another way to say this is <em>semantic markup</em>. Attaching structural or semantic meaning to content is especially important because not everyone (people or computers) uses their eyes to read the Web. Using valid HTML ensures that the Web is <a href="https://www.w3.org/WAI/">accessible</a> to everyone, regardless of their ability. Even if you don't go on to build websites for a living, something as simple as adding a caption to any image you publish can improve accessibility. Can you find the caption or "alt text" for the image on this page? </p>
 <h3 id="text-editors">Text Editors</h3>
 <p>Before we move on, there's one other important thing to understand about writing HTML. HTML documents are plain text documents. You don't write HTML in a Word doc or a Google doc, instead it's best to use a piece of software called a text editor. There are many text editors out there and it's personal preference which one you use. I like one called <a href="https://www.sublimetext.com/">Sublime</a>, but I know others use <a href="atom.io">Atom</a> or <a href="https://visualstudio.microsoft.com/">Visual Studio</a>. Try a few out to see which one suits you. </p>
 <p>Even though the text is "plain", text editors have a feature called <em>syntax highlighting</em>, which means that the text changes color to help you write good code. When it's time to see what your markup or code can do, you'll need to open it in your browser. </p>
@@ -174,7 +183,19 @@ otherProperty: anotherValue;
 <p>There's lots to love about CSS. In a relatively simple document, you can control the style of hundreds of HTML documents and ensure consistency. But you can also pinpoint one specific margin or border and change its color or add some padding. </p>
 <p>One final note: to ensure that your CSS actually appears on your page, you need to add a piece of code to your HTML document that references the CSS document. We'll do this in Activity X.  </p>
 <h2 id="your-domain">Your domain</h2>
+<p>There are many reasons you might want your own website. Whether it's for work, school, volunteering, organizing, art, or just for fun, there are plenty of ways to carve out your own corner of the Web. Social media platforms like LinkedIn or Facebook are ubiquitous now, but it used to be that if you wanted to appear in search results, you had to create your own website. If you are a student or navigating the professional world, chances are that 1) someone out there might Google you and 2) you want them to see accurate information and work that you're proud of. A professional website can be a simple single page with limited information, or it can contain your whole life. Chances are, at some point you've relied on information from a personal website. Maybe you found an article you need for a bibliography, a snippet of code that had been giving you trouble, or even an email address for someone who has lost their wallet. </p>
+<p>If you're conducting research in a field, there are others who might be interested in the work you're doing. Check out the sites of others in your intended field of study to see what their websites look like. Some scholars share articles they've written, code libraries, data they've gathered, or new methods they're experimenting with. In the Digital Humanities, a field where many humanists work with data, open and public scholarship is highly valued. Many of the links in this coursebook go to the websites of DH-ers who have been generous to share a tutorial or write up their thoughts on a particular method. </p>
+<p>Whether you create a professional portfolio or not, there is a lot to be said for the form of a Website. Most of the scholarship we read, not to mention everything else, has been designed and formatted to be consumed on the Web. Presenting your own work in that format gives you experience with seemingly silly things like getting your images to float nicely with your text or finding a place to reliably store your data. Creating a clean, well-organized website is harder than it looks! Just like it's easier to read a paragraph than to write one, creating a website takes practice. I recommend posting the exercises and projects of this coursebook to your own website. </p>
+<h3 id="privacy">Privacy</h3>
+<p>All that being said, you do not have to have a strong presence on the Web. You may have personal and legitimate reasons for not wanting to be found in search results. If you're a student, you may not want your homework following you for decades to come. You have the right to privacy and to completing your coursework in a secure way. </p>
+<h3 id="reclaim-hosting">Reclaim Hosting</h3>
+<p>There are many places to find space on the Web, but many individuals and academic institutions work with <a href="https://reclaimhosting.com">Reclaim Hosting</a>, an education-focused web hosting company. Reclaim offers reasonable rates, good support, and an awareness of the needs of academic projects. Some institutions offer a "domain of one's" program in which affiliated individuals can obtain a domain. </p>
+<h3 id="wordpress">WordPress</h3>
 <h2 id="activities">Activities</h2>
+<h3 id="activity-1-html">Activity 1: HTML</h3>
+<h3 id="activity-2-css">Activity 2: CSS</h3>
+<h3 id="activity-3-installing-wordpress">Activity 3: Installing Wordpress</h3>
+<h3 id="activity-4-more-with-your-domain">Activity 4: More with your domain</h3>
 <h3 id="activity-1-install-wordpress">Activity 1: Install WordPress</h3>
 <ol>
 <li>Login to the Cpanel for your domain by adding <code>/cpanel</code> to the end of your URL. Use the username and password sent to you by Reclaim Hosting/Jason Mickel. </li>
