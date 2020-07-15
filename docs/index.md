@@ -1,5 +1,6 @@
-# Humanities Data Coursebook
-
+---
+title: Humanities Data Coursebook
+---
 
 ## What is this? 
 The Humanities Data Coursebook is a set of open modules for teaching skills and methods for working with humanities-based data. Each section contains a text-based lecture, hands-on activities, assignment and assessment ideas, and further reading and resources. This coursebook grew out of a specific course, DCI 102: Data in the Humanities, taught within a minor in [Digital Culture and Information](https://my.wlu.edu/digital-culture-and-information) at Washington and Lee University. 
