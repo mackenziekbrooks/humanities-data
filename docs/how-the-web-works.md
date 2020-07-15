@@ -47,7 +47,7 @@ To give you a taste, a basic HTML document might look like this:
 
 As you can see, angle brackets surround each tag. The tags themselves around pieces of content. There's an opening tag and a closing tag. You can tell the closing tag by the slash after the angle bracket `</title>`. You should also notice that the tags are nested. The `<head>` and `<body>` tag are both children of `<html>`, and each of those tags has their own children. We'll learn more HTML down in Activity X. 
 
-For now, the thing to remember is that HTML exists to tell the computer, specifically the browser, what to do with each piece of content. Another way to say this is *semantic markup*. Attaching structural or semantic meaning to content is especially important because not everyone (people or computers) uses their eyes to read the Web. Using valid HTML ensures that the Web is [accessible](https://www.w3.org/WAI/) to everyone, regardless of their ability. Even if you don't go on to build websites for a living, something as simple as adding a caption to any image you publish can improve accessibility.
+For now, the thing to remember is that HTML exists to tell the computer, specifically the browser, what to do with each piece of content. Another way to say this is *semantic markup*. Attaching structural or semantic meaning to content is especially important because not everyone (people or computers) uses their eyes to read the Web. Using valid HTML ensures that the Web is [accessible](https://www.w3.org/WAI/) to everyone, regardless of their ability. Even if you don't go on to build websites for a living, something as simple as adding a caption to any image you publish can improve accessibility. Can you find the caption or "alt text" for the image on this page? 
 
 ### Text Editors 
 Before we move on, there's one other important thing to understand about writing HTML. HTML documents are plain text documents. You don't write HTML in a Word doc or a Google doc, instead it's best to use a piece of software called a text editor. There are many text editors out there and it's personal preference which one you use. I like one called [Sublime](https://www.sublimetext.com/), but I know others use [Atom](atom.io) or [Visual Studio](https://visualstudio.microsoft.com/). Try a few out to see which one suits you. 
@@ -89,10 +89,29 @@ One final note: to ensure that your CSS actually appears on your page, you need 
 
 
 ## Your domain 
+There are many reasons you might want your own website. Whether it's for work, school, volunteering, organizing, art, or just for fun, there are plenty of ways to carve out your own corner of the Web. Social media platforms like LinkedIn or Facebook are ubiquitous now, but it used to be that if you wanted to appear in search results, you had to create your own website. If you are a student or navigating the professional world, chances are that 1) someone out there might Google you and 2) you want them to see accurate information and work that you're proud of. A professional website can be a simple single page with limited information, or it can contain your whole life. Chances are, at some point you've relied on information from a personal website. Maybe you found an article you need for a bibliography, a snippet of code that had been giving you trouble, or even an email address for someone who has lost their wallet. 
 
+If you're conducting research in a field, there are others who might be interested in the work you're doing. Check out the sites of others in your intended field of study to see what their websites look like. Some scholars share articles they've written, code libraries, data they've gathered, or new methods they're experimenting with. In the Digital Humanities, a field where many humanists work with data, open and public scholarship is highly valued. Many of the links in this coursebook go to the websites of DH-ers who have been generous to share a tutorial or write up their thoughts on a particular method. 
+
+Whether you create a professional portfolio or not, there is a lot to be said for the form of a Website. Most of the scholarship we read, not to mention everything else, has been designed and formatted to be consumed on the Web. Presenting your own work in that format gives you experience with seemingly silly things like getting your images to float nicely with your text or finding a place to reliably store your data. Creating a clean, well-organized website is harder than it looks! Just like it's easier to read a paragraph than to write one, creating a website takes practice. I recommend posting the exercises and projects of this coursebook to your own website. 
+
+### Privacy
+All that being said, you do not have to have a strong presence on the Web. You may have personal and legitimate reasons for not wanting to be found in search results. If you're a student, you may not want your homework following you for decades to come. You have the right to privacy and to completing your coursework in a secure way. 
+
+### Reclaim Hosting
+There are many places to find space on the Web, but many individuals and academic institutions work with [Reclaim Hosting](https://reclaimhosting.com), an education-focused web hosting company. Reclaim offers reasonable rates, good support, and an awareness of the needs of academic projects. Some institutions offer a "domain of one's" program in which affiliated individuals can obtain a domain. 
+
+### WordPress 
 
 
 ## Activities 
+
+### Activity 1: HTML
+### Activity 2: CSS 
+### Activity 3: Installing Wordpress
+### Activity 4: More with your domain 
+
+
 
 ### Activity 1: Install WordPress
 

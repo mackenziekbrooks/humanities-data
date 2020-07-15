@@ -29,7 +29,7 @@
 <ul class="summary">
 <li>
 <a href=".." class="custom-link" id="site-title">  
-<img src="/images/manatee144.png" class="img-title">
+<img src="https://mackenziekbrooks.github.io/humanities-data/images/manatee144.png" class="img-title">
 Humanities Data Coursebook</a>
 </li>
 <li class="divider"></li>
@@ -92,12 +92,15 @@ Theme by GitBook
 
 
 <h1>How the Web Works</h1>
-<p>In this module, we'll explore how Internet works, learn the basics of HTML and CSS, and setup your own website on WordPress.</p>
+<p>In this module, we'll explore how Internet works, learn the basics of HTML and CSS, and setup your own website on WordPress. Before we can start doing research with humanities data, we need to understand a little bit about the context of our digital world.   </p>
 <p><strong>Table of Contents:</strong></p>
 <div class="toc">
 <ul>
 <li><a href="#what-even-is-the-internet">What even is the Internet?</a></li>
-<li><a href="#html">HTML</a></li>
+<li><a href="#html">HTML</a><ul>
+<li><a href="#text-editors">Text Editors</a></li>
+</ul>
+</li>
 <li><a href="#css">CSS</a></li>
 <li><a href="#your-domain">Your domain</a></li>
 <li><a href="#activities">Activities</a><ul>
@@ -114,24 +117,62 @@ Theme by GitBook
 </ul>
 </div>
 <h2 id="what-even-is-the-internet">What even is the Internet?</h2>
-<p>The Internet is magic! Just kidding, it's really not. The Internet is made up of computers connected to other computers. Even though you often connect to the internet wirelessly, the internet is still a very physical thing. The information you send and receive travels through wires and fiber-optic cables in the ground and under the ocean. These networked computers talk to each other using protocols. Every computer has an address, known as an IP (Internet Protocol) address, to help direct traffic.</p>
-<p>Another protocol that you use, even if you don't realize it, is the Hypertext Transfer Protocol, or HTTP. Your browser uses HTTP to render websites. When you type in <code>http://www.wlu.edu</code> your browser sends out a request to the computer that can serve up all the files at that particular address. The "server" returns the files and your browser renders them into a website. At its simplest, a website is just a folder full of text files and images.</p>
-<p>Here are a few videos that might help:</p>
+<p>The Internet is magic! Just kidding, it's not, but it can certainly seem that way. Maybe you're reading this on your phone in the middle of the lawn, or curled up in bed with your laptop. It's more than likely that you're using Wi-Fi or a cellular network and therefore have no physical connection to the Internet. It's understandable that it feels like magic sometimes! But in reality, the Internet is an immensely physical thing. Put simply, it is computers connected to other computers. The information (text or media and all forms in between) you send and receive travels through wires and fiber-optic cables in the ground and even <a href="https://www.submarinecablemap.com/">under the ocean</a>. </p>
+<p>These connected or "networked" computers talk to each other using their own languages or more precisely, specific protocols. For instance, every computer has an address, known as an IP (Internet Protocol) address, to help direct traffic to the right place. Another protocol that you use, even if you don't realize it, is the Hypertext Transfer Protocol, or HTTP. Your browser uses HTTP to render websites. When you type in <code>http://www.wlu.edu</code> your browser sends out a request to the computer that can serve up all the files at that particular address. The "server" returns the files and your browser (Safari, Chrome, Firefox) renders them into a website. At its simplest, a website is just a folder full of files and images. Those files are full of code, which we'll learn about in the next section.</p>
+<p>Make sense? Here are a few videos that might help you visualize this great network of computers:</p>
 <ul>
 <li><a href="https://www.youtube.com/watch?v=Dxcc6ycZ73M">What is the Internet? </a></li>
 <li><a href="https://www.youtube.com/watch?v=ZhEf7e4kopM">The Internet: Wires, Cables, and Wi-fi</a></li>
 </ul>
 <h2 id="html">HTML</h2>
-<p>HTML, or Hypertext Markup Language, is one of the basic building blocks of the web. HTML is a set of tags that add structure to documents.</p>
-<p>When you write a document, you rely on style to indicate something about the text. You might put the title in a bigger font or break up paragraphs with tabs or new lines. Markup languages do this by adding tags around the content you wish to set apart. For example: <code>&lt;title&gt;The Lord of the Rings&lt;/title&gt;</code> or <code>&lt;p&gt;This is a whole paragraph.&lt;/p&gt;</code> Your human eyes and brain can infer things based on visual appear that computers need to be told explicitly. That's why we need semantic markup.</p>
-<p>You can see the HTML for a basic website at the <a href="http://www.w3schools.com/html/">W3 Schools HTML tutorial</a>.</p>
-<p>In fact, you can see the HTML for any page on the web by right clicking anywhere on the page and selecting "view page source."</p>
-<p>HTML documents are just plain text documents. You can write and read HTML in a text editor like Notepad++ or Sublime. The magic happens when you open an HTML document in the browser.</p>
+<p>HTML, or Hypertext Markup Language, is one of the basic building blocks of the web. Every website you see is created using this language, from the most basic to most interactive. </p>
+<p>To prove it, go to your browser open up a new tab right now. Visit any website you like. Right click, or <code>ctrl</code> + click to open up an options menu. Select <code>View Page Source</code>. If you're using Safari, try pressing <code>Command + Option + i</code>. You should see a new window full of text surrounded by angle brackets. That's HTML. </p>
+<p>HTML stands for HyperText Markup Language. It is a set of tags, or <em>elements</em>, that adds structure to a document or page. When you write a document, you rely on style to indicate something about the text. You might put the title in a bigger font or break up paragraphs with tabs or new lines. Markup languages do this by adding tags around the content you wish to set apart. </p>
+<p>For example:</p>
+<p><code>&lt;h1&gt;This is a top level heading&lt;/h1&gt;</code> is HTML that tells the browser to 1) increase the size of the text, but more importantly 2) that this piece of text represents a major section of the document. Which pieces of text on this page are an <code>&lt;h1&gt;</code>? Can you use the <code>View Page Source</code> trick to confirm?</p>
+<p>What are other tags that you might expect to exist? If you were to analyze a website, what are the major components? What are the familiar conventions of websites, regardless of the type? </p>
+<p>Some things that come to mind: menus or navigation <code>&lt;nav&gt;</code>, images <code>&lt;img src="kittens.jpg"&gt;</code>, or even just your basic paragraph <code>&lt;p&gt;</code>. </p>
+<p>To give you a taste, a basic HTML document might look like this: </p>
+<pre><code class="html">&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;My Awesome Website&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Welcome/h1&gt;
+        &lt;p&gt;This is a long paragraph about my cat.&lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>As you can see, angle brackets surround each tag. The tags themselves around pieces of content. There's an opening tag and a closing tag. You can tell the closing tag by the slash after the angle bracket <code>&lt;/title&gt;</code>. You should also notice that the tags are nested. The <code>&lt;head&gt;</code> and <code>&lt;body&gt;</code> tag are both children of <code>&lt;html&gt;</code>, and each of those tags has their own children. We'll learn more HTML down in Activity X. </p>
+<p>For now, the thing to remember is that HTML exists to tell the computer, specifically the browser, what to do with each piece of content. Another way to say this is <em>semantic markup</em>. Attaching structural or semantic meaning to content is especially important because not everyone (people or computers) uses their eyes to read the Web. Using valid HTML ensures that the Web is <a href="https://www.w3.org/WAI/">accessible</a> to everyone, regardless of their ability. Even if you don't go on to build websites for a living, something as simple as adding a caption to any image you publish can improve accessibility.</p>
+<h3 id="text-editors">Text Editors</h3>
+<p>Before we move on, there's one other important thing to understand about writing HTML. HTML documents are plain text documents. You don't write HTML in a Word doc or a Google doc, instead it's best to use a piece of software called a text editor. There are many text editors out there and it's personal preference which one you use. I like one called <a href="https://www.sublimetext.com/">Sublime</a>, but I know others use <a href="atom.io">Atom</a> or <a href="https://visualstudio.microsoft.com/">Visual Studio</a>. Try a few out to see which one suits you. </p>
+<p>Even though the text is "plain", text editors have a feature called <em>syntax highlighting</em>, which means that the text changes color to help you write good code. When it's time to see what your markup or code can do, you'll need to open it in your browser. </p>
 <h2 id="css">CSS</h2>
-<p>Our next building block of the web is CSS, or Cascading Style Sheets. HTML structures your webpage, but you need something else to add the pretty colors and images.</p>
-<p>CSS has a different syntax than HTML. First you identify the HTML tag, then you declare the styles you wish to apply. <code>title {color: red;}</code></p>
-<p>See some basic CSS at the <a href="http://www.w3schools.com/css/default.asp">W3 Schools CSS tutorial</a>.</p>
-<p>The beauty of CSS is that you can keep all your styles in one stylesheet which you link to all your HTML pages.</p>
+<p>Our next building block of the web is CSS, or Cascading Style Sheets. We just learned that HTML will add structure to your document, but you need something else to add the pretty colors and images, also known as <em>style</em>. A style sheet is a plain text document that lists all the styles that you want to apply to your page. The cascading part means that you can be selective about how elements appear. </p>
+<p>If you analyze this page, what styles would you guess are in play? Are there some elements that look different than other elements? Cascading style sheets allow me to indicate that I want my headings to use a different font than my body text, for instance. </p>
+<p>CSS uses a different syntax than HTML. It can be a little confusing because it relies on HTML tags, but the structure is a little different. Think about HTML as a document, and CSS as a separate list. Here's an example:</p>
+<pre><code>body {
+    background-color: aquamarine;
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 150%; 
+}
+</code></pre>
+
+<p>The first step is to identify the HTML tag you wish to style. Here, we're styling everything that lives within the <code>&lt;body&gt;</code> tag. In CSS language, this is a selector. Once we identify our selector, we list, or <em>declare</em> the things we want to style within a pair of curly brackets. This can be called the "declaration block." We identify the thing, or "property" we wish to style, followed by a colon, then list the "value" we want to use, ending with a semi-colon. In CSS terms, it looks like this: </p>
+<pre><code>selector {
+property: value; 
+otherProperty: anotherValue;
+}
+</code></pre>
+
+<p>The syntax takes getting used to, but remember, you do not have to memorize every property or selector. Even experienced Web designers have to look things up. I recommend using the <a href="w3schools.com/">W3 Schools</a> to find reliable code to copy. </p>
+<p>There's lots to love about CSS. In a relatively simple document, you can control the style of hundreds of HTML documents and ensure consistency. But you can also pinpoint one specific margin or border and change its color or add some padding. </p>
+<p>One final note: to ensure that your CSS actually appears on your page, you need to add a piece of code to your HTML document that references the CSS document. We'll do this in Activity X.  </p>
 <h2 id="your-domain">Your domain</h2>
 <h2 id="activities">Activities</h2>
 <h3 id="activity-1-install-wordpress">Activity 1: Install WordPress</h3>
