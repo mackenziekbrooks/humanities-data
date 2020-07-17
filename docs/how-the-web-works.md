@@ -33,7 +33,7 @@ What are other tags that you might expect to exist? If you were to analyze a web
 Some things that come to mind: menus or navigation `<nav>`, images `<img src="kittens.jpg">`, or even just your basic paragraph `<p>`. 
 
 To give you a taste, a basic HTML document might look like this: 
-```html
+```
 <html>
 	<head>
 		<title>My Awesome Website</title>
@@ -50,7 +50,7 @@ As you can see, angle brackets surround each tag. The tags themselves around pie
 For now, the thing to remember is that HTML exists to tell the computer, specifically the browser, what to do with each piece of content. Another way to say this is *semantic markup*. Attaching structural or semantic meaning to content is especially important because not everyone (people or computers) uses their eyes to read the Web. Using valid HTML ensures that the Web is [accessible](https://www.w3.org/WAI/) to everyone, regardless of their ability. Even if you don't go on to build websites for a living, something as simple as adding a caption to any image you publish can improve accessibility. Can you find the caption or "alt text" for the image on this page? 
 
 ### Text Editors 
-Before we move on, there's one other important thing to understand about writing HTML. HTML documents are plain text documents. You don't write HTML in a Word doc or a Google doc, instead it's best to use a piece of software called a text editor. There are many text editors out there and it's personal preference which one you use. I like one called [Sublime](https://www.sublimetext.com/), but I know others use [Atom](atom.io) or [Visual Studio](https://visualstudio.microsoft.com/). Try a few out to see which one suits you. 
+Before we move on, there's one other important thing to understand about writing HTML. HTML documents are plain text documents. You don't write HTML in a Word doc or a Google doc, instead it's best to use a piece of software called a text editor. There are many text editors out there and it's personal preference which one you use. I like one called [Sublime](https://www.sublimetext.com/), but I know others use [Atom](http://atom.io) or [Visual Studio](https://visualstudio.microsoft.com/). Try a few out to see which one suits you. 
 
 Even though the text is "plain", text editors have a feature called *syntax highlighting*, which means that the text changes color to help you write good code. When it's time to see what your markup or code can do, you'll need to open it in your browser. 
 
@@ -107,13 +107,41 @@ There are many places to find space on the Web, but many individuals and academi
 ## Activities 
 
 ### Activity 1: HTML
+
+* Open your favorite text editor and using the [W3 Schools](http://w3schools.com/) as a guide, write your own HTML document.
+* Save the file as `index.html` in your Box folder. I'm not grading this, but it will help me troubleshoot if necessary.
+* To view your page in the browser, open `index.html` in your browser, usually with the key commands `Ctrl + o`
+* You should include the basic set of tags: `<html> <head> <title> <body>`
+* Add seven additional types of tags to the body of your HTML document, including a table, link, and image.
+* Add an additional HTML page and link the two pages.
 ### Activity 2: CSS 
 ### Activity 3: Installing Wordpress
 ### Activity 4: More with your domain 
 
+### Activity 2: CSS
+
+Create a separate CSS document and save it as `style.css` in the same folder you created for Activity 1.
+
+* Link the `style.css` file to your HTML document. Consult the [W3 Schools](http://w3schools.com/) to figure out how to do this.
+* Add a background color.
+* Change the border on your table. 
+* Add style to your links when you hover over them. 
 
 
-### Activity 1: Install WordPress
+### Activity 3: Make it live
+
+When you opened your HTML files in your browser, you were viewing your files locally. Only you could see them on your computer. Now it's time to upload them to your domain so other people can view them.
+
+* Navigate to `http://yourdomain.wludci.info/cpanel` and login. 
+* In CPanel, open up the File Manager.
+* Navigate to the `public_html` folder. 
+* Create a new folder titled `activities` or something similar. 
+* Upload all your HTML and CSS files. 
+* Navigate to your equivalent of `www.yourdomain.com/activities`. What do you see?  
+* Add a link to this URL to our shared Box folder in the website registry. 
+
+
+### Activity 4: Install WordPress
 
 1. Login to the Cpanel for your domain by adding `/cpanel` to the end of your URL. Use the username and password sent to you by Reclaim Hosting/Jason Mickel. 
 2. You should see a Wordpress icon near the top of the page. Click on it to begin installing Wordpress.
@@ -129,42 +157,14 @@ There are many places to find space on the Web, but many individuals and academi
 
 7. Add your website address to the class Box folder `DCI102-F19-data > Website Registry.boxnote`
 
-### Activity 2: Customize WordPress
+### Activity 5: Customize WordPress
 
 1. Change your theme by going to `Appearance > Themes`. Select an installed theme, or find a new one with the `Add New` button. Activate multiple themes to try them out!
 2. Check your comment settings in `Settings > Discussion` to make sure your classmates will be able to comment on your posts. 
 3. Set up your menu (remember we'll have 3 units with similar assignments) by going to `Appearance > Menus`. You will need to create a menu, add pages to it, and select a location for that menu. This is usually the most confusing part of Wordpress! 
 4. Before you start adding content to your site, play around with as many of the settings and features as possible. What do all the bells and whistles do? Add your own images or colors. This is *your* site!
 
-### Activity 3: HTML
 
-* Open your favorite text editor and using the [W3 Schools](http://w3schools.com/) as a guide, write your own HTML document.
-* Save the file as `index.html` in your Box folder. I'm not grading this, but it will help me troubleshoot if necessary.
-* To view your page in the browswer, open `index.html` in your browser, usually with the key commands `Ctrl + o`
-* You should include the basic set of tags: `<html> <head> <title> <body>`
-* Add seven additional types of tags to the body of your HTML document, including a table, link, and image.
-* Add an additional HTML page and link the two pages.
-
-### Activity 4: CSS
-
-Create a separate CSS document and save it as `style.css` in the same folder you created for Activity 1.
-
-* Link the `style.css` file to your HTML document. Consult the [W3 Schools](http://w3schools.com/) to figure out how to do this.
-* Add a background color.
-* Change the border on your table. 
-* Add style to your links when you hover over them. 
-
-### Activity 5: Make it live
-
-When you opened your HTML files in your browser, you were viewing your files locally. Only you could see them on your computer. Now it's time to upload them to your domain so other people can view them.
-
-* Navigate to `http://yourdomain.wludci.info/cpanel` and login. 
-* In CPanel, open up the File Manager.
-* Navigate to the `public_html` folder. 
-* Create a new folder titled `activities` or something similar. 
-* Upload all your HTML and CSS files. 
-* Navigate to your equivalent of `www.yourdomain.com/activities`. What do you see?  
-* Add a link to this URL to our shared Box folder in the website registry. 
 
 ### Activity 6
 
