@@ -1,14 +1,34 @@
 
 **Jump to:**
 
-[Week 1](#week1-how-the-web-works) \| [Week 2](#week1-how-the-web-works) \|  [Week 3](#week1-how-the-web-works) \|  [Week 4](#week1-how-the-web-works) \|  [Week 5](#week1-how-the-web-works) \|  [Week 6](#week1-how-the-web-works) \|  [Week 7](#week1-how-the-web-works) \|  [Week 8](#week1-how-the-web-works) \|  [Week 9](#week1-how-the-web-works) \|  [Week 10](#week1-how-the-web-works) \|  [Week 11](#week1-how-the-web-works) \|  [Week 12](#week1-how-the-web-works) 
+[Week 1](#week1-how-the-web-works) \| [Week 2](#week-2-your-computer) \|  [Week 3](#week3-data) \|  [Week 4](#week-4-visualization) \|  [Week 5](#week-5-network-analysis) \|  [Week 6](#week-6-spatial-analysis) \|  [Week 7](#week-7-text-analysis) \|  [Week 8](#week-8-project-planning) \|  [Week 9](#week-9-data-modeling) \|  [Week 10](#week-10-data-analysis-visualization) \|  [Week 11](#week-11-results-interpretation) \|  [Week 12](#week-12-wrapping-up-presentation) 
+
+This class will meet on Zoom during its normally scheduled time: TR 4-5:30pm. 
 
 # Week 1 - How the Web Works
 
 ## Tuesday, August 25, 2020
+* Getting to know you survey
+* Read [What is Humanities Data]() by class time. 
+* Class agenda:
+	* introductions + icebreaker
+	* course overview
+	* breakout rooms: course charter 
+	* setup + start activity 1
 
 
 ## Thursday, August 27, 2020
+* Read [How the Web Works]() by class time.
+* Class agenda: 
+	* 
+
+### Activity log week 1
+**Due Monday 9/1 at 9am**
+
+1. Complete [Activities 1-3](how-the-web-works/#activities). In Canvas, submit the URL webpage that you have coded and uploaded to your domain. 
+2. Complete [Activities 4-5](how-the-web-works/#activities). In Canvas, submit the URL to your Wordpress site. There should be evidence that you have customized your Wordpress beyond the basic settings. 
+3. Blog post #1. Respond to the following prompt in a 300-500 word blog post on your Wordpress. In Canvas, submit the URL the blog post. 
+	- Prompt: What brought you to this class? What is your current relationship with technology? Where do you see data in your coursework? Where do you see data in your daily life? What are your own goals for this course? What do you want to accomplish/learn/achieve?  
 
 
 # Week 2 - Your Computer

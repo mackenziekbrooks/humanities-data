@@ -1,5 +1,5 @@
 
-In this module, we'll explore how Internet works, learn the basics of HTML and CSS, and setup your own website on WordPress. Before we can start doing research with humanities data, we need to understand a little bit about the context of our digital world.   
+In this section, we'll explore how Internet works, learn the basics of HTML and CSS, and setup your own website on WordPress. Before we can start doing research with humanities data, we need to understand a little bit about the context of our digital world.   
 
 **Table of Contents:**
 
@@ -114,9 +114,6 @@ There are many places to find space on the Web, but many individuals and academi
 * You should include the basic set of tags: `<html> <head> <title> <body>`
 * Add seven additional types of tags to the body of your HTML document, including a table, link, and image.
 * Add an additional HTML page and link the two pages.
-### Activity 2: CSS 
-### Activity 3: Installing Wordpress
-### Activity 4: More with your domain 
 
 ### Activity 2: CSS
 
@@ -147,9 +144,9 @@ When you opened your HTML files in your browser, you were viewing your files loc
 2. You should see a Wordpress icon near the top of the page. Click on it to begin installing Wordpress.
 3. Find the "install this application" button. 
 4. Work through the installation. You can leave the default settings except for the following:  
-   * Directory  - since you might want to use this domain for other things, let's put course materials in a subdirectory, such as ``http://www.mackenziekbrooks.info/dci102``. 
-   * Change the administrator username and password to something you are likely to remember.
-   * Customize the website title and tagline.
+	* Directory  - since you might want to use this domain for other things, let's put course materials in a subdirectory, such as ``http://www.mydomain.info/dci102``. 
+	* Change the administrator username and password to something you are likely to remember.
+	* Customize the website title and tagline.
 
 5. Press install to finish up.
 

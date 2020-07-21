@@ -16,6 +16,10 @@ extra_css:
 plugins:
   - search
 
+markdown_extensions:
+    - toc:
+        permalink: "#"
+
 nav:
   - What is Humanities Data?: what-is-humanities-data.md
   - How the Web Works: how-the-web-works.md
@@ -24,5 +28,5 @@ nav:
   - Visualization: visualization.md
   - Network Analysis: network-analysis.md
   - Spatial Analysis: spatial-analysis.md
-  - Text Analysis: text-analaysis.md
+  - Text Analysis: text-analysis.md
   - Process: process.md

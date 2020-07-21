@@ -43,10 +43,10 @@ Humanities Data Coursebook</a>
 <a href="../data/">Data</a>
 <li class="chapter" data-path="visualization/">
 <a href="../visualization/">Visualization</a>
-<li class="chapter" data-path="network-analysis.md">
-<a href="../network-analysis.md">Network Analysis</a>
-<li class="chapter" data-path="spatial-analysis.md">
-<a href="../spatial-analysis.md">Spatial Analysis</a>
+<li class="chapter" data-path="network-analysis/">
+<a href="../network-analysis/">Network Analysis</a>
+<li class="chapter" data-path="spatial-analysis/">
+<a href="../spatial-analysis/">Spatial Analysis</a>
 <li class="chapter" data-path="text-analaysis.md">
 <a href="../text-analaysis.md">Text Analysis</a>
 <li class="chapter" data-path="process.md">
@@ -113,11 +113,10 @@ Theme by GitBook
 <li><a href="#activity-2-css">Activity 2: CSS</a></li>
 <li><a href="#activity-3-installing-wordpress">Activity 3: Installing Wordpress</a></li>
 <li><a href="#activity-4-more-with-your-domain">Activity 4: More with your domain</a></li>
-<li><a href="#activity-1-install-wordpress">Activity 1: Install WordPress</a></li>
-<li><a href="#activity-2-customize-wordpress">Activity 2: Customize WordPress</a></li>
-<li><a href="#activity-3-html">Activity 3: HTML</a></li>
-<li><a href="#activity-4-css">Activity 4: CSS</a></li>
-<li><a href="#activity-5-make-it-live">Activity 5: Make it live</a></li>
+<li><a href="#activity-2-css_1">Activity 2: CSS</a></li>
+<li><a href="#activity-3-make-it-live">Activity 3: Make it live</a></li>
+<li><a href="#activity-4-install-wordpress">Activity 4: Install WordPress</a></li>
+<li><a href="#activity-5-customize-wordpress">Activity 5: Customize WordPress</a></li>
 <li><a href="#activity-6">Activity 6</a></li>
 </ul>
 </li>
@@ -142,7 +141,7 @@ Theme by GitBook
 <p>What are other tags that you might expect to exist? If you were to analyze a website, what are the major components? What are the familiar conventions of websites, regardless of the type? </p>
 <p>Some things that come to mind: menus or navigation <code>&lt;nav&gt;</code>, images <code>&lt;img src="kittens.jpg"&gt;</code>, or even just your basic paragraph <code>&lt;p&gt;</code>. </p>
 <p>To give you a taste, a basic HTML document might look like this: </p>
-<pre><code class="html">&lt;html&gt;
+<pre><code>&lt;html&gt;
     &lt;head&gt;
         &lt;title&gt;My Awesome Website&lt;/title&gt;
     &lt;/head&gt;
@@ -156,7 +155,7 @@ Theme by GitBook
 <p>As you can see, angle brackets surround each tag. The tags themselves around pieces of content. There's an opening tag and a closing tag. You can tell the closing tag by the slash after the angle bracket <code>&lt;/title&gt;</code>. You should also notice that the tags are nested. The <code>&lt;head&gt;</code> and <code>&lt;body&gt;</code> tag are both children of <code>&lt;html&gt;</code>, and each of those tags has their own children. We'll learn more HTML down in Activity X. </p>
 <p>For now, the thing to remember is that HTML exists to tell the computer, specifically the browser, what to do with each piece of content. Another way to say this is <em>semantic markup</em>. Attaching structural or semantic meaning to content is especially important because not everyone (people or computers) uses their eyes to read the Web. Using valid HTML ensures that the Web is <a href="https://www.w3.org/WAI/">accessible</a> to everyone, regardless of their ability. Even if you don't go on to build websites for a living, something as simple as adding a caption to any image you publish can improve accessibility. Can you find the caption or "alt text" for the image on this page? </p>
 <h3 id="text-editors">Text Editors</h3>
-<p>Before we move on, there's one other important thing to understand about writing HTML. HTML documents are plain text documents. You don't write HTML in a Word doc or a Google doc, instead it's best to use a piece of software called a text editor. There are many text editors out there and it's personal preference which one you use. I like one called <a href="https://www.sublimetext.com/">Sublime</a>, but I know others use <a href="atom.io">Atom</a> or <a href="https://visualstudio.microsoft.com/">Visual Studio</a>. Try a few out to see which one suits you. </p>
+<p>Before we move on, there's one other important thing to understand about writing HTML. HTML documents are plain text documents. You don't write HTML in a Word doc or a Google doc, instead it's best to use a piece of software called a text editor. There are many text editors out there and it's personal preference which one you use. I like one called <a href="https://www.sublimetext.com/">Sublime</a>, but I know others use <a href="http://atom.io">Atom</a> or <a href="https://visualstudio.microsoft.com/">Visual Studio</a>. Try a few out to see which one suits you. </p>
 <p>Even though the text is "plain", text editors have a feature called <em>syntax highlighting</em>, which means that the text changes color to help you write good code. When it's time to see what your markup or code can do, you'll need to open it in your browser. </p>
 <h2 id="css">CSS</h2>
 <p>Our next building block of the web is CSS, or Cascading Style Sheets. We just learned that HTML will add structure to your document, but you need something else to add the pretty colors and images, also known as <em>style</em>. A style sheet is a plain text document that lists all the styles that you want to apply to your page. The cascading part means that you can be selective about how elements appear. </p>
@@ -193,10 +192,37 @@ otherProperty: anotherValue;
 <h3 id="wordpress">WordPress</h3>
 <h2 id="activities">Activities</h2>
 <h3 id="activity-1-html">Activity 1: HTML</h3>
+<ul>
+<li>Open your favorite text editor and using the <a href="http://w3schools.com/">W3 Schools</a> as a guide, write your own HTML document.</li>
+<li>Save the file as <code>index.html</code> in your Box folder. I'm not grading this, but it will help me troubleshoot if necessary.</li>
+<li>To view your page in the browser, open <code>index.html</code> in your browser, usually with the key commands <code>Ctrl + o</code></li>
+<li>You should include the basic set of tags: <code>&lt;html&gt; &lt;head&gt; &lt;title&gt; &lt;body&gt;</code></li>
+<li>Add seven additional types of tags to the body of your HTML document, including a table, link, and image.</li>
+<li>Add an additional HTML page and link the two pages.</li>
+</ul>
 <h3 id="activity-2-css">Activity 2: CSS</h3>
 <h3 id="activity-3-installing-wordpress">Activity 3: Installing Wordpress</h3>
 <h3 id="activity-4-more-with-your-domain">Activity 4: More with your domain</h3>
-<h3 id="activity-1-install-wordpress">Activity 1: Install WordPress</h3>
+<h3 id="activity-2-css_1">Activity 2: CSS</h3>
+<p>Create a separate CSS document and save it as <code>style.css</code> in the same folder you created for Activity 1.</p>
+<ul>
+<li>Link the <code>style.css</code> file to your HTML document. Consult the <a href="http://w3schools.com/">W3 Schools</a> to figure out how to do this.</li>
+<li>Add a background color.</li>
+<li>Change the border on your table. </li>
+<li>Add style to your links when you hover over them. </li>
+</ul>
+<h3 id="activity-3-make-it-live">Activity 3: Make it live</h3>
+<p>When you opened your HTML files in your browser, you were viewing your files locally. Only you could see them on your computer. Now it's time to upload them to your domain so other people can view them.</p>
+<ul>
+<li>Navigate to <code>http://yourdomain.wludci.info/cpanel</code> and login. </li>
+<li>In CPanel, open up the File Manager.</li>
+<li>Navigate to the <code>public_html</code> folder. </li>
+<li>Create a new folder titled <code>activities</code> or something similar. </li>
+<li>Upload all your HTML and CSS files. </li>
+<li>Navigate to your equivalent of <code>www.yourdomain.com/activities</code>. What do you see?  </li>
+<li>Add a link to this URL to our shared Box folder in the website registry. </li>
+</ul>
+<h3 id="activity-4-install-wordpress">Activity 4: Install WordPress</h3>
 <ol>
 <li>Login to the Cpanel for your domain by adding <code>/cpanel</code> to the end of your URL. Use the username and password sent to you by Reclaim Hosting/Jason Mickel. </li>
 <li>You should see a Wordpress icon near the top of the page. Click on it to begin installing Wordpress.</li>
@@ -217,41 +243,13 @@ otherProperty: anotherValue;
 <p>Add your website address to the class Box folder <code>DCI102-F19-data &gt; Website Registry.boxnote</code></p>
 </li>
 </ol>
-<h3 id="activity-2-customize-wordpress">Activity 2: Customize WordPress</h3>
+<h3 id="activity-5-customize-wordpress">Activity 5: Customize WordPress</h3>
 <ol>
 <li>Change your theme by going to <code>Appearance &gt; Themes</code>. Select an installed theme, or find a new one with the <code>Add New</code> button. Activate multiple themes to try them out!</li>
 <li>Check your comment settings in <code>Settings &gt; Discussion</code> to make sure your classmates will be able to comment on your posts. </li>
 <li>Set up your menu (remember we'll have 3 units with similar assignments) by going to <code>Appearance &gt; Menus</code>. You will need to create a menu, add pages to it, and select a location for that menu. This is usually the most confusing part of Wordpress! </li>
 <li>Before you start adding content to your site, play around with as many of the settings and features as possible. What do all the bells and whistles do? Add your own images or colors. This is <em>your</em> site!</li>
 </ol>
-<h3 id="activity-3-html">Activity 3: HTML</h3>
-<ul>
-<li>Open your favorite text editor and using the <a href="http://w3schools.com/">W3 Schools</a> as a guide, write your own HTML document.</li>
-<li>Save the file as <code>index.html</code> in your Box folder. I'm not grading this, but it will help me troubleshoot if necessary.</li>
-<li>To view your page in the browswer, open <code>index.html</code> in your browser, usually with the key commands <code>Ctrl + o</code></li>
-<li>You should include the basic set of tags: <code>&lt;html&gt; &lt;head&gt; &lt;title&gt; &lt;body&gt;</code></li>
-<li>Add seven additional types of tags to the body of your HTML document, including a table, link, and image.</li>
-<li>Add an additional HTML page and link the two pages.</li>
-</ul>
-<h3 id="activity-4-css">Activity 4: CSS</h3>
-<p>Create a separate CSS document and save it as <code>style.css</code> in the same folder you created for Activity 1.</p>
-<ul>
-<li>Link the <code>style.css</code> file to your HTML document. Consult the <a href="http://w3schools.com/">W3 Schools</a> to figure out how to do this.</li>
-<li>Add a background color.</li>
-<li>Change the border on your table. </li>
-<li>Add style to your links when you hover over them. </li>
-</ul>
-<h3 id="activity-5-make-it-live">Activity 5: Make it live</h3>
-<p>When you opened your HTML files in your browser, you were viewing your files locally. Only you could see them on your computer. Now it's time to upload them to your domain so other people can view them.</p>
-<ul>
-<li>Navigate to <code>http://yourdomain.wludci.info/cpanel</code> and login. </li>
-<li>In CPanel, open up the File Manager.</li>
-<li>Navigate to the <code>public_html</code> folder. </li>
-<li>Create a new folder titled <code>activities</code> or something similar. </li>
-<li>Upload all your HTML and CSS files. </li>
-<li>Navigate to your equivalent of <code>www.yourdomain.com/activities</code>. What do you see?  </li>
-<li>Add a link to this URL to our shared Box folder in the website registry. </li>
-</ul>
 <h3 id="activity-6">Activity 6</h3>
 <ul>
 <li>First, share with your partner one realization you had while learning HTML/CSS. It can be technical like "don't forget that slash" or conceptual "I realized I need to read directions more closely."</li>

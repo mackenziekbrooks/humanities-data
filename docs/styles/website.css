@@ -51,3 +51,7 @@ h1:hover .headerlink, h2:hover .headerlink, h3:hover .headerlink, h4:hover .head
 .label-red { background-color: #e94c4c; }
 
 .label-yellow { color: #44434d; background-color: #f7d12e; }
+
+.markdown-section blockquote {
+	color: #000;
+}
