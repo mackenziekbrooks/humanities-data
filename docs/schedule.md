@@ -20,9 +20,10 @@ This class will meet on Zoom during its normally scheduled time: TR 4-5:30pm.
 ## Thursday, August 27, 2020
 * Read [How the Web Works]() by class time.
 * Class agenda: 
-	* 
+	* icebreaker:
+	* activities 2-4 together
 
-### Activity log week 1
+## Activity log week 1
 **Due Monday 9/1 at 9am**
 
 1. Complete [Activities 1-3](how-the-web-works/#activities). In Canvas, submit the URL webpage that you have coded and uploaded to your domain. 
@@ -34,9 +35,33 @@ This class will meet on Zoom during its normally scheduled time: TR 4-5:30pm.
 # Week 2 - Your Computer
 
 ## Tuesday, September 1, 2020
+* Read [Your Computer]() by class time. 
+* Class agenda: 
+	* icebreaker:
+	* breakout groups: review websites in small groups
+		* First, share with your partner one realization you had while learning HTML/CSS. It can be technical like "don't forget that slash" or conceptual "I realized I need to read directions more closely."
+    	* Second, visit each other's new website. Right click/Ctrl + Click to view page source.
+    	* Proof your partner's code. Check their syntax.
+    	* Work together to add the following to each of your websites:
+        an iframe that embeds another website
+        two div tags with different background colors (hint, you'll need to use a class or id)
+    	* Be sure to upload your changes to your website.
+	* start Activity 1 together
+
 
 ## Thursday, September 3, 2020
+* Work through tutorials in Activity 2 by class time.
+* Class agenda:
+	* icebreaker:
+	* Introduce Final Project 
+	* Start Activity 3 together
 
+## Activity log week 2
+**Due Monday 9/7 at 9am**
+
+1. Complete Activity 3. In Canvas, submit a document with your answers. It is more important that you show your process, thinking, and attempts than it is that you get everything right.
+2. Blog post #2: Respond to the following prompt in a 300-500 word blog post on your Wordpress. In Canvas, submit the URL the blog post.
+	- Prompt: How was the command line? What was hard about it? How did it change your conception of your computer? Where do you see the value in using it? Reflect on your feelings while learning this concept. When did you get frustrated? How did you overcome your frustration (or not)? How was your experience with the tutorials? Be specific about things like tone, length, images, tasks, etc. 
 
 # Week 3 - Data
 
