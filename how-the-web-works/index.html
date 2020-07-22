@@ -47,10 +47,10 @@ Humanities Data Coursebook</a>
 <a href="../network-analysis/">Network Analysis</a>
 <li class="chapter" data-path="spatial-analysis/">
 <a href="../spatial-analysis/">Spatial Analysis</a>
-<li class="chapter" data-path="text-analaysis.md">
-<a href="../text-analaysis.md">Text Analysis</a>
-<li class="chapter" data-path="process.md">
-<a href="../process.md">Process</a>
+<li class="chapter" data-path="text-analysis/">
+<a href="../text-analysis/">Text Analysis</a>
+<li class="chapter" data-path="process/">
+<a href="../process/">Process</a>
 <li class="divider"></li>
 
 
@@ -92,7 +92,7 @@ Theme by GitBook
 
 
 <h1>How the Web Works</h1>
-<p>In this module, we'll explore how Internet works, learn the basics of HTML and CSS, and setup your own website on WordPress. Before we can start doing research with humanities data, we need to understand a little bit about the context of our digital world.   </p>
+<p>In this section, we'll explore how Internet works, learn the basics of HTML and CSS, and setup your own website on WordPress. Before we can start doing research with humanities data, we need to understand a little bit about the context of our digital world.   </p>
 <p><strong>Table of Contents:</strong></p>
 <div class="toc">
 <ul>
@@ -111,9 +111,6 @@ Theme by GitBook
 <li><a href="#activities">Activities</a><ul>
 <li><a href="#activity-1-html">Activity 1: HTML</a></li>
 <li><a href="#activity-2-css">Activity 2: CSS</a></li>
-<li><a href="#activity-3-installing-wordpress">Activity 3: Installing Wordpress</a></li>
-<li><a href="#activity-4-more-with-your-domain">Activity 4: More with your domain</a></li>
-<li><a href="#activity-2-css_1">Activity 2: CSS</a></li>
 <li><a href="#activity-3-make-it-live">Activity 3: Make it live</a></li>
 <li><a href="#activity-4-install-wordpress">Activity 4: Install WordPress</a></li>
 <li><a href="#activity-5-customize-wordpress">Activity 5: Customize WordPress</a></li>
@@ -124,7 +121,7 @@ Theme by GitBook
 <li><a href="#resources">Resources</a></li>
 </ul>
 </div>
-<h2 id="what-even-is-the-internet">What even is the Internet?</h2>
+<h2 id="what-even-is-the-internet">What even is the Internet?<a class="headerlink" href="#what-even-is-the-internet" title="Permanent link">#</a></h2>
 <p>The Internet is magic! Just kidding, it's not, but it can certainly seem that way. Maybe you're reading this on your phone in the middle of the lawn, or curled up in bed with your laptop. It's more than likely that you're using Wi-Fi or a cellular network and therefore have no physical connection to the Internet. It's understandable that it feels like magic sometimes! But in reality, the Internet is an immensely physical thing. Put simply, it is computers connected to other computers. The information (text or media and all forms in between) you send and receive travels through wires and fiber-optic cables in the ground and even <a href="https://www.submarinecablemap.com/">under the ocean</a>. </p>
 <p>These connected or "networked" computers talk to each other using their own languages or more precisely, specific protocols. For instance, every computer has an address, known as an IP (Internet Protocol) address, to help direct traffic to the right place. Another protocol that you use, even if you don't realize it, is the Hypertext Transfer Protocol, or HTTP. Your browser uses HTTP to render websites. When you type in <code>http://www.wlu.edu</code> your browser sends out a request to the computer that can serve up all the files at that particular address. The "server" returns the files and your browser (Safari, Chrome, Firefox) renders them into a website. At its simplest, a website is just a folder full of files and images. Those files are full of code, which we'll learn about in the next section.</p>
 <p>Make sense? Here are a few videos that might help you visualize this great network of computers:</p>
@@ -132,7 +129,7 @@ Theme by GitBook
 <li><a href="https://www.youtube.com/watch?v=Dxcc6ycZ73M">What is the Internet? </a></li>
 <li><a href="https://www.youtube.com/watch?v=ZhEf7e4kopM">The Internet: Wires, Cables, and Wi-fi</a></li>
 </ul>
-<h2 id="html">HTML</h2>
+<h2 id="html">HTML<a class="headerlink" href="#html" title="Permanent link">#</a></h2>
 <p>HTML, or Hypertext Markup Language, is one of the basic building blocks of the web. Every website you see is created using this language, from the most basic to most interactive. </p>
 <p>To prove it, go to your browser open up a new tab right now. Visit any website you like. Right click, or <code>ctrl</code> + click to open up an options menu. Select <code>View Page Source</code>. If you're using Safari, try pressing <code>Command + Option + i</code>. You should see a new window full of text surrounded by angle brackets. That's HTML. </p>
 <p>HTML stands for HyperText Markup Language. It is a set of tags, or <em>elements</em>, that adds structure to a document or page. When you write a document, you rely on style to indicate something about the text. You might put the title in a bigger font or break up paragraphs with tabs or new lines. Markup languages do this by adding tags around the content you wish to set apart. </p>
@@ -154,10 +151,10 @@ Theme by GitBook
 
 <p>As you can see, angle brackets surround each tag. The tags themselves around pieces of content. There's an opening tag and a closing tag. You can tell the closing tag by the slash after the angle bracket <code>&lt;/title&gt;</code>. You should also notice that the tags are nested. The <code>&lt;head&gt;</code> and <code>&lt;body&gt;</code> tag are both children of <code>&lt;html&gt;</code>, and each of those tags has their own children. We'll learn more HTML down in Activity X. </p>
 <p>For now, the thing to remember is that HTML exists to tell the computer, specifically the browser, what to do with each piece of content. Another way to say this is <em>semantic markup</em>. Attaching structural or semantic meaning to content is especially important because not everyone (people or computers) uses their eyes to read the Web. Using valid HTML ensures that the Web is <a href="https://www.w3.org/WAI/">accessible</a> to everyone, regardless of their ability. Even if you don't go on to build websites for a living, something as simple as adding a caption to any image you publish can improve accessibility. Can you find the caption or "alt text" for the image on this page? </p>
-<h3 id="text-editors">Text Editors</h3>
+<h3 id="text-editors">Text Editors<a class="headerlink" href="#text-editors" title="Permanent link">#</a></h3>
 <p>Before we move on, there's one other important thing to understand about writing HTML. HTML documents are plain text documents. You don't write HTML in a Word doc or a Google doc, instead it's best to use a piece of software called a text editor. There are many text editors out there and it's personal preference which one you use. I like one called <a href="https://www.sublimetext.com/">Sublime</a>, but I know others use <a href="http://atom.io">Atom</a> or <a href="https://visualstudio.microsoft.com/">Visual Studio</a>. Try a few out to see which one suits you. </p>
 <p>Even though the text is "plain", text editors have a feature called <em>syntax highlighting</em>, which means that the text changes color to help you write good code. When it's time to see what your markup or code can do, you'll need to open it in your browser. </p>
-<h2 id="css">CSS</h2>
+<h2 id="css">CSS<a class="headerlink" href="#css" title="Permanent link">#</a></h2>
 <p>Our next building block of the web is CSS, or Cascading Style Sheets. We just learned that HTML will add structure to your document, but you need something else to add the pretty colors and images, also known as <em>style</em>. A style sheet is a plain text document that lists all the styles that you want to apply to your page. The cascading part means that you can be selective about how elements appear. </p>
 <p>If you analyze this page, what styles would you guess are in play? Are there some elements that look different than other elements? Cascading style sheets allow me to indicate that I want my headings to use a different font than my body text, for instance. </p>
 <p>CSS uses a different syntax than HTML. It can be a little confusing because it relies on HTML tags, but the structure is a little different. Think about HTML as a document, and CSS as a separate list. Here's an example:</p>
@@ -181,17 +178,17 @@ otherProperty: anotherValue;
 <p>The syntax takes getting used to, but remember, you do not have to memorize every property or selector. Even experienced Web designers have to look things up. I recommend using the <a href="w3schools.com/">W3 Schools</a> to find reliable code to copy. </p>
 <p>There's lots to love about CSS. In a relatively simple document, you can control the style of hundreds of HTML documents and ensure consistency. But you can also pinpoint one specific margin or border and change its color or add some padding. </p>
 <p>One final note: to ensure that your CSS actually appears on your page, you need to add a piece of code to your HTML document that references the CSS document. We'll do this in Activity X.  </p>
-<h2 id="your-domain">Your domain</h2>
+<h2 id="your-domain">Your domain<a class="headerlink" href="#your-domain" title="Permanent link">#</a></h2>
 <p>There are many reasons you might want your own website. Whether it's for work, school, volunteering, organizing, art, or just for fun, there are plenty of ways to carve out your own corner of the Web. Social media platforms like LinkedIn or Facebook are ubiquitous now, but it used to be that if you wanted to appear in search results, you had to create your own website. If you are a student or navigating the professional world, chances are that 1) someone out there might Google you and 2) you want them to see accurate information and work that you're proud of. A professional website can be a simple single page with limited information, or it can contain your whole life. Chances are, at some point you've relied on information from a personal website. Maybe you found an article you need for a bibliography, a snippet of code that had been giving you trouble, or even an email address for someone who has lost their wallet. </p>
 <p>If you're conducting research in a field, there are others who might be interested in the work you're doing. Check out the sites of others in your intended field of study to see what their websites look like. Some scholars share articles they've written, code libraries, data they've gathered, or new methods they're experimenting with. In the Digital Humanities, a field where many humanists work with data, open and public scholarship is highly valued. Many of the links in this coursebook go to the websites of DH-ers who have been generous to share a tutorial or write up their thoughts on a particular method. </p>
 <p>Whether you create a professional portfolio or not, there is a lot to be said for the form of a Website. Most of the scholarship we read, not to mention everything else, has been designed and formatted to be consumed on the Web. Presenting your own work in that format gives you experience with seemingly silly things like getting your images to float nicely with your text or finding a place to reliably store your data. Creating a clean, well-organized website is harder than it looks! Just like it's easier to read a paragraph than to write one, creating a website takes practice. I recommend posting the exercises and projects of this coursebook to your own website. </p>
-<h3 id="privacy">Privacy</h3>
+<h3 id="privacy">Privacy<a class="headerlink" href="#privacy" title="Permanent link">#</a></h3>
 <p>All that being said, you do not have to have a strong presence on the Web. You may have personal and legitimate reasons for not wanting to be found in search results. If you're a student, you may not want your homework following you for decades to come. You have the right to privacy and to completing your coursework in a secure way. </p>
-<h3 id="reclaim-hosting">Reclaim Hosting</h3>
+<h3 id="reclaim-hosting">Reclaim Hosting<a class="headerlink" href="#reclaim-hosting" title="Permanent link">#</a></h3>
 <p>There are many places to find space on the Web, but many individuals and academic institutions work with <a href="https://reclaimhosting.com">Reclaim Hosting</a>, an education-focused web hosting company. Reclaim offers reasonable rates, good support, and an awareness of the needs of academic projects. Some institutions offer a "domain of one's" program in which affiliated individuals can obtain a domain. </p>
-<h3 id="wordpress">WordPress</h3>
-<h2 id="activities">Activities</h2>
-<h3 id="activity-1-html">Activity 1: HTML</h3>
+<h3 id="wordpress">WordPress<a class="headerlink" href="#wordpress" title="Permanent link">#</a></h3>
+<h2 id="activities">Activities<a class="headerlink" href="#activities" title="Permanent link">#</a></h2>
+<h3 id="activity-1-html">Activity 1: HTML<a class="headerlink" href="#activity-1-html" title="Permanent link">#</a></h3>
 <ul>
 <li>Open your favorite text editor and using the <a href="http://w3schools.com/">W3 Schools</a> as a guide, write your own HTML document.</li>
 <li>Save the file as <code>index.html</code> in your Box folder. I'm not grading this, but it will help me troubleshoot if necessary.</li>
@@ -200,10 +197,7 @@ otherProperty: anotherValue;
 <li>Add seven additional types of tags to the body of your HTML document, including a table, link, and image.</li>
 <li>Add an additional HTML page and link the two pages.</li>
 </ul>
-<h3 id="activity-2-css">Activity 2: CSS</h3>
-<h3 id="activity-3-installing-wordpress">Activity 3: Installing Wordpress</h3>
-<h3 id="activity-4-more-with-your-domain">Activity 4: More with your domain</h3>
-<h3 id="activity-2-css_1">Activity 2: CSS</h3>
+<h3 id="activity-2-css">Activity 2: CSS<a class="headerlink" href="#activity-2-css" title="Permanent link">#</a></h3>
 <p>Create a separate CSS document and save it as <code>style.css</code> in the same folder you created for Activity 1.</p>
 <ul>
 <li>Link the <code>style.css</code> file to your HTML document. Consult the <a href="http://w3schools.com/">W3 Schools</a> to figure out how to do this.</li>
@@ -211,7 +205,7 @@ otherProperty: anotherValue;
 <li>Change the border on your table. </li>
 <li>Add style to your links when you hover over them. </li>
 </ul>
-<h3 id="activity-3-make-it-live">Activity 3: Make it live</h3>
+<h3 id="activity-3-make-it-live">Activity 3: Make it live<a class="headerlink" href="#activity-3-make-it-live" title="Permanent link">#</a></h3>
 <p>When you opened your HTML files in your browser, you were viewing your files locally. Only you could see them on your computer. Now it's time to upload them to your domain so other people can view them.</p>
 <ul>
 <li>Navigate to <code>http://yourdomain.wludci.info/cpanel</code> and login. </li>
@@ -222,16 +216,18 @@ otherProperty: anotherValue;
 <li>Navigate to your equivalent of <code>www.yourdomain.com/activities</code>. What do you see?  </li>
 <li>Add a link to this URL to our shared Box folder in the website registry. </li>
 </ul>
-<h3 id="activity-4-install-wordpress">Activity 4: Install WordPress</h3>
+<h3 id="activity-4-install-wordpress">Activity 4: Install WordPress<a class="headerlink" href="#activity-4-install-wordpress" title="Permanent link">#</a></h3>
 <ol>
 <li>Login to the Cpanel for your domain by adding <code>/cpanel</code> to the end of your URL. Use the username and password sent to you by Reclaim Hosting/Jason Mickel. </li>
 <li>You should see a Wordpress icon near the top of the page. Click on it to begin installing Wordpress.</li>
 <li>Find the "install this application" button. </li>
-<li>Work through the installation. You can leave the default settings except for the following:  </li>
-<li>Directory  - since you might want to use this domain for other things, let's put course materials in a subdirectory, such as <code>http://www.mackenziekbrooks.info/dci102</code>. </li>
-<li>Change the administrator username and password to something you are likely to remember.</li>
 <li>
-<p>Customize the website title and tagline.</p>
+<p>Work through the installation. You can leave the default settings except for the following:  </p>
+<ul>
+<li>Directory  - since you might want to use this domain for other things, let's put course materials in a subdirectory, such as <code>http://www.mydomain.info/dci102</code>. </li>
+<li>Change the administrator username and password to something you are likely to remember.</li>
+<li>Customize the website title and tagline.</li>
+</ul>
 </li>
 <li>
 <p>Press install to finish up.</p>
@@ -243,14 +239,14 @@ otherProperty: anotherValue;
 <p>Add your website address to the class Box folder <code>DCI102-F19-data &gt; Website Registry.boxnote</code></p>
 </li>
 </ol>
-<h3 id="activity-5-customize-wordpress">Activity 5: Customize WordPress</h3>
+<h3 id="activity-5-customize-wordpress">Activity 5: Customize WordPress<a class="headerlink" href="#activity-5-customize-wordpress" title="Permanent link">#</a></h3>
 <ol>
 <li>Change your theme by going to <code>Appearance &gt; Themes</code>. Select an installed theme, or find a new one with the <code>Add New</code> button. Activate multiple themes to try them out!</li>
 <li>Check your comment settings in <code>Settings &gt; Discussion</code> to make sure your classmates will be able to comment on your posts. </li>
 <li>Set up your menu (remember we'll have 3 units with similar assignments) by going to <code>Appearance &gt; Menus</code>. You will need to create a menu, add pages to it, and select a location for that menu. This is usually the most confusing part of Wordpress! </li>
 <li>Before you start adding content to your site, play around with as many of the settings and features as possible. What do all the bells and whistles do? Add your own images or colors. This is <em>your</em> site!</li>
 </ol>
-<h3 id="activity-6">Activity 6</h3>
+<h3 id="activity-6">Activity 6<a class="headerlink" href="#activity-6" title="Permanent link">#</a></h3>
 <ul>
 <li>First, share with your partner one realization you had while learning HTML/CSS. It can be technical like "don't forget that slash" or conceptual "I realized I need to read directions more closely."</li>
 <li>Second, visit each other's new website. Right click/Ctrl + Click to <code>view page source</code>. </li>
@@ -262,8 +258,8 @@ otherProperty: anotherValue;
 </li>
 <li>Be sure to upload your changes to your website. </li>
 </ul>
-<h2 id="readings">Readings</h2>
-<h2 id="resources">Resources</h2>
+<h2 id="readings">Readings<a class="headerlink" href="#readings" title="Permanent link">#</a></h2>
+<h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">#</a></h2>
 
 
 </section>
