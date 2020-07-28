@@ -163,16 +163,6 @@ When you opened your HTML files in your browser, you were viewing your files loc
 
 
 
-### Activity 6
-
-* First, share with your partner one realization you had while learning HTML/CSS. It can be technical like "don't forget that slash" or conceptual "I realized I need to read directions more closely."
-* Second, visit each other's new website. Right click/Ctrl + Click to ```view page source```. 
-* Proof your partner's code. Check their syntax. 
-* Work together to add the following to each of your websites: 
-	* an ```iframe``` that embeds another website
-	* two ```div``` tags with different background colors (hint, you'll need to use a class or id)
-* Be sure to upload your changes to your website. 
-
 
 ## Readings
 
