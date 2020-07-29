@@ -14,7 +14,7 @@ This is a long quote, but the concept of "capta" is a useful one. Even if we don
 Every single piece of data represents a decision that someone made. The number of rows and columns, the labels, the format, the extent or granularity of the values and the things - these are all choices. They are choices you should consider when creating a data set from scratch or when you use someone else's data. In the rest of this section, we will dig into the details of putting together a data set. 
 
 ## Data structures
-Data can exist in many different forms. You might imagine a "spreadshet" when thinking about data, but in truth, there are a number of other ways to express and structure your data. 
+Data can exist in many different forms. You might imagine a "spreadsheet" when thinking about data, but in truth, there are a number of other ways to express and structure your data. 
 
 ### Tabular data 
 This is our common spreadsheet data structure. Data fits into a table, in which each row represents a thing. Each column is a different field or modifier of that thing. The values reside in each individual cell. In the following table, each row represents one pet. 
@@ -37,7 +37,7 @@ Pet2,Harper,Dog,Flat Coat Retriever,
 Pet3,Hobbes,Dog,Hound
 ```
 
-The CSV format reduces file size, simplifies the content, and keeps the file from being dependent on proprietary software like Excel. Fortunately, you don't have to construct your data with commas. Applications like Excel or Google Sheets will let you save or export your file with the file extension `.csv`. It's a good habit to get into when working with data. 
+The CSV format reduces file size, simplifies the content, and keeps the file from being dependent on proprietary software like Excel. Fortunately, you don't have to construct your data with commas. Applications like Excel or Google Sheets will let you save or export your file with the file extension `.csv`. It's a good habit to get into when working with data. You might also see `.tsv` for tab separated values. 
 
 
 ### Relational data 
@@ -151,7 +151,7 @@ I try to avoid calling technology magic, but [Open Refine](https://openrefine.or
 
 As an example, you can use the "cluster and edit" feature to find similar cells and standardize their contents. The "text facet" feature shows how many cells share the same value. When you sort by alphabetical order, it is really easy to see if you have entered the same name in two different ways. 
 
-There are a number of tutorials on the [documentation page](https://openrefine.org/documentation.html).
+There are a number of tutorials on the [documentation page](https://openrefine.org/documentation.html). Try this one, "[Cleaning Data with OpenRefine](https://programminghistorian.org/en/lessons/cleaning-data-with-openrefine)" from the Programming Historian.
 
 #### Excel
 Before you get to specialized tools like Open Refine, you can always use Excel or Google Sheets to check your work. 
@@ -170,21 +170,100 @@ Regular expressions are awesome, but they can get frustrating quickly. Don't be 
 * [Cleaning OCR'd text with regular expressions](https://programminghistorian.org/en/lessons/cleaning-ocrd-text-with-regular-expressions)
 
 
-## Data modeling 
+## Data modeling
 
+Whether you are aware of it or not, data modeling is part of the data creation process. All of the decisions that you might make about your data, the format, the data types, the fields, help to form a model of your data. 
 
+Data modeling is a process that has been part of humanities work for a long time, just not by that name. When we attempt to organize the world through means like time periods, genres, or lists of names (prosopographies) or places (gazeteers), we are creating models that may or may not line up with reality. A model is an abstraction of an object. It can be a window into our disciplinary or personal values. The tools you choose to use will also contribute to the shape of your data model, as they can limit what and how you record your data. 
+
+There is a lot more to be said about data models and their role in humanities data work. There are different types of models and various ways to approach their creation and use. Data modeling has precise meanings within other disciplines, such as computer science. If you want to learn more, start with "[Data Modeling in a Digital Humanities Context](https://juliaflanders.files.wordpress.com/2016/08/flanders_jannidis_data_modeling.pdf)" by Julia Flanders and Fotis Jannidis.
+
+But for now, let's return to that Miriam Posner article, "[Humanities Data: A Necessary Contradiction](http://miriamposner.com/blog/humanities-data-a-necessary-contradiction/)."
+
+> "When you call something data, you imply that it exists in discrete, fungible units; that it is computationally tractable; that its meaningful qualities can be enumerated in a finite list; that someone else performing the same operations on the same data will come up with the same results. This is not how humanists think of the material they work with."
+
+Data modeling is important precisely because it forces humanities scholars to clearly identify their goals and parameters. If you start a project without an initial idea of your data model, you could lose years sifting through archival material or transcribing handwritten notes. Or as [Scott Weingart writes](http://www.scottbot.net/HIAL/index.html@p=6279.html), "Humanistic data are almost by definition uncertain, open to interpretation, flexible, and not easily definable." To many humanities scholars, articulating a detailed data model can feel like a reduction of their subject. Or perhaps they're eager to dive into material, and then end up with a mess of a spreadsheet, unsure how to turn it into anything usable. It's okay if your data model grows and changes over time, but it should be recognized as a formal step in the process. 
+
+What does a data model look like? It depends on your project, but at its most basic, it could be a list of the fields in your spreadsheet, with a description of the values and their format. A data model for the Pets example above could be: 
+
+- PetID: a generic ID for each pet, max 6 alphanumeric characters
+- Name: the given name of the pet. 
+- Animal: specify the type of animal from a controlled list: Dog, Cat, Bird, Gecko
+- Breed: specify the breed of pet from a controlled vocabulary of Official Animal Breeds.
+
+You might also want to indicate the extent of this list of pets. Who owns them? What the connection between them? Where did this information come from? Obviously, this is not an ambitious data project as it stands, but we can imagine some other categories to include: age, location, weight, health, favorite toy, favorite nap spot, etc. When I decide to add another field or change how I enter a value, I must update my data model to reflect these changes. Perhaps I realize halfway through my data collection that I should be using the scientific classification for animals, rather than a generic "dog" and "cat." If I had thought about my data model, I might have come to this decision at the beginning of my project. Think of data modeling as a favor to yourself and to anyone else who might encounter your data and wonder about your decisions. 
 
 ## Extending your data 
+Once you have a good sense of how your data is going to look, it is worth considering options for extending your data. Do not assume you have to start from scratch. There are many other organizations and projects out there dedicated to creating data that can be used by others. [Pelagios](https://pelagios.org/) can help you describe historical places. [PeriodO](http://perio.do/en/) can help you describe time. [Getty Art and Architecture Thesaurus](http://www.getty.edu/research/tools/vocabularies/aat/) contains thousands of terms for describing art and material culture. And of course, [libraries](https://id.loc.gov/) have long been in the business of organizing and sharing their data.
 
-Data modeling? 
+### Linked data 
+One way of extending your data is through the use of something called "linked data." Linked data is a method for structuring data so that it can be connected and linked to other data sets. You might also see this called the "Semantic Web." One way to create linked data is through the use of **URIs** or Uniform Resource Identifiers. The idea is that every thing in your data should be given a unique identifier. When you or anyone else references that thing, you use the identifier to indicate that we are talking about the same thing. The value of URIs becomes clear in any project with people. It's common for people to share the same names - giving them a unique ID number eliminates confusion and unites variant forms of the same name. But URIs are not just ID numbers, the should be HTTP URIs, meaning they look like a URL. Here's one for Audre Lorde: https://viaf.org/viaf/61565157/. 
 
-Extending, vocabs, reconciling RDF 
+The other principle of linked data is the not only are the things given unique identifiers, so are the relationships between those things. We can standardize those connections and use URIs to express them. When we connect these URIs together, we start to see our data in a new way: the graph. 
+
+![Sample Graph](https://www.w3.org/TR/rdf11-primer/example-graph.jpg)
+Source: [RDF Primer](https://www.w3.org/TR/rdf11-primer/)
+
+We haven't talked about RDF yet, but we can define it using terms we have just learned. **RDF**, or Resource Description Framework, is a data model for describing resources. It structures data through the use of triples or subject-predicate-object expressions, such as the ones we see in the image above. RDF can be serialized in several ways, through formats like Turtle, JSON-LD, RDFa, and RDF-XML. Okay, that was a lot of acronyms, but you should recognize some. 
+
+Here's some RDF about Audre Lorde:
+
+```
+<rdf:RDF>
+	<rdf:Description rdf:about="http://viaf.org/viaf/sourceID/DBC%7C87097946621565#skos:Concept">
+	<foaf:focus rdf:resource="http://viaf.org/viaf/61565157"/>
+	<skos:prefLabel>Lorde, Audre f. 1934</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://viaf.org/authorityScheme/DBC"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://viaf.org/viaf/8101155708706522580005">
+	<rdfs:label>Sister outsider</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NII%7CDA04877615#skos:Concept">
+		<foaf:focus rdf:resource="http://viaf.org/viaf/61565157"/>
+		<skos:altLabel>ロード, オードリ</skos:altLabel>
+		<skos:altLabel>Rollins, Audre Lorde</skos:altLabel>
+		<skos:altLabel>Lorde, Audre Geraldine</skos:altLabel>
+		<skos:altLabel>Lorde, Audre</skos:altLabel>
+		<skos:prefLabel>Lorde, Audre</skos:prefLabel>
+		<skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NII"/>
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+</rdf:RDF>
+```
+It's not that much fun to read, but you're a human, not a computer. In this example, you can pick out terms like "SKOS" and "FOAF." If you have been following along and nerding about about data modeling, go ahead and look those up or check out this tutorial: "[Introduction to the Principles of Linked Open Data](https://programminghistorian.org/en/lessons/intro-to-linked-data)". If you're overwhelmed, tuck them in your pocket for later. This is a window into advanced work with humanities data. It's good to know it exists, but it's okay if you're not ready for it yet. 
+
 
 ## Activities
 
 ### Activity 1
+Evaluate CSV file in Excel together. Answer questions, do some exercises. 
+SJ Cemetery 
+
+c
+Open Refine 
+
+
+### Activity 2
+Use open Refine to clean up etc. 
+
+Blog post, what kind of questions could you ask? 
+
+COuld also go in person to cemetery... analyze differences. 
+
+
+Using Open Refine, explore your data set. In a text file to be turned in with Unit 2 Data, answer the following:
+1. What do the "Text Facet" or "Numeric Facet" features reveal about your data? Are there outliers that need investigation?
+2. Are there columns that should be split or joined? How would you do this in Open Refine (or Excel?)
+3. What columns would be best served by the "cluster and edit" feature? Why?
+4. Which columns need to be modified for consistency? (hint: any date field)
+5. Is there research you need to conduct to learn about the people in your data? How will you go about it?
+
+## Readings
+
 
 ## Resources 
+http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/
 
 https://matthewlincoln.net/2020/05/26/tidy-data-for-humanities.html
 
