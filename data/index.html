@@ -121,6 +121,7 @@ Theme by GitBook
 <li><a href="#activities">Activities</a><ul>
 <li><a href="#activity-1">Activity 1</a></li>
 <li><a href="#activity-2">Activity 2</a></li>
+<li><a href="#activity-3">Activity 3</a></li>
 </ul>
 </li>
 <li><a href="#readings">Readings</a></li>
@@ -359,24 +360,54 @@ Source: <a href="https://www.w3.org/TR/rdf11-primer/">RDF Primer</a></p>
 <p>It's not that much fun to read, but you're a human, not a computer. In this example, you can pick out terms like "SKOS" and "FOAF." If you have been following along and nerding about about data modeling, go ahead and look those up or check out this tutorial: "<a href="https://programminghistorian.org/en/lessons/intro-to-linked-data">Introduction to the Principles of Linked Open Data</a>". If you're overwhelmed, tuck them in your pocket for later. This is a window into advanced work with humanities data. It's good to know it exists, but it's okay if you're not ready for it yet. </p>
 <h2 id="activities">Activities<a class="headerlink" href="#activities" title="Permanent link">#</a></h2>
 <h3 id="activity-1">Activity 1<a class="headerlink" href="#activity-1" title="Permanent link">#</a></h3>
-<p>Evaluate CSV file in Excel together. Answer questions, do some exercises. 
-SJ Cemetery </p>
-<p>c
-Open Refine </p>
+<p>In this activity, we'll assess a dataset according to the criteria we've learned about in this section. </p>
+<ol>
+<li>Download the <a href="../assets/LexingtonCemetery.csv">LexingtonCemetery.csv</a> file. </li>
+<li>Open in Excel. Since this dataset is a CSV file, you may need to follow these instructions:<ul>
+<li>Navigate to the Data tab in Excel.</li>
+<li>Select "From Text" then find your file.</li>
+<li>A wizard should pop up to walk you through the import process. It should automatically detect the commas, but if it doesn't, you will need to check the box to indicate that this file is delimited by commas. The data preview should each distinct column of data, rather than everything running together.</li>
+</ul>
+</li>
+<li>What do you see? Take some time to explore this data by scrolling around. Get a sense of what is here and what might be missing. It might help to take a look at the <a href="https://sjcemetery.wlu.edu/">cemetery website</a> or to read <a href="https://web.archive.org/web/20161109193310/http://news.blogs.wlu.edu/2013/02/11/wl-creates-website-for-stonewall-jackson-cemetery-census/">this press release</a>. </li>
+<li>In a separate document, start to draft a data model for this spreadsheet as you encounter it. Make note of the data types and formats, as well as suggestions for improvement. </li>
+</ol>
 <h3 id="activity-2">Activity 2<a class="headerlink" href="#activity-2" title="Permanent link">#</a></h3>
-<p>Use open Refine to clean up etc. </p>
-<p>Blog post, what kind of questions could you ask? </p>
-<p>COuld also go in person to cemetery... analyze differences. </p>
-<p>Using Open Refine, explore your data set. In a text file to be turned in with Unit 2 Data, answer the following:
-1. What do the "Text Facet" or "Numeric Facet" features reveal about your data? Are there outliers that need investigation?
-2. Are there columns that should be split or joined? How would you do this in Open Refine (or Excel?)
-3. What columns would be best served by the "cluster and edit" feature? Why?
-4. Which columns need to be modified for consistency? (hint: any date field)
-5. Is there research you need to conduct to learn about the people in your data? How will you go about it?</p>
+<p>Let's take Open Refine for a spin in order to clean up this data set. </p>
+<ol>
+<li>Download <a href="openrefine.org">Open Refine</a> and run the program. Follow the <a href="https://github.com/OpenRefine/OpenRefine/wiki/Installation-Instructions">installation instruction</a> if you get stuck. It should open a new tab in your browser with the address <code>http://127.0.0.1:3333/</code>. This address is local to your computer. </li>
+<li>Import the LexingtonCemetery.csv file. You will see a page of import options, you should be able to accept the defaults. </li>
+<li>Spend some time clicking on all the options in Open Refine to see what happens. Set a timer and spend 10-15 minutes playing around with the software before you turn to documentation or instructions. What can you learn in this time? If things get too messy, you can always exit out and start over.</li>
+<li>Now answer these questions: <ul>
+<li>What do the "Text Facet" or "Numeric Facet" features reveal about this data? Are there outliers that need investigation?</li>
+<li>Are there columns that should be split or joined? How would you do this in Open Refine (or Excel?)</li>
+<li>What columns would be best served by the "cluster and edit" feature? Why?</li>
+<li>Which columns need to be modified for consistency? </li>
+</ul>
+</li>
+</ol>
+<h3 id="activity-3">Activity 3<a class="headerlink" href="#activity-3" title="Permanent link">#</a></h3>
+<p>Time to take a little step back from this data set and think about its potential. Answer the following questions: </p>
+<ol>
+<li>What cleanup work does this data need to be more usable? </li>
+<li>Do you need to adjust your data model? How might you extend this data set? </li>
+<li>What research questions does it inspire? </li>
+<li>Do you need to conduct more research to learn about the people in this data set? How will you go about it? </li>
+<li>What (or who?) might be missing from this data set? </li>
+<li>We have yet to learn about the ins and outs of methods of analyzing data, but what would you want to <em>do</em> with this data? </li>
+<li>Bonus: visit the cemetery! How does experiencing it in person change your view of the data? Does everything match up? Do you observe other things that should be in this data? </li>
+</ol>
 <h2 id="readings">Readings<a class="headerlink" href="#readings" title="Permanent link">#</a></h2>
+<ul>
+<li><a href="https://matthewlincoln.net/2020/05/26/tidy-data-for-humanities.html">Tidy Data for the Humanities</a> by Matt Lincoln</li>
+<li><a href="http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/">Big? Smart? Clean? Messy? Data in the Humanities</a> by Christof Schöch</li>
+<li></li>
+</ul>
 <h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">#</a></h2>
-<p>http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/</p>
-<p>https://matthewlincoln.net/2020/05/26/tidy-data-for-humanities.html</p>
+<ul>
+<li>Open Refine</li>
+<li></li>
+</ul>
 <p>https://www-jstor-org.ezproxy.wlu.edu/stable/10.5749/j.ctvg251hk.26?seq=1#metadata_info_tab_contents
  10.5749/j.ctvg251hk.26 </p>
 <p>https://port.sas.ac.uk/mod/book/view.php?id=75&amp;chapterid=133</p>
