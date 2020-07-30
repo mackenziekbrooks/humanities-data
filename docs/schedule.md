@@ -66,7 +66,7 @@ This class will meet on Zoom during its normally scheduled time: TR 4-5:30pm.
 # Week 3 - Data
 
 ## Tuesday, September 8, 2020
-* Read the[Data](data.md) chapter by class time. 
+* Read the [Data](data.md) chapter by class time. 
 * Class agenda:
 	* icebreaker:
 	* Data! 
