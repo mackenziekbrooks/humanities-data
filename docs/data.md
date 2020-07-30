@@ -237,35 +237,48 @@ It's not that much fun to read, but you're a human, not a computer. In this exam
 ## Activities
 
 ### Activity 1
-Evaluate CSV file in Excel together. Answer questions, do some exercises. 
-SJ Cemetery 
+In this activity, we'll assess a dataset according to the criteria we've learned about in this section. 
 
-c
-Open Refine 
-
+1. Download the [LexingtonCemetery.csv](assets/LexingtonCemetery.csv) file. 
+2. Open in Excel. Since this dataset is a CSV file, you may need to follow these instructions:
+	* Navigate to the Data tab in Excel.
+	* Select "From Text" then find your file.
+	* A wizard should pop up to walk you through the import process. It should automatically detect the commas, but if it doesn't, you will need to check the box to indicate that this file is delimited by commas. The data preview should each distinct column of data, rather than everything running together.
+3. What do you see? Take some time to explore this data by scrolling around. Get a sense of what is here and what might be missing. It might help to take a look at the [cemetery website](https://sjcemetery.wlu.edu/) or to read [this press release](https://web.archive.org/web/20161109193310/http://news.blogs.wlu.edu/2013/02/11/wl-creates-website-for-stonewall-jackson-cemetery-census/). 
+4. In a separate document, start to draft a data model for this spreadsheet as you encounter it. Make note of the data types and formats, as well as suggestions for improvement. 
 
 ### Activity 2
-Use open Refine to clean up etc. 
+Let's take Open Refine for a spin in order to clean up this data set. 
 
-Blog post, what kind of questions could you ask? 
+1. Download [Open Refine](openrefine.org) and run the program. Follow the [installation instruction](https://github.com/OpenRefine/OpenRefine/wiki/Installation-Instructions) if you get stuck. It should open a new tab in your browser with the address `http://127.0.0.1:3333/`. This address is local to your computer. 
+2. Import the LexingtonCemetery.csv file. You will see a page of import options, you should be able to accept the defaults. 
+3. Spend some time clicking on all the options in Open Refine to see what happens. Set a timer and spend 10-15 minutes playing around with the software before you turn to documentation or instructions. What can you learn in this time? If things get too messy, you can always exit out and start over.
+4. Now answer these questions: 
+	* What do the "Text Facet" or "Numeric Facet" features reveal about this data? Are there outliers that need investigation?
+	* Are there columns that should be split or joined? How would you do this in Open Refine (or Excel?)
+	* What columns would be best served by the "cluster and edit" feature? Why?
+	* Which columns need to be modified for consistency? 
 
-COuld also go in person to cemetery... analyze differences. 
 
+### Activity 3
+Time to take a little step back from this data set and think about its potential. Answer the following questions: 
 
-Using Open Refine, explore your data set. In a text file to be turned in with Unit 2 Data, answer the following:
-1. What do the "Text Facet" or "Numeric Facet" features reveal about your data? Are there outliers that need investigation?
-2. Are there columns that should be split or joined? How would you do this in Open Refine (or Excel?)
-3. What columns would be best served by the "cluster and edit" feature? Why?
-4. Which columns need to be modified for consistency? (hint: any date field)
-5. Is there research you need to conduct to learn about the people in your data? How will you go about it?
+1. What cleanup work does this data need to be more usable? 
+2. Do you need to adjust your data model? How might you extend this data set? 
+3. What research questions does it inspire? 
+4. Do you need to conduct more research to learn about the people in this data set? How will you go about it? 
+5. What (or who?) might be missing from this data set? 
+6. We have yet to learn about the ins and outs of methods of analyzing data, but what would you want to *do* with this data? 
+7. Bonus: visit the cemetery! How does experiencing it in person change your view of the data? Does everything match up? Do you observe other things that should be in this data? 
 
 ## Readings
-
+* [Tidy Data for the Humanities](https://matthewlincoln.net/2020/05/26/tidy-data-for-humanities.html) by Matt Lincoln
+* [Big? Smart? Clean? Messy? Data in the Humanities](http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/) by Christof Schöch
+* 
 
 ## Resources 
-http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/
-
-https://matthewlincoln.net/2020/05/26/tidy-data-for-humanities.html
+* Open Refine
+* 
 
 https://www-jstor-org.ezproxy.wlu.edu/stable/10.5749/j.ctvg251hk.26?seq=1#metadata_info_tab_contents
  10.5749/j.ctvg251hk.26 

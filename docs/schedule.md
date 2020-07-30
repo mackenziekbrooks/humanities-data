@@ -35,7 +35,7 @@ This class will meet on Zoom during its normally scheduled time: TR 4-5:30pm.
 # Week 2 - Your Computer
 
 ## Tuesday, September 1, 2020
-* Read [Your Computer]() by class time. 
+* Read [Your Computer](your-computer.md) by class time. 
 * Class agenda: 
 	* icebreaker:
 	* breakout groups: review websites in small groups
@@ -66,8 +66,22 @@ This class will meet on Zoom during its normally scheduled time: TR 4-5:30pm.
 # Week 3 - Data
 
 ## Tuesday, September 8, 2020
+* Read the[Data](data.md) chapter by class time. 
+* Class agenda:
+	* icebreaker:
+	* Data! 
+	* Start Activity 1 together 
 
 ## Thursday, September 10, 2020
+* Class agenda: 
+	* icebreaker:
+	* Activity 2 
+
+
+## Activity log week 3
+**Due Monday 9/14 at 9am**
+1. Submit your notes from Activities 1 and 2 via a document in Canvas.
+2. Blog post #3: Answer the questions in Activity 3 in a 300-500 word post on your Wordpress. Submit the URL in Canvas. 
 
 # Week 4 - Visualization 
 
