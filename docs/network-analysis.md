@@ -85,27 +85,48 @@ Kevin Bacon, Laurence Fishburne,
 To generate a network, visit the `Graph` tab. Use the menu on the right of the screen to select the "source" column in `Source` and the "target" column in `Target`. You should see a network appear! Does it look like what you expected? 
 
 
-## PageRank and Graph Databases 
-
 ## Tools 
 
 * [Palladio](http://hdlab.stanford.edu/palladio/) is a data visualization tool created by Stanford's Humanities + Design Research Lab. It's a browser-based tool that accepts structured data and creates network, geospatial, and gallery visualizations. It's easy to use, but can crash under too much data. It's a great way to create first draft visualizations of your data. 
 
 * [Gephi](https://gephi.org/) is a robust network/graph visualization tool. It runs from your computer and can accept large data sets (though you will need some patience). Gephi has a lot of options for changing the appearance of your network via filters and layout. You can also generate statistics about graph density etc. There are a number of [tutorials](https://gephi.org/users/) available.
 
-* 
+* [Cytoscape](http://www.cytoscape.org/) was designed for the sciences, but is now being used for more general network analysis and visualization purposes. 
+
+* [Nodegoat](https://nodegoat.net/) is a data modeling and visualization platform with options for network analysis.
+
+* [igraph](http://igraph.org/redirect.html) is a network analysis package for use with R, Python, and C++
+
+* [UCINET](https://sites.google.com/site/ucinetsoftware/home) is available on Windows only. It is not free software, but 90 day trials are available. [Tutorials](https://sites.google.com/site/analyzingsocialnetworks/analyses) are available on the UCINET site. Hanneman and Riddle created this [textbook](http://www.faculty.ucr.edu/~hanneman/nettext/) for use with UCINET.
 
 
 ## Activities
 
 ### Activity 1 
-Network by had 
+
+In order to practice using the terminology and methods of network analysis, let's design a network from scratch. 
+1. In your group, select a topic for your network. It should be approachable for all members of your group. Game of Thrones? W&L students? Sports? A novel or TV show?
+2. List all the nodes in your network. Do they have types? Do they have attributes? Is this a bi-modal or multi-modal network?
+3. Start making connections or edges in your network. What type of edges do you need? Do the edges have a weight?
+4. Think about centrality. Do you have an ego network? How might you start calculating centrality?
+
 
 ### Activity 2
+Data set to Palladio
+
+### Activity 3
+Try to learn about another platform... 
+
+
 
 
 ## Resources
-
+* [Creating a Network Graph with Gephi](http://miriamposner.com/dh101f15/index.php/creating-a-network-graph-with-gephi/) - Miriam Posner
+* [From Hermeneutics to Data to Networks: Data Extraction and Network Visualization of Historical Sources](https://programminghistorian.org/en/lessons/creating-network-diagrams-from-historical-sources) - Programming Historian tutorial
+* [Introduction to Network Analysis](http://thomaspadilla.org/na2014/) - Thomas Padilla and Brandon Locke
 
 ## Readings
+
+* [An Entry of One’s Own, or Why Are There So Few Women In the Early Modern Social Network?](https://6dfb.tumblr.com/post/44879380376/an-entry-of-ones-own-or-why-are-there-so-few)
 * [Demystifying Networks](http://www.scottbot.net/HIAL/index.html@p=6279.html)
+* [Network Analysis Fundamentals](http://www.themacroscope.org/?page_id=892)

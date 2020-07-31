@@ -107,9 +107,18 @@ This class will meet on Zoom during its normally scheduled time: TR 4-5:30pm.
 # Week 5 - Network Analysis 
 
 ## Tuesday, September 22, 2020
+* Read ...
+* Class agenda:
+	* icebreaker:
+
 
 ## Thursday, September 24, 2020
+* Read ...
+* Class agenda:
+	* icebreaker:
 
+## Activity log week 5
+**Due Monday 9/28 at 9am**
 
 # Week 6 - Spatial Analysis
 
