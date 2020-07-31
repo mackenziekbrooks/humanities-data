@@ -86,8 +86,23 @@ This class will meet on Zoom during its normally scheduled time: TR 4-5:30pm.
 # Week 4 - Visualization 
 
 ## Tuesday, September 15, 2020
+* Read [Visualization](visualization.md) by class time.
+* Class agenda:
+	* icebreaker:
+	* Activity 1. We'll use breakout rooms to compare notes. 
 
 ## Thursday, September 17, 2020
+* Read ...
+* Class agenda:
+	* icebreaker:
+	* Activity 2 
+
+## Activity log week 4
+**Due Monday 9/21 at 9am**
+1. Submit document created by Activity 1 in Canvas. 
+2. Submit URL of post of Activity 2 in Canvas.
+3. Blog post #4: Respond to the following prompt in a 300-500 word blog post on your Wordpress. In Canvas, submit the URL the blog post.
+	- 
 
 # Week 5 - Network Analysis 
 
@@ -95,40 +110,48 @@ This class will meet on Zoom during its normally scheduled time: TR 4-5:30pm.
 
 ## Thursday, September 24, 2020
 
+
 # Week 6 - Spatial Analysis
 
 ## Tuesday, September 29, 2020
 
 ## Thursday, October 1, 2020
 
+
 # Week 7 - Text Analysis 
+
 ## Tuesday, October 6, 2020
+
 ## Thursday, October 8, 2020
 
 # Week 8 - Project Planning
 
-
 ## Tuesday, October 13, 2020
+
 ## Thursday, October 15, 2020
 
 # Week 9 - Data Modeling
 
 ## Tuesday, October 20, 2020
+
 ## Thursday, October 22, 2020
 
 # Week 10 - Data Analysis + Visualization
 
 ## Tuesday, October 27, 2020
+
 ## Thursday, October 29, 2020
 
 # Week 11 - Results + Interpretation
 
 ## Tuesday, November 3, 2020
+
 ## Thursday, November 5, 2020
 
-
 # Week 12 - Wrapping up + Presentation
+
 ## Tuesday, November 10, 2020
+
 ## Thursday, November 12, 2020
 
 

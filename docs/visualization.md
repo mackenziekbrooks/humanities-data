@@ -83,7 +83,7 @@ Now it's time to try your hand at creating your own visualization. You may use t
 
 1. Brainstorm some potential visualizations. What do you want to communicate about this data set? What's interesting about it? How can a visualization help show an intriguing or important part of this data? 
 2. Narrow your list down to one or two ideas. Use Excel or Google Sheets to create a basic graph. Are you happy with it? Why or why not? Try creating the same graph in both programs to see if there are any differences. 
-3. If you're still not happy with your graph, try [[Raw Graphs](https://rawgraphs.io/)]. There are some wild options, is your graph still legible? 
+3. If you're still not happy with your graph, try [Raw Graphs](https://rawgraphs.io/). There are some wild options, is your graph still legible? 
 4. Post your visualization to your website with 300-400 words on your goal, your process, and your results. 
 
 ## Resources
