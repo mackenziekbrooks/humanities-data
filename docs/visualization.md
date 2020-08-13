@@ -46,7 +46,7 @@ From this list, I could speculate that principles of good visualization might be
 * balanced scale and axises. 
 * meaningful legend and explanatory title and text. 
 
-Good visualizations are built with accessibily issues in mind and improve the value of the visualization for everyone. Read [accessible data viz is better data viz](http://www.storytellingwithdata.com/blog/2018/6/26/accessible-data-viz-is-better-data-viz) and consider the principles suggested there when you are evaluating and creatingn visualizations.  
+Good visualizations are built with accessibily issues in mind and improve the value of the visualization for everyone. Read [accessible data viz is better data viz](http://www.storytellingwithdata.com/blog/2018/6/26/accessible-data-viz-is-better-data-viz) and consider the principles it suggests when you are evaluating and creating visualizations.  
 
 I walk you through this exercise in hopes that you can use it on other visualizations you encounter. It's easy to look at a list of best practices, it's a little more challenging to apply those practices to your own work or the work of others. 
 
@@ -86,7 +86,7 @@ Before you start making your own visualizations, let's practice improving on exi
 Now it's time to try your hand at creating your own visualization. You may use the cemetery data set from last week, or the [Coeducation data set](assets/coeducationreport.csv). 
 
 1. Brainstorm some potential visualizations. What do you want to communicate about this data set? What's interesting about it? How can a visualization help show an intriguing or important part of this data? 
-2. Narrow your list down to one or two ideas. Use Excel or Google Sheets to create a basic graph. Are you happy with it? Why or why not? Try creating the same graph in both programs to see if there are any differences. 
+2. Narrow your list down to one or two ideas. What type of visualizations are you interested in using and how will they help you get at the information you want to convey? Use Excel or Google Sheets to create a basic graph. Are you happy with it? Why or why not? How do different types of graphs change your understanding of the data? Try creating the same graph in both programs to see if there are any differences. 
 3. If you're still not happy with your graph, try [Raw Graphs](https://rawgraphs.io/). There are some wild options, is your graph still legible? 
 4. Post your visualization to your website with 300-400 words on your goal, your process, and your results. 
 
