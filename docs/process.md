@@ -35,7 +35,7 @@ Enough pep talk! Give me some real tips:
 
 * Consider the discipline. Don't forget that scholarly work segments itself by discipline, so you may have to navigate those boundaries. Is your topic fundamentally about literature? About history? About philosophy? What other disciplines does it touch? Check out the scholarly organization for that discipline, its major journals, or research centers.
 
-## What's my data? 
+## What's my project? 
 
 Hopefully, if you've read other sections of this coursebook, you have an idea of what humanities data *could* look like. But what will your data look like? How do you take a topic idea and turn that into data? 
 
@@ -52,42 +52,47 @@ Hopefully, if you've read other sections of this coursebook, you have an idea of
 At this point, you should be at a place where you can write a proposal for your project. You know the types of things you want to do, the questions you want to explore, even if you don't have the answers yet. 
 
 
-## Data modeling 
+## Research Questions and Data Modeling
 
 In the [data section](data.md), we covered the mechanics of data modeling. Here, let's cover it as part of the research and project process. Chances are, data modeling will go hand in hand with determining your specific research questions. You will need to iterate over this process a few times before you've arrived at something feasible. 
 
-1. 
+1. What is one potential research question that you can think of? Pay attention to how you begin your question. Are you asking how many? Who? What? 
+2. How would you answer that question with some kind of data? It can be an unproven, hypothetical answer, but you should think through what kind of answers you're looking for. 
+3. Now swim around in your answer a little bit. What is your answer made of? Do you need to count something to get to that answer? What do you need to count? Are you tracking something over time, and therefore need time-based data? Are you looking at relationships, so you need information about people? 
+4. Make a list of all the pieces of information you might need to answer your question. This could be the beginning of your data model.
+5. Go through these steps again with a different question and potential answer. How do your data needs compare? Can you start to see a spreadsheet or a corpus forming? Do you need to do more research? 
+
+How did that go? Hopefully by working through those questions, you should have an idea of where you're headed. Again, it's totally normal to adjust or go through this cycle again. You may even get to the point of visualization and realize you need to regroup. For now, let's assume you're ready to start putting together your data. You have some options.
+
+## Creating data 
+
+You may determine that you need to create your data set from scratch. What does "from scratch" mean? Are eggs involved? Chances are you are not going to be pulling data magically from your brain. It's more likely that you will have a source or multiple sources that need to be transformed in a structured data set that can be analyzed by a piece of software. The draft data model you created will guide you in this process. 
+
+Many humanities data projects begin with the kind of old books that seem to be forgotten about on library shelves. Scholars of past centuries did a lot of data-driven work, they just put all their data into a print book, and now that information needs to be transformed. For example, [The Ancient Graffiti Project](http://ancientgraffiti.org/) relies on a 19th century collection of inscriptions gathered into set of large, heavy volumes known as *Corpus Inscriptionum Latinarum*. [Mapping the Scottish Reformation](http://mappingthescottishreformation.org/) is a prosopography project that gathers data about Scottish ministers from a text known as the *[Fasti](https://archive.org/details/fastiecclesiaesc01hews)*. While the author of the *Fasti*, Hew Scott, did tremendous work in compiling this text, he was loose with the facts and didn't cite his sources. In the end, both of these projects will provide a database and visualizations for users to ask their own research questions. But the process of getting there involves careful data entry and cross-referencing. The project team is not necessarily transcribing texts from beginning to end, they are extracting each data point in a way that fits their data model. They might not extract every piece of information, instead, they're letting their project goals guide them. Rest assured, both of these projects added to and refined their data model over time. 
+
+If you have generated some research questions and drafted a data model, go ahead and open up a new spreadsheet. Label some fields, start filling in data, then step back and review your work. Does your source include information you forgot to put in your data model? Do these fields make sense to another person? Do you need another spreadsheet? On the flip side, are you trying to gather too much data? Do you need every single detail? 
+
+If you're not sure how to answer these questions, why not skip ahead to visualization or analysis? Test out the data you've gathered so far, even if it's not complete, just to see how it performs. Again, this iterative approach is key to creating a workable project. 
+
+## Finding data 
+
+You may determine that your project or your constraints require that you find existing data sources. That's great! You're reusing existing information in new ways! But it can be a struggle to find the exact data set you're looking for. There is not one single catalog of data that you can use to find what you're looking for. You may have to combine pieces of multiple data sets. Alternatively, you may not have access or be legally allowed to use the data you're seeking. It's another reason to identify other scholars working on similar topic, you may be able to ask advice or find guidance. 
+
+Places to look  
 
 
-### Creating data 
+## Analyzing your data 
 
-You may determine that you need to create your data set from scratch. 
+Okay, let's say you have put together a respectable data set that you think addresses your goals. What next? Throughout this coursebook, we have explored a range of analysis methods. Your research questions should help you determine the method or methods that make sense. 
 
-### Finding data 
+## Case study: Spanish Gallery
+To pull this all together, let's walk through a case study of a project from a former student, Alice. Alice is an art history major with some experience in digital methods from other classes and her work on a DH project. In one of her classes, she learns about the [Spanish Gallery](https://en.wikipedia.org/wiki/Spanish_gallery). The Spanish Gallery was assembled at the Louvre by King Louis Phillipe in 1838 to showcase Spanish art during a time of French occupation of Spain. After his death, the gallery was sent to auction in London and dispersed into private hands. Alice wonders what happened to these paintings after the auction, as well as their origins in Spain. She imagines what the gallery might have looked like all assembled. In reading the Wikipedia article, she notices a link to the [digital copy](https://archive.org/stream/galerieespagnole00muse#page/n3/mode/2up) of the gallery catalog from 1838. She recognizes these catalog as a potential source of data, especially when combined with her knowledge of searching auction records. The catalog is arranged in alphabetical order by artist, with a brief bio, then a list of the paintings and their dimensions. Alice sees that the digital book is available to download as plain text, which will make it easier to work with. She also notices that the text isn't quite perfect, so she will need to budget time for correction. Not to mention it's all in French! Finally, there appear to be annotations in pencil on the pages, so that may be something to look into. 
 
+Alice opens Google Sheets and gets to work on this [spreadsheet](https://docs.google.com/spreadsheets/d/1FcP-rv8Nt9v3LDgkYj8C5UmfO06jCkX9JsfHiQTqA8c/edit?usp=sharing). The catalog has assigned each painting a number, so she uses that as an ID field. The *thing* that is being described in each row is the painting, with the artist, bio, size, location modifying that painting. After starting that work, she realizes that it's repetitive to include the art information multiple times, so she creates a second sheet that is just a list of the artists and their information. She cleverly uses a built-in translation feature in Google sheets to translate the French to English for the whole column, rather than doing it one by one: `=GOOGLETRANSLATE(B2, "fr", "en")`. 
 
+Alice can't help but start researching the modern locations of these pieces of art. She finds that this work is going to be more challenging than she anticipated, so she creates another sheet to separate this work into a second phase of the project. There just aren't enough accessible records for each piece of work. Phase 1 will have to be about creating data on the gallery itself, Phase 2 will concern the auction and dispersal of the art. Similarly, finding the original locations of the art may be challenging too, since the catalog only lists where the artist was from. She knows another student who has used Google Street View and tourist websites to confirm the location of shrines in Spain. She supposes that's Phase 3! 
 
-
-	Generating Data
-
-	Finding Data 
-
-## Exploring your data 
-
-
-## Data modeling 
-
-## Asking the right questions
-
-
-
-Case study 
-
-## 
-
-SCOPE
-
-
+Alice's project is still in progress. 
 
 
 1. Project proposal
@@ -95,3 +100,4 @@ SCOPE
 3. Data visualization
 4. Results
 5. Reflection
+
