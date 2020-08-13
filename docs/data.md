@@ -271,6 +271,18 @@ Time to take a little step back from this data set and think about its potential
 6. We have yet to learn about the ins and outs of methods of analyzing data, but what would you want to *do* with this data? 
 7. Bonus: visit the cemetery! How does experiencing it in person change your view of the data? Does everything match up? Do you observe other things that should be in this data? 
 
+
+### Activity 4 (or group activity in class?)
+Try your hand at creating your own dataset in a small group.  
+
+1. Start with the [Alumni Coeducation Correspondence, May 10, 1984 (report)](https://dspace.wlu.edu/handle/11021/34413) from the [W&L Digital Archive](https://repository.wlu.edu/).  Read over the report to get an understanding of what it is telling you.  What is this report covering?
+2. Create your data model.  Look over the consistent pieces of information included in the report.  Choose what fields you think you should include.  Why are you choosing those fields?  What do you hope to use them to explore within the data?
+3. Take a few pages from the report and create your dataset.  
+4. After we come back from the small groups, compare your data model to that of other groups and answer the following questions.
+	4a. How are the models different? 
+	4b. What did your group include that others didn't and visa versa?  
+	4c. How do your fields change the questions you can ask the data?
+
 ## Readings
 * [Tidy Data for the Humanities](https://matthewlincoln.net/2020/05/26/tidy-data-for-humanities.html) by Matt Lincoln
 * [Big? Smart? Clean? Messy? Data in the Humanities](http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/) by Christof Schöch
