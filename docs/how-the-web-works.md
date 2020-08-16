@@ -45,9 +45,9 @@ To give you a taste, a basic HTML document might look like this:
 </html>
 ```
 
-As you can see, angle brackets surround each tag. The tags themselves around pieces of content. There's an opening tag and a closing tag. You can tell the closing tag by the slash after the angle bracket `</title>`. You should also notice that the tags are nested. The `<head>` and `<body>` tag are both children of `<html>`, and each of those tags has their own children. We'll learn more HTML down in Activity X. 
+As you can see, angle brackets surround each tag. The tags themselves around pieces of content. There's an opening tag and a closing tag. You can tell the closing tag by the slash after the angle bracket `</title>`. You should also notice that the tags are nested. The `<head>` and `<body>` tag are both children of `<html>`, and each of those tags has their own children. We'll learn more HTML down in [Activity 1.2](#activity-12-html). 
 
-For now, the thing to remember is that HTML exists to tell the computer, specifically the browser, what to do with each piece of content. Another way to say this is *semantic markup*. Attaching structural or semantic meaning to content is especially important because not everyone (people or computers) uses their eyes to read the Web. Using valid HTML ensures that the Web is [accessible](https://www.w3.org/WAI/) to everyone, regardless of their ability. Using head tags like `<h1>` and `<h2>` tell a person about the organization of the page more than making text bold with the `<strong>` tag.  Altering the visual apprearance of the text without the structural headings won't convey the same meaning to a person who uses a screen reader.  Even if you don't go on to build websites for a living, something as simple as adding a caption to any image you publish can improve accessibility. An image without a caption or description is meaningless to someone who can't see it.  Can you find the caption or "alt text" for the image on this page? 
+For now, the thing to remember is that HTML exists to tell the computer, specifically the browser, what to do with each piece of content. Another way to say this is *semantic markup*. Attaching structural or semantic meaning to content is especially important because not everyone (people or computers) uses their eyes to read the Web. Using valid HTML ensures that the Web is [accessible](https://www.w3.org/WAI/) to everyone, regardless of their ability. For instance, using heading tags like `<h1>` and `<h2>` tell a person about the organization of the page more than making text bold with the `<strong>` tag.  Altering the visual apprearance of the text without the structural headings won't convey the same meaning to a person who uses a screen reader.  Even if you don't go on to build websites for a living, something as simple as adding a caption to any image you publish can improve accessibility. An image without a caption or description is meaningless to someone who can't see it.  Can you find the caption or "alt text" for the image on this page? 
 
 ### Text Editors 
 Before we move on, there's one other important thing to understand about writing HTML. HTML documents are plain text documents. You don't write HTML in a Word doc or a Google doc, instead it's best to use a piece of software called a text editor. There are many text editors out there and it's personal preference which one you use. I like one called [Sublime](https://www.sublimetext.com/), but I know others use [Atom](http://atom.io) or [Visual Studio](https://visualstudio.microsoft.com/). Try a few out to see which one suits you. 
@@ -85,7 +85,7 @@ The syntax takes getting used to, but remember, you do not have to memorize ever
 
 There's lots to love about CSS. In a relatively simple document, you can control the style of hundreds of HTML documents and ensure consistency. But you can also pinpoint one specific margin or border and change its color or add some padding. 
 
-One final note: to ensure that your CSS actually appears on your page, you need to add a piece of code to your HTML document that references the CSS document. We'll do this in Activity X.  
+One final note: to ensure that your CSS actually appears on your page, you need to add a piece of code to your HTML document that references the CSS document. We'll do this in [Activity 1.3](#activity-13-css).  
 
 
 ## Your domain 
@@ -106,39 +106,38 @@ There are many places to find space on the Web, but many individuals and academi
 
 ## Activities 
 
-### Activity 1: HTML
+### Activity 1.2: HTML
 
-* Open your favorite text editor and using the [W3 Schools](http://w3schools.com/) as a guide, write your own HTML document.
-* Save the file as `index.html` in your Box folder. I'm not grading this, but it will help me troubleshoot if necessary.
-* To view your page in the browser, open `index.html` in your browser, usually with the key commands `Ctrl + o`
-* You should include the basic set of tags: `<html> <head> <title> <body>`
-* Add seven additional types of tags to the body of your HTML document, including a table, link, and image.
-* Add an additional HTML page and link the two pages.
+1. Using Sublime Text Editor, start a new document. Open the [W3 Schools tutorial](https://www.w3schools.com/html/html_intro.asp) in a new tab. Let's write some HTML!
+2. First, save the file as `index.html` on your Desktop. Save your file regularly. 
+3. Using the [HTML Basic](https://www.w3schools.com/html/html_basic.asp) as a guide, add the following tags to your document: `<html> <head> <title> <body>`. 
+4. To view your page in the browser, open `index.html` in your browser, usually with the key commands `Ctrl + o`
+5. Explore the tutorial on W3 and add seven more types of tags to the body of your HTML document, including a table, a link, and an image.
+6. Create a second HTML page and link the two pages.
 
-### Activity 2: CSS
+### Activity 1.3: CSS
 
-Create a separate CSS document and save it as `style.css` in the same folder you created for Activity 1.
+Create a separate CSS document and save it as `style.css` in the same place as Activity 1.2.
 
-* Link the `style.css` file to your HTML document. Consult the [W3 Schools](http://w3schools.com/) to figure out how to do this.
-* Add a background color.
-* Change the border on your table. 
-* Add style to your links when you hover over them. 
+1. Link the `style.css` file to your HTML document via the external stylesheet method. Consult the [W3 Schools](https://www.w3schools.com/html/html_css.asp) to figure out how to do this.
+2. Add a background color.
+3. Change the border on your table. 
+4. Add style to your links when you hover over them. 
 
 
-### Activity 3: Make it live
+### Activity 1.4: Make it live
 
 When you opened your HTML files in your browser, you were viewing your files locally. Only you could see them on your computer. Now it's time to upload them to your domain so other people can view them.
 
-* Navigate to `http://yourdomain.wludci.info/cpanel` and login. 
-* In CPanel, open up the File Manager.
-* Navigate to the `public_html` folder. 
-* Create a new folder titled `activities` or something similar. 
-* Upload all your HTML and CSS files. 
-* Navigate to your equivalent of `www.yourdomain.com/activities`. What do you see?  
-* Add a link to this URL to our shared Box folder in the website registry. 
+1. Navigate to `http://yourdomain.wludci.info/cpanel` and login. 
+2. In CPanel, open up the File Manager.
+3. Navigate to the `public_html` folder. 
+4. Create a new folder titled `activities` or something similar. 
+5. Upload all your HTML and CSS files. 
+6. Navigate to your equivalent of `www.yourdomain.com/activities`. What do you see?  
 
 
-### Activity 4: Install WordPress
+### Activity 1.5: Install WordPress
 
 1. Login to the Cpanel for your domain by adding `/cpanel` to the end of your URL. Use the username and password sent to you by Reclaim Hosting/Jason Mickel. 
 2. You should see a Wordpress icon near the top of the page. Click on it to begin installing Wordpress.
@@ -149,12 +148,10 @@ When you opened your HTML files in your browser, you were viewing your files loc
 	* Customize the website title and tagline.
 
 5. Press install to finish up.
-
 6. You should now be able to access your wordpress admin interface by appending `/wp-admin`to your selected URL.
 
-7. Add your website address to the class Box folder `DCI102-F19-data > Website Registry.boxnote`
 
-### Activity 5: Customize WordPress
+### Activity 1.6: Customize WordPress
 
 1. Change your theme by going to `Appearance > Themes`. Select an installed theme, or find a new one with the `Add New` button. Activate multiple themes to try them out!
 2. Check your comment settings in `Settings > Discussion` to make sure your classmates will be able to comment on your posts. 
@@ -162,8 +159,9 @@ When you opened your HTML files in your browser, you were viewing your files loc
 4. Before you start adding content to your site, play around with as many of the settings and features as possible. What do all the bells and whistles do? Add your own images or colors. This is *your* site!
 
 
-
-
-## Readings
-
 ## Resources 
+* [Domain of One's Own Documentation](http://digital.brynmawr.edu/docs/)
+* [HTML & CSS is Hard](https://www.internetingishard.com/html-and-css/)
+* [Reclaim Hosting Support](https://community.reclaimhosting.com/)
+* [W3 Schools HTML](https://www.w3schools.com/html/default.asp)
+* [W3 Schools CSS](https://www.w3schools.com/css/default.asp)

@@ -8,28 +8,37 @@ This class will meet on Zoom during its normally scheduled time: TR 4-5:30pm.
 # Week 1 - How the Web Works
 
 ## Tuesday, August 25, 2020
-* Getting to know you survey
-* Read [What is Humanities Data]() by class time. 
+* Getting to know you [survey](https://forms.gle/eW9Q2fUVxiJjgQHPA)
+* Read [What is Humanities Data](what-is-humanities-data.md) by class time. 
 * Class agenda:
-	* introductions + icebreaker
-	* course overview
-	* breakout rooms: course charter 
-	* setup + start activity 1
+	* introductions + icebreaker (4:30-4:45)
+	* course overview (4:45-5:00)
+	* breakout rooms: course charter (5:00-5:20)
+	* review charter together (5:20-5:40)
+	* go over activities for Thursday (5:40-6pm)
+
+**For Thursday**
+
+* Complete [Activity 1.1](../what-is-humanities-data/#activity-11). Nothing to turn in, just spent some time exploring and thinking.
+* Download [Sublime Text Editor](https://www.sublimetext.com/).
+* Read [How the Web Works](../how-the-web-works/) by class time. We will do the activities in class, but read through them so you're ready. 
+* Read [Digital_Humanities](https://web.archive.org/web/20180217210709/https://mitpress.mit.edu/sites/default/files/titles/content/9780262018470_Open_Access_Edition.pdf), chapter 1
 
 
 ## Thursday, August 27, 2020
-* Read [How the Web Works]() by class time.
+* How the Web Works!
 * Class agenda: 
-	* icebreaker:
-	* activities 2-4 together
+	* icebreaker (4:30-4:40)
+	* activity 1.1 sharing
+	* activities 1.2-1.6
 
 ## Activity log week 1
 **Due Monday 9/1 at 9am**
 
-1. Complete [Activities 1-3](how-the-web-works/#activities). In Canvas, submit the URL webpage that you have coded and uploaded to your domain. 
-2. Complete [Activities 4-5](how-the-web-works/#activities). In Canvas, submit the URL to your Wordpress site. There should be evidence that you have customized your Wordpress beyond the basic settings. 
+1. Complete [Activities 1.2, 1.3, 1.4](../how-the-web-works/#activities). In Canvas, submit the URL webpage that you have coded and uploaded to your domain. 
+2. Complete [Activities 1.5-1.6](../how-the-web-works/#activities). In Canvas, submit the URL to your Wordpress site. There should be evidence that you have customized your Wordpress beyond the basic settings. 
 3. Blog post #1. Respond to the following prompt in a 300-500 word blog post on your Wordpress. In Canvas, submit the URL the blog post. 
-	- Prompt: What brought you to this class? What is your current relationship with technology? Where do you see data in your coursework? Where do you see data in your daily life? What are your own goals for this course? What do you want to accomplish/learn/achieve?  
+	- Prompt: What brought you to this class? What is your current relationship with technology? Where do you see data in your coursework? Where do you see data in your daily life? What humanities subjects are particularly interesting to you? What are your own goals for this course? What do you want to accomplish/learn/achieve?  
 
 
 # Week 2 - Your Computer
@@ -38,7 +47,7 @@ This class will meet on Zoom during its normally scheduled time: TR 4-5:30pm.
 * Read [Your Computer](your-computer.md) by class time. 
 * Class agenda: 
 	* icebreaker:
-	* breakout groups: review websites in small groups
+	* breakout groups: review websites in small groups (4:40-5:00)
 		* First, share with your partner one realization you had while learning HTML/CSS. It can be technical like "don't forget that slash" or conceptual "I realized I need to read directions more closely."
     	* Second, visit each other's new website. Right click/Ctrl + Click to view page source.
     	* Proof your partner's code. Check their syntax.
@@ -46,31 +55,47 @@ This class will meet on Zoom during its normally scheduled time: TR 4-5:30pm.
         an iframe that embeds another website
         two div tags with different background colors (hint, you'll need to use a class or id)
     	* Be sure to upload your changes to your website.
-	* start Activity 1 together
+	* start [Activity 2.1](../your-computer/#activity-21) together.
+	* talk about Week 2 blog post 
 
+**For Thursday:**
+
+* Finish Activity 2.1 and 2.2 by class time.
 
 ## Thursday, September 3, 2020
-* Work through tutorials in Activity 2 by class time.
 * Class agenda:
-	* icebreaker:
-	* Introduce Final Project 
-	* Start Activity 3 together
+	* icebreaker: (4:30-4:40)
+	* Introduce Final Project (4:40-5:00)
+	* Start Activity 2.3 together (5:00-5:45)
+	* Questions??? (5:45-6:00)
 
 ## Activity log week 2
 **Due Monday 9/7 at 9am**
 
-1. Complete Activity 3. In Canvas, submit a document with your answers. It is more important that you show your process, thinking, and attempts than it is that you get everything right.
-2. Blog post #2: Respond to the following prompt in a 300-500 word blog post on your Wordpress. In Canvas, submit the URL the blog post.
-	- Prompt: How was the command line? What was hard about it? How did it change your conception of your computer? Where do you see the value in using it? Reflect on your feelings while learning this concept. When did you get frustrated? How did you overcome your frustration (or not)? How was your experience with the tutorials? Be specific about things like tone, length, images, tasks, etc. 
+1. Complete [Activity 2.3](../your-computer/#activity-23). In Canvas, submit a document with your answers. It is more important that you show your process, thinking, and attempts than it is that you get everything right.
+2. Blog post #2: Respond to the following prompt in a 500 word blog post on your Wordpress. In Canvas, submit the URL the blog post. Prompt:
+	- To help us conceptualize humanities data projects, let's look at a few more projects and the accompanying reviews. Scholarly articles and books are typically reviewed by other experts in the field. There are established procedures and venues for this kind of work, however DH projects do not always fit into those procedures. [Reviews in DH](https://reviewsindh.pubpub.org) is a new publication that "bridges the gap" by providing reviews of projects. For this blog post, you will explore and write about a project **before** reading the accompanying review, then read the review and see how your analysis lines up. 
+	- First, take a look at the [Review Content](https://reviewsindh.pubpub.org/review-process). 
+	- Next, select a project to review. The projects on this list have been selected to fit with the content of this course. Remember, don't read the review until you've written about the project yourself! 
+		- Project | Project Review
+		- Project | Project Review
+		- Project | Project Review
+		- Project | Project Review
+	- Write 200-300 on the project, using the *Reviews in DH* guidelines. Remember, you are not an expert yet, so you may not be able to address all aspects of the project.
+	- Now ready the accompanying review. What did you learn? How did it compare to your review? Write another 200-300 words on the differences in your reviews and the new concepts or approaches you learned. This blog is about process and learning! You are not expected to know everything already! I want to see how you are engaging with new material. 
 
 # Week 3 - Data
 
 ## Tuesday, September 8, 2020
 * Read the [Data](data.md) chapter by class time. 
 * Class agenda:
-	* icebreaker:
-	* Data! 
-	* Start Activity 1 together 
+	* icebreaker: (4:30-4:40)
+	* Activity 3.1 (4:40-5:00)
+	* Activity 3.2 (5-5:30)
+	
+**For Thursday:**	
+
+* Read [Big? Smart? Clean? Messy? Data in the Humanities](http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/)
 
 ## Thursday, September 10, 2020
 * Class agenda: 

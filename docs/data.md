@@ -236,7 +236,7 @@ It's not that much fun to read, but you're a human, not a computer. In this exam
 
 ## Activities
 
-### Activity 1
+### Activity 3.1
 In this activity, we'll assess a dataset according to the criteria we've learned about in this section. 
 
 1. Download the [LexingtonCemetery.csv](assets/LexingtonCemetery.csv) file. 
@@ -247,7 +247,7 @@ In this activity, we'll assess a dataset according to the criteria we've learned
 3. What do you see? Take some time to explore this data by scrolling around. Get a sense of what is here and what might be missing. It might help to take a look at the [cemetery website](https://sjcemetery.wlu.edu/) or to read [this press release](https://web.archive.org/web/20161109193310/http://news.blogs.wlu.edu/2013/02/11/wl-creates-website-for-stonewall-jackson-cemetery-census/). 
 4. In a separate document, start to draft a data model for this spreadsheet as you encounter it. Make note of the data types and formats, as well as suggestions for improvement. 
 
-### Activity 2
+### Activity 3.2
 Let's take Open Refine for a spin in order to clean up this data set. 
 
 1. Download [Open Refine](openrefine.org) and run the program. Follow the [installation instruction](https://github.com/OpenRefine/OpenRefine/wiki/Installation-Instructions) if you get stuck. It should open a new tab in your browser with the address `http://127.0.0.1:3333/`. This address is local to your computer. 
@@ -260,7 +260,7 @@ Let's take Open Refine for a spin in order to clean up this data set.
 	* Which columns need to be modified for consistency? 
 
 
-### Activity 3
+### Activity 3.3
 Time to take a little step back from this data set and think about its potential. Answer the following questions: 
 
 1. What cleanup work does this data need to be more usable? 
@@ -272,7 +272,7 @@ Time to take a little step back from this data set and think about its potential
 7. Bonus: visit the cemetery! How does experiencing it in person change your view of the data? Does everything match up? Do you observe other things that should be in this data? 
 
 
-### Activity 4 (or group activity in class?)
+### Activity 3.4 (or group activity in class?)
 Try your hand at creating your own dataset in a small group.  
 
 1. Start with the [Alumni Coeducation Correspondence, May 10, 1984 (report)](https://dspace.wlu.edu/handle/11021/34413) from the [W&L Digital Archive](https://repository.wlu.edu/).  Read over the report to get an understanding of what it is telling you.  What is this report covering?

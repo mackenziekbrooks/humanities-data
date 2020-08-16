@@ -73,9 +73,44 @@ Beyond technical skills, working with humanities data show you how to apply that
 ## What about digital humanities (DH)? 
 As you work through this coursebook, you will find references to "Digital Humanities" or DH. A lot of energy has been put into coming up with [definitions](https://whatisdigitalhumanities.com/) for the Digital Humanities, but the short version is: it's the intersection of the humanities and technology. It's an umbrella term created to help humanists understand what their disciplines look like in a technological world. It's a community of practice that values process, openness, and experimentation. Humanities data projects certainly fall within Digital Humanities, but not every DH project is a humanities project. At its worst, it's a gatekeeping term, used to weaken the confidence of those who aren't sure their work is DH enough. Some people believe that in the future, DH will just be the humanities, but until then, we have this label to organize around.
 
-
-# Readings
-
+## Activities
 
 
+### Activity 1.1 
+Let's take a look at two humanities data projects to get a sense what we're talking about. Spend a few minutes exploring each project, then come back and see if you can answer the following questions. It's okay if you're not quite sure what each question means, but give it your best shot. 
+
+Projects: 
+
+* Project 1: [Photogrammar](http://photogrammar.yale.edu/)
+* Project 2: [Robots Reading Vogue](https://dhlab.yale.edu/projects/vogue/)
+
+Questions: 
+
+* What is the goal of this project? Are there guiding research questions?
+* Who are authors? What are their affiliations and roles? Are students involved?
+* How was this project funded?
+* What is the source of the data?
+* How has the data been processed or modified for this project? 
+* What do the visualizations show? Are they interactive? 
+* What tools or technologies were used to build this project?
+* What was interesting about this project? What was confusing? 
+
+
+## Resources 
+* [Data Carpentry](https://datacarpentry.org/)
+* [The Digital Humanities Literacy Guidebook](https://cmu-lib.github.io/dhlg/)
+* [Digital Humanities Now](https://digitalhumanitiesnow.org/)
+* [The Historian's Macroscope: Big Digital History](http://www.themacroscope.org/?page_id=584)
+* [The Programming Historian](https://programminghistorian.org/)
+* [Propublica Data Institute](https://projects.propublica.org/graphics/ida-propublica-data-institute)
+* [School of Data Online Courses](https://schoolofdata.org/courses/)
+
+## Readings
+* [A Companion to Digital Humanities](http://digitalhumanities.org:3030/companion/view?docId=blackwell/9781405103213/9781405103213.xml&chunk.id=ss1-1-3&toc.depth=1&toc.id=ss1-1-3&brand=9781405103213_brand)
+* [Defining Data for Humanists: Text, Artifact, Information or Evidence?](http://journalofdigitalhumanities.org/1-1/defining-data-for-humanists-by-trevor-owens/)
+* [Digital_Humanities](https://web.archive.org/web/20180217210709/https://mitpress.mit.edu/sites/default/files/titles/content/9780262018470_Open_Access_Edition.pdf), chapter 1
+* [Humanities Aproaches to Graphical Display](http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html)
+* [Humanities Data: A Necessary Contradiction](https://miriamposner.com/blog/humanities-data-a-necessary-contradiction/)
+* [Technology Is Taking Over English Departments: The false promise of the digital humanities](https://newrepublic.com/article/117428/limits-digital-humanities-adam-kirsch)
+* [What is data?](https://schoolofdata.org/handbook/courses/what-is-data/)
 

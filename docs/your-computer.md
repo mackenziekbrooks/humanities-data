@@ -33,6 +33,7 @@ For Mac users:
 
 
 For Windows users: 
+
 * Search/open a program called `cmd.exe` or Powershell. 
 
 If you're using a Chromebook, or another device, you may not be able to participate in the command line activities, since the nature of your device limits access to your computer. 
@@ -57,7 +58,7 @@ Before we go any further, there is a key concept you must understand about how y
 
 All of the stuff on your computer, the documents, music, PDFs, videos, is organized into folders (also known as directories). Modern operating systems, especially on a Mac, as well as cloud-based storage like Google Drive or Box, obscure this fact. But it's essential to understanding the command line, working with data, and publishing content to the web. When you are issuing a command, or referencing a file, in any type of coding context, that action is being done with an awareness of the file structure, even if you personally don't realize it. 
 
-For example, when you wanted to insert a photo of a cute kitten into your webpage, the only way to make it work was if the image of the kitten was in the same folder as your HTML document. When you wrote `<img src="kittens.jpg">` you were giving the browser both the name of that file, as well as the path. If both the image and the HTML document were in the same folder, then the path was unnecessary. But say you created a folder for all your images, called "images," within the same folder as your HTML document. Now, your HTML might need to look like this `<img src="/images/kittens.jgp">`. 
+For example, when you wanted to insert a photo of a cute kitten into your webpage, the only way to make it work was if the image of the kitten was in the same folder as your HTML document. When you wrote `<img src="kittens.jpg">` you were giving the browser both the name of that file, as well as the path. If both the image and the HTML document were in the same folder, then the path was unnecessary. But say you created a folder for all your images, called "images," within the same folder as your HTML document. Now, your HTML might need to look like this `<img src="/images/kittens.jpg">`. 
 
 As humans, we rely on search functions frequently to deliver the files we're looking for. But code, as expressed through commands or HTML, doesn't have a built-in search function. And even if it did, it still might not know exactly which file you meant. You have to help the computer find its way to the file you are referring to. 
 
@@ -67,42 +68,43 @@ If you're looking real close, you might also notice that there are dashes in the
 
 ## Activities 
 
-There are a lot of existing tutorials for learning the command line, so we're not going to try to recreate that here. 
+There are many existing tutorials for learning the command line. The activities in this section will rely on those tutorials so you get a sense of the different types of materials out there for learning a new technology skill. Feel free to seek out videos on YouTube, LinkedIn Learning, or Code Academy if that's your style. 
 
-### Activity 1
+### Activity 2.1
 
 Work through [The Command Line Crash Course](https://learnrubythehardway.org/book/appendixa.html). This tutorial accommodates both Windows and Mac people. This tutorial is about brute force repetition, so just lean into that method of learning for right now. 
 
-### Activity 2
+### Activity 2.2
 
-[The Programming Historian](http://programminghistorian.org) is a wonderful website offering tutorials (in multiple languages!) on digital research methods in the humanities. They have two tutorials on the command line that are slightly more advanced than Activity 1. Work through the relevant tutorial for your operating system. 
+[The Programming Historian](http://programminghistorian.org) is a wonderful website offering tutorials (in multiple languages!) on digital research methods in the humanities. They have two tutorials on the command line that are slightly more advanced than Activity 2.1. Work through the relevant tutorial for your operating system. 
 
 Mac users: Intro to the Bash Command Line](http://programminghistorian.org/lessons/intro-to-bash) 
 
 Windows users: [Intro to Powershell](http://programminghistorian.org/lessons/intro-to-powershell) (This one gets pretty advanced, don't worry if you can't get all the way through.)
 
 
-### Activity 3
+### Activity 2.3
 
 In this activity, we'll apply our new command line skills to working with a corpus of textual data. While we're not quite ready to learn about text analysis, when we get there, we will need to have our data ready. You might notice I just threw some new words at you - "corpus" and "textual." Don't freak out, these are just specific words to refer a collection (corpus) of textual (not numbers) data. Instead of a spreadsheet with rows and columns, we'll be working with individual documents groups together into folders. I am purposely giving you a kind of messy, but very much real, dataset to explore. It's okay if you get confused, but try to use these new commands 
 
 1. Download this zip file and save it to your Desktop. 
 2. Unzip the file by double clicking or using an Extract All option. A zip file is a compression method for bundling up a lot of folders into one so it's easy to share. 
 3. Open the command line shell, and navigate to the folder you just downloaded. 
-4. Use `pwd` `cd` and `ls` to navigate through the TesseractOCR folder.
+4. Use `pwd` `cd` and `ls` to navigate through the RTP-1980s folder.
 5. Can you mirror these action using your mouse and the Finder/Windows Explorer window? What are the differences? 
 6. In a new document, answer the following questions:
 	* What is the basic file structure of the data set as you have received it? What about the file names? * What are the patterns? Where (or when) do the patterns change?
     * What is the granularity (of the text files? Does each file contain one page? Issue? Reel? Volume? Year?
     * Use cat to read a file. Find the manual for cat. What else can you do with this command?
     * What happens when you type `ls *.2.txt`?
-    * Can you figure out how to list all the file names in TesseractOCR and send them to a text file?
+    * Can you figure out how to list all the file names in RTP-1980s and send them to a text file?
     * Last step: type history and paste your command history into the text file.
 
 
 
 ## Resources
-* [Sourcecaster](https://datapraxis.github.io/sourcecaster/) by Thomas Padilla and James Baker. This site has example scripts for performing common tasks with files.
 * [ExplainShell](https://explainshell.com/). Paste in a command and receive a definition. 
+* [Sourcecaster](https://datapraxis.github.io/sourcecaster/) by Thomas Padilla and James Baker. This site has example scripts for performing common tasks with files.
+
 
 
