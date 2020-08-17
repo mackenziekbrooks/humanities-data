@@ -100,9 +100,8 @@ Theme by GitBook
 <li><a href="#network-data">Network data</a></li>
 <li><a href="#tools">Tools</a></li>
 <li><a href="#activities">Activities</a><ul>
-<li><a href="#activity-1">Activity 1</a></li>
-<li><a href="#activity-2">Activity 2</a></li>
-<li><a href="#activity-3">Activity 3</a></li>
+<li><a href="#activity-41">Activity 4.1</a></li>
+<li><a href="#activity-42">Activity 4.2</a></li>
 </ul>
 </li>
 <li><a href="#resources">Resources</a></li>
@@ -121,19 +120,19 @@ Theme by GitBook
 <p>Let's take a moment to define some of the terms you'll encounter in network analysis. </p>
 <ul>
 <li>
-<p>Nodes/points/agents/vertices - All of these words refer to the points on your network graph. </p>
+<p>Nodes/points/agents/vertices - All of these words refer to the points on your network graph. If you're doing social network analysis, the points are the people in your graph. </p>
 </li>
 <li>
-<p>Edges/ties - Refers to the connections between nodes. Edges can be weighted (stronger or weaker edges) or directional (some relationships are mutual, some are not).</p>
+<p>Edges/ties - Refers to the connections between nodes, usually represented by lines between points. Edges can be weighted (stronger or weaker edges) or directional (some relationships are mutual, some are not). The line could be drawn thin or thick based on the weight, or with an arrow to signify direction. The connection between you and your roommate might have a strong weight for example. If you follow a celebrity on Twitter, but they don't follow you back, we can imagine that as a relationship with a single direction. </p>
 </li>
 <li>
-<p>Centrality - the more connections a node has, the more central they are to the network. You can measure centrality in different ways, such as betweenness (the shortest distance between nodes) or eigenvector (way to measure influence in a network).</p>
+<p>Centrality - the more connections a node has, the more central they are to the network. You can measure centrality in different ways, such as betweenness (the shortest distance between nodes) or eigenvector (way to measure influence in a network). Think about your friends. The person who seems to know everyone might not be the same as the person who can spread information effectively, or to far off parts of the network. </p>
 </li>
 <li>
 <p>Attributes - Information about your nodes. If your network contains people, attributes might be their age, birth dates, affiliation, occupation, etc. </p>
 </li>
 <li>
-<p>Bimodal or multi-modal - a network in which more than one type of thing is being connected. Authors to their books, or people to places. </p>
+<p>Bimodal or multi-modal - a network in which more than one type of thing is being connected. While a unimodal network might connect people to people, a bimodal network looks at authors and their books, or people to places. Scott Weingart has more to say about <a href="http://www.scottbot.net/HIAL/index.html@p=41158.html">bimodal networks</a>.</p>
 </li>
 </ul>
 <h2 id="network-data">Network data<a class="headerlink" href="#network-data" title="Permanent link">#</a></h2>
@@ -286,16 +285,21 @@ Kevin Bacon, Laurence Fishburne,
 </li>
 </ul>
 <h2 id="activities">Activities<a class="headerlink" href="#activities" title="Permanent link">#</a></h2>
-<h3 id="activity-1">Activity 1<a class="headerlink" href="#activity-1" title="Permanent link">#</a></h3>
+<h3 id="activity-41">Activity 4.1<a class="headerlink" href="#activity-41" title="Permanent link">#</a></h3>
 <p>In order to practice using the terminology and methods of network analysis, let's design a network from scratch. 
 1. In your group, select a topic for your network. It should be approachable for all members of your group. Game of Thrones? W&amp;L students? Sports? A novel or TV show?
 2. List all the nodes in your network. Do they have types? Do they have attributes? Is this a bi-modal or multi-modal network?
 3. Start making connections or edges in your network. What type of edges do you need? Do the edges have a weight?
 4. Think about centrality. Do you have an ego network? How might you start calculating centrality?</p>
-<h3 id="activity-2">Activity 2<a class="headerlink" href="#activity-2" title="Permanent link">#</a></h3>
-<p>Data set to Palladio</p>
-<h3 id="activity-3">Activity 3<a class="headerlink" href="#activity-3" title="Permanent link">#</a></h3>
-<p>Try to learn about another platform... </p>
+<h3 id="activity-42">Activity 4.2<a class="headerlink" href="#activity-42" title="Permanent link">#</a></h3>
+<p>Let's practice putting together a network visualization from our trusty cemetery dataset. </p>
+<ol>
+<li>First, what are our questions? Who are the people in our data set? What networks should try to explore? </li>
+<li>Next, we need an edge list. We know that this is a two column spreadsheet, what belongs in each column?</li>
+<li>Go ahead and put some data together. This is a big data set, so we'll have to start somewhere. </li>
+<li>Upload your data into <a href="https://hdlab.stanford.edu/palladio/">Palladio</a> and create your network.</li>
+<li>What worked? What didn't? </li>
+</ol>
 <h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">#</a></h2>
 <ul>
 <li><a href="http://miriamposner.com/dh101f15/index.php/creating-a-network-graph-with-gephi/">Creating a Network Graph with Gephi</a> - Miriam Posner</li>
