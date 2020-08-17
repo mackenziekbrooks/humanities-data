@@ -78,26 +78,30 @@ If you're not sure how to answer these questions, why not skip ahead to visualiz
 
 You may determine that your project or your constraints require that you find existing data sources. That's great! You're reusing existing information in new ways! But it can be a struggle to find the exact data set you're looking for. There is not one single catalog of data that you can use to find what you're looking for. You may have to combine pieces of multiple data sets. Alternatively, you may not have access or be legally allowed to use the data you're seeking. It's another reason to identify other scholars working on similar topic, you may be able to ask advice or find guidance. 
 
-Places to look  
+Places to look: 
+
+* 
 
 
 ## Analyzing your data 
 
-Okay, let's say you have put together a respectable data set that you think addresses your goals. What next? Throughout this coursebook, we have explored a range of analysis methods. Your research questions should help you determine the method or methods that make sense. 
+Okay, let's say you have put together a respectable data set that you think addresses your goals. What next? Throughout this coursebook, we have explored a range of analysis methods. Your research questions should help you determine the method or methods that make sense. But once you start using a method or visualizing your data, how do you know when you're getting answers? Here are some things to keep in mind: 
+
+* Know your material. It's up to you and your understanding of your subject to determine what matters. If you've generated a network graph, but you don't know much about the major players, you're going to struggle. Let your visualizations inspire you to dig back into research topics. 
+
+* Set benchmarks. Running a process once or creating one visualization isn't enough. Perform your analysis methods over and over so you have a sense of what is normal vs. extreme. You might also find errors in your data this way. If you're interested in how often the word "love" is used over time, you might want to try synonyms of that word. Do all words behave the same way? What are the trends over time? Is that actually a unique line on your graph? 
+
+* Remember your discipline. Positioning your work within a discipline is not an arbitrary decision. It gives you standards and priorities for your work. A literary scholar is going to approach a text differently than a historian. They're going to care about different questions. If you're a historian, you might be intrigued by the use of literary symbolism in a text, but know that you have to focus on the historical elements, not the style. Read the literature of the discipline and review other projects to get a sense of how their analysis works. 
+
 
 ## Case study: Spanish Gallery
-To pull this all together, let's walk through a case study of a project from a former student, Alice. Alice is an art history major with some experience in digital methods from other classes and her work on a DH project. In one of her classes, she learns about the [Spanish Gallery](https://en.wikipedia.org/wiki/Spanish_gallery). The Spanish Gallery was assembled at the Louvre by King Louis Phillipe in 1838 to showcase Spanish art during a time of French occupation of Spain. After his death, the gallery was sent to auction in London and dispersed into private hands. Alice wonders what happened to these paintings after the auction, as well as their origins in Spain. She imagines what the gallery might have looked like all assembled. In reading the Wikipedia article, she notices a link to the [digital copy](https://archive.org/stream/galerieespagnole00muse#page/n3/mode/2up) of the gallery catalog from 1838. She recognizes these catalog as a potential source of data, especially when combined with her knowledge of searching auction records. The catalog is arranged in alphabetical order by artist, with a brief bio, then a list of the paintings and their dimensions. Alice sees that the digital book is available to download as plain text, which will make it easier to work with. She also notices that the text isn't quite perfect, so she will need to budget time for correction. Not to mention it's all in French! Finally, there appear to be annotations in pencil on the pages, so that may be something to look into. 
+To pull this all together, let's walk through a case study of a project from a former student, Alice. Alice is an art history major with some experience in digital methods from other classes and her work on a DH project. In one of her classes, she learns about the [Spanish Gallery](https://en.wikipedia.org/wiki/Spanish_gallery). The Spanish Gallery was assembled at the Louvre by King Louis Phillipe in 1838 to showcase Spanish art during a time of French occupation of Spain. After his death, the gallery was sent to auction in London and dispersed into private hands. Alice wonders what happened to these paintings after the auction, as well as their origins in Spain. She imagines what the gallery might have looked like all assembled, similar to a project she put together on [Boydell's Shakespeare Gallery](https://storymaps.arcgis.com/stories/2c1c547f34364c79854541e474070bab). In reading the Wikipedia article, she notices a link to the [digital copy](https://archive.org/stream/galerieespagnole00muse#page/n3/mode/2up) of the gallery catalog from 1838. She recognizes these catalog as a potential source of data, especially when combined with her knowledge of searching auction records. The catalog is arranged in alphabetical order by artist, with a brief bio, then a list of the paintings and their dimensions. Alice sees that the digital book is available to download as plain text, which will make it easier to work with. She also notices that the text isn't quite perfect, so she will need to budget time for correction. Not to mention it's all in French! Finally, there appear to be annotations in pencil on the pages, so that may be something to look into. 
 
 Alice opens Google Sheets and gets to work on this [spreadsheet](https://docs.google.com/spreadsheets/d/1FcP-rv8Nt9v3LDgkYj8C5UmfO06jCkX9JsfHiQTqA8c/edit?usp=sharing). The catalog has assigned each painting a number, so she uses that as an ID field. The *thing* that is being described in each row is the painting, with the artist, bio, size, location modifying that painting. After starting that work, she realizes that it's repetitive to include the art information multiple times, so she creates a second sheet that is just a list of the artists and their information. She cleverly uses a built-in translation feature in Google sheets to translate the French to English for the whole column, rather than doing it one by one: `=GOOGLETRANSLATE(B2, "fr", "en")`. 
 
 Alice can't help but start researching the modern locations of these pieces of art. She finds that this work is going to be more challenging than she anticipated, so she creates another sheet to separate this work into a second phase of the project. There just aren't enough accessible records for each piece of work. Phase 1 will have to be about creating data on the gallery itself, Phase 2 will concern the auction and dispersal of the art. Similarly, finding the original locations of the art may be challenging too, since the catalog only lists where the artist was from. She knows another student who has used Google Street View and tourist websites to confirm the location of shrines in Spain. She supposes that's Phase 3! 
 
-Alice's project is still in progress. 
+Alice's project is still in progress, but hopefully this example gave you an idea of how a project like this can change as it progresses. 
 
-
-1. Project proposal
-2. Data model
-3. Data visualization
-4. Results
-5. Reflection
+## Resources 
 

@@ -101,9 +101,9 @@ Theme by GitBook
 <li><a href="#syntax">Syntax</a></li>
 <li><a href="#file-structures">File Structures</a></li>
 <li><a href="#activities">Activities</a><ul>
-<li><a href="#activity-1">Activity 1</a></li>
-<li><a href="#activity-2">Activity 2</a></li>
-<li><a href="#activity-3">Activity 3</a></li>
+<li><a href="#activity-21">Activity 2.1</a></li>
+<li><a href="#activity-22">Activity 2.2</a></li>
+<li><a href="#activity-23">Activity 2.3</a></li>
 </ul>
 </li>
 <li><a href="#resources">Resources</a></li>
@@ -127,8 +127,10 @@ Theme by GitBook
 <li>Typing in this program is a little different than typing in a document. You cannot use your mouse to click into text and change what is written. Pretend you're working at an old school computer where there is no mouse. If you want to change what you've written, use the arrow keys or backspace to navigate. </li>
 <li>Type in the letters <code>pwd</code>. No spaces, no capitalization. Hit enter. This command stands for "print working directory" and tell us where we are in the file structure. Confused yet? Scroll down to the next section for more context.</li>
 </ul>
-<p>For Windows users: 
-* Search/open a program called <code>cmd.exe</code> or Powershell. </p>
+<p>For Windows users: </p>
+<ul>
+<li>Search/open a program called <code>cmd.exe</code> or Powershell. </li>
+</ul>
 <p>If you're using a Chromebook, or another device, you may not be able to participate in the command line activities, since the nature of your device limits access to your computer. </p>
 <h2 id="syntax">Syntax<a class="headerlink" href="#syntax" title="Permanent link">#</a></h2>
 <p>Just as we learned the unique syntaxes for HTML and CSS, issuing commands in the command line requires a new syntax. Here's the basic format:</p>
@@ -140,40 +142,40 @@ Theme by GitBook
 <h2 id="file-structures">File Structures<a class="headerlink" href="#file-structures" title="Permanent link">#</a></h2>
 <p>Before we go any further, there is a key concept you must understand about how your computer stores information. </p>
 <p>All of the stuff on your computer, the documents, music, PDFs, videos, is organized into folders (also known as directories). Modern operating systems, especially on a Mac, as well as cloud-based storage like Google Drive or Box, obscure this fact. But it's essential to understanding the command line, working with data, and publishing content to the web. When you are issuing a command, or referencing a file, in any type of coding context, that action is being done with an awareness of the file structure, even if you personally don't realize it. </p>
-<p>For example, when you wanted to insert a photo of a cute kitten into your webpage, the only way to make it work was if the image of the kitten was in the same folder as your HTML document. When you wrote <code>&lt;img src="kittens.jpg"&gt;</code> you were giving the browser both the name of that file, as well as the path. If both the image and the HTML document were in the same folder, then the path was unnecessary. But say you created a folder for all your images, called "images," within the same folder as your HTML document. Now, your HTML might need to look like this <code>&lt;img src="/images/kittens.jgp"&gt;</code>. </p>
+<p>For example, when you wanted to insert a photo of a cute kitten into your webpage, the only way to make it work was if the image of the kitten was in the same folder as your HTML document. When you wrote <code>&lt;img src="kittens.jpg"&gt;</code> you were giving the browser both the name of that file, as well as the path. If both the image and the HTML document were in the same folder, then the path was unnecessary. But say you created a folder for all your images, called "images," within the same folder as your HTML document. Now, your HTML might need to look like this <code>&lt;img src="/images/kittens.jpg"&gt;</code>. </p>
 <p>As humans, we rely on search functions frequently to deliver the files we're looking for. But code, as expressed through commands or HTML, doesn't have a built-in search function. And even if it did, it still might not know exactly which file you meant. You have to help the computer find its way to the file you are referring to. </p>
 <p>If you recall from the previous section, websites are just made up of files and folders too. When you upload something to Web, it is being added to a folder on someone else's server. Have you ever looked at a URL up close? Some browsers, like Safari, will try to hide it from you. But if look closely, you should see the directory structure at work. In this URL, "faculty-and-staff" is a subdirectory of "english-department" <code>https://my.wlu.edu/english-department/faculty-and-staff</code>. </p>
 <p>If you're looking real close, you might also notice that there are dashes in the folder/directory names. This is another important lesson! Browsers and computers have a hard time with spaces. It doesn't necessary behave the same way a character like a letter or a number does. Browsers will often replace a space with the characters <code>%20</code>. It's best practice to avoid using spaces in your file names. I know your computer lets you name things with spaces, but it will save you a lot of headaches if you avoid them. Use dashes, underscores, or something called camelCase where the second word is capitalized to set it apart.</p>
 <h2 id="activities">Activities<a class="headerlink" href="#activities" title="Permanent link">#</a></h2>
-<p>There are a lot of existing tutorials for learning the command line, so we're not going to try to recreate that here. </p>
-<h3 id="activity-1">Activity 1<a class="headerlink" href="#activity-1" title="Permanent link">#</a></h3>
+<p>There are many existing tutorials for learning the command line. The activities in this section will rely on those tutorials so you get a sense of the different types of materials out there for learning a new technology skill. Feel free to seek out videos on YouTube, LinkedIn Learning, or Code Academy if that's your style. </p>
+<h3 id="activity-21">Activity 2.1<a class="headerlink" href="#activity-21" title="Permanent link">#</a></h3>
 <p>Work through <a href="https://learnrubythehardway.org/book/appendixa.html">The Command Line Crash Course</a>. This tutorial accommodates both Windows and Mac people. This tutorial is about brute force repetition, so just lean into that method of learning for right now. </p>
-<h3 id="activity-2">Activity 2<a class="headerlink" href="#activity-2" title="Permanent link">#</a></h3>
-<p><a href="http://programminghistorian.org">The Programming Historian</a> is a wonderful website offering tutorials (in multiple languages!) on digital research methods in the humanities. They have two tutorials on the command line that are slightly more advanced than Activity 1. Work through the relevant tutorial for your operating system. </p>
+<h3 id="activity-22">Activity 2.2<a class="headerlink" href="#activity-22" title="Permanent link">#</a></h3>
+<p><a href="http://programminghistorian.org">The Programming Historian</a> is a wonderful website offering tutorials (in multiple languages!) on digital research methods in the humanities. They have two tutorials on the command line that are slightly more advanced than Activity 2.1. Work through the relevant tutorial for your operating system. </p>
 <p>Mac users: Intro to the Bash Command Line](http://programminghistorian.org/lessons/intro-to-bash) </p>
 <p>Windows users: <a href="http://programminghistorian.org/lessons/intro-to-powershell">Intro to Powershell</a> (This one gets pretty advanced, don't worry if you can't get all the way through.)</p>
-<h3 id="activity-3">Activity 3<a class="headerlink" href="#activity-3" title="Permanent link">#</a></h3>
+<h3 id="activity-23">Activity 2.3<a class="headerlink" href="#activity-23" title="Permanent link">#</a></h3>
 <p>In this activity, we'll apply our new command line skills to working with a corpus of textual data. While we're not quite ready to learn about text analysis, when we get there, we will need to have our data ready. You might notice I just threw some new words at you - "corpus" and "textual." Don't freak out, these are just specific words to refer a collection (corpus) of textual (not numbers) data. Instead of a spreadsheet with rows and columns, we'll be working with individual documents groups together into folders. I am purposely giving you a kind of messy, but very much real, dataset to explore. It's okay if you get confused, but try to use these new commands </p>
 <ol>
 <li>Download this zip file and save it to your Desktop. </li>
 <li>Unzip the file by double clicking or using an Extract All option. A zip file is a compression method for bundling up a lot of folders into one so it's easy to share. </li>
 <li>Open the command line shell, and navigate to the folder you just downloaded. </li>
-<li>Use <code>pwd</code> <code>cd</code> and <code>ls</code> to navigate through the TesseractOCR folder.</li>
+<li>Use <code>pwd</code> <code>cd</code> and <code>ls</code> to navigate through the RTP-1980s folder.</li>
 <li>Can you mirror these action using your mouse and the Finder/Windows Explorer window? What are the differences? </li>
 <li>In a new document, answer the following questions:<ul>
 <li>What is the basic file structure of the data set as you have received it? What about the file names? * What are the patterns? Where (or when) do the patterns change?</li>
 <li>What is the granularity (of the text files? Does each file contain one page? Issue? Reel? Volume? Year?</li>
 <li>Use cat to read a file. Find the manual for cat. What else can you do with this command?</li>
 <li>What happens when you type <code>ls *.2.txt</code>?</li>
-<li>Can you figure out how to list all the file names in TesseractOCR and send them to a text file?</li>
+<li>Can you figure out how to list all the file names in RTP-1980s and send them to a text file?</li>
 <li>Last step: type history and paste your command history into the text file.</li>
 </ul>
 </li>
 </ol>
 <h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">#</a></h2>
 <ul>
-<li><a href="https://datapraxis.github.io/sourcecaster/">Sourcecaster</a> by Thomas Padilla and James Baker. This site has example scripts for performing common tasks with files.</li>
 <li><a href="https://explainshell.com/">ExplainShell</a>. Paste in a command and receive a definition. </li>
+<li><a href="https://datapraxis.github.io/sourcecaster/">Sourcecaster</a> by Thomas Padilla and James Baker. This site has example scripts for performing common tasks with files.</li>
 </ul>
 
 
