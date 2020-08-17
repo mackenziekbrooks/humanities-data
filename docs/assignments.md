@@ -65,8 +65,8 @@ Once you've proposed your project, it's time to get working with your data! This
 * No word count requirement, but it should be longer than one page. The more detail the better! 
 * Posted to your website in a designated project section. Turn in the link to this page on Canvas.
 * Contains X pieces: 
-	* Part 1: Data Model - In this document, you will list all the fields you will be using in your dataset, the format and type of those fields, and the source of the data for those fields. If your project involves a text corpus, you should list the scope and rationale of your corpus, as well as the source of the data. 
-	* Part 2: Data Plan - Describe your process for creating this data set according to your model.  
+	* Part 1: Data Model - In this document, you will identify the structure of your data, list all the fields you will be using in your dataset, the format and type of those fields, and the source of the data for those fields. If your project involves a text corpus, you should list the scope and rationale of your corpus, as well as the source of the data. 
+	* Part 2: Data Plan - Describe your process for creating this data set according to your model. Will you be transcribing from a book? Copying from multiple sources? Is there data to be cleaned or transformed? OCR to be done? 
 	* Part 3: Data License - Under what license will you release this data? How are you crediting your sources? How should others cite your work? 
 
 
@@ -109,5 +109,5 @@ No project is complete without time taken to reflect on its successes and lesson
 	* How has your relationship with technology changed? What about your conception of data?
 	* If you could do it all again, what would you do differently?
 	* How can you apply the skills of this course in future courses or non-academic endeavors? 
-	* 
+
 

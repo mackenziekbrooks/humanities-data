@@ -90,60 +90,85 @@ This class will meet on Zoom during its normally scheduled time: TR 4-5:30pm.
 * Read the [Data](data.md) chapter by class time. 
 * Class agenda:
 	* icebreaker: (4:30-4:40)
-	* Activity 3.1 (4:40-5:00)
-	* Activity 3.2 (5-5:30)
+	* Activity 3.1 (4:40-5:10)
+	* Activity 3.2 (5:10-5:40)
+	* Activity 3.3 (5:40-6:00)
 	
 **For Thursday:**	
 
+* Read through Activithy 3.4, including the report to prepare for our in-class activity.
+* Read over the [Process](process.md) section and bring questions. 
 * Read [Big? Smart? Clean? Messy? Data in the Humanities](http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/)
 
 ## Thursday, September 10, 2020
 * Class agenda: 
-	* icebreaker:
-	* Activity 2 
+	* icebreaker: (4:30-4:40)
+	* Project Q&A (4:40-4:50)
+	* Activity 3.4 (4:50-6:00)
 
 
 ## Activity log week 3
 **Due Monday 9/14 at 9am**
-1. Submit your notes from Activities 1 and 2 via a document in Canvas.
-2. Blog post #3: Answer the questions in Activity 3 in a 300-500 word post on your Wordpress. Submit the URL in Canvas. 
+
+1. Submit your answers from Activities 3.3 via a document in Canvas.  
+2. Blog post #3: Respond to the following prompt in 300-500 words. Time to start thinking about your project! You will conduct this project on your own, though we'll have plenty of opportunities for peer review and feedback. You will choose your topic, so it's time to start brainstorming. What types of humanities-based topics do you find compelling? What subjects are you interested in school and out of school? What might make a good data-driven topic? Maybe you've always wanted to see a map from a particular historical event, or analyze the word choice of a favorite author. 
 
 # Week 4 - Visualization 
 
 ## Tuesday, September 15, 2020
 * Read [Visualization](visualization.md) by class time.
+* [Data + Design: A simple introduction to preparing and visualizing information](https://orm-atlas2-prod.s3.amazonaws.com/pdf/13a07b19e01a397d8855c0463d52f454.pdf)
+* Go out into the wilds of the internet and find a data visualization that speaks to you to prepare for Activity 4.2. 
 * Class agenda:
 	* icebreaker:
-	* Activity 1. We'll use breakout rooms to compare notes. 
+	* Activity 4.1. (4:40-5:10)
+	* Activity 4.2 (5:10-6pm)
+
+**For Thursday** 
+
+* Prepare Coeducation report CSV. 
+* [The Historian's Macroscope - Making Your Data Legible: A Basic Introduction to Visualizations](http://www.themacroscope.org/?page_id=837) and subsequent sections
 
 ## Thursday, September 17, 2020
-* Read ...
 * Class agenda:
 	* icebreaker:
-	* Activity 2 
+	* Activity 4.3
 
 ## Activity log week 4
+
 **Due Monday 9/21 at 9am**
-1. Submit document created by Activity 1 in Canvas. 
+
+1. Submit document created by Activity 4.1 in Canvas. 
 2. Submit URL of post of Activity 2 in Canvas.
-3. Blog post #4: Respond to the following prompt in a 300-500 word blog post on your Wordpress. In Canvas, submit the URL the blog post.
-	- 
+3. Blog post #4: Your blog post this week will be the results of Activity 4.3. 
 
 # Week 5 - Network Analysis 
 
 ## Tuesday, September 22, 2020
-* Read ...
+* Read [Network](network.md) by class time. 
+* Read [Demystifying Networks](http://www.scottbot.net/HIAL/index.html@p=6279.html)
 * Class agenda:
 	* icebreaker:
+	* Activity 5.1 in breakout rooms (4:40-5:20)
+	* 
 
 
 ## Thursday, September 24, 2020
-* Read ...
+* Read the first few sections of the [Process](../process/#picking-a-topic) chapter again.
 * Class agenda:
 	* icebreaker:
+	* Activity 5.2
+	* Talk about blog post 
 
 ## Activity log week 5
+
 **Due Monday 9/28 at 9am**
+
+1. Spend some more time with the data and networks of Activity 5.2 Upload one to your website with 150-300 words on what worked and what didn't. What else do you need to know about the people in this network? How would you find out? 
+2. Blog post #5: Let's continue practicing our skills reviewing established projects. In 400-500 words, write a review of one of the following projects using the criteria from Reviews in DH. 
+	* 
+	* 
+
 
 # Week 6 - Spatial Analysis
 

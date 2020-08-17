@@ -51,6 +51,7 @@ Hopefully, if you've read other sections of this coursebook, you have an idea of
 
 At this point, you should be at a place where you can write a proposal for your project. You know the types of things you want to do, the questions you want to explore, even if you don't have the answers yet. 
 
+If you're still stuck, try this flow chart from The Pudding on [Writing a Data-Driven Story](https://pudding.cool/process/pivot-continue-down/)
 
 ## Research Questions and Data Modeling
 

@@ -19,15 +19,15 @@ That being said, network visualizations can be a great place to start. They can 
 ## Nodes, edges, ties, what?
 Let's take a moment to define some of the terms you'll encounter in network analysis. 
 
-* Nodes/points/agents/vertices - All of these words refer to the points on your network graph. 
+* Nodes/points/agents/vertices - All of these words refer to the points on your network graph. If you're doing social network analysis, the points are the people in your graph. 
 
-* Edges/ties - Refers to the connections between nodes. Edges can be weighted (stronger or weaker edges) or directional (some relationships are mutual, some are not).
+* Edges/ties - Refers to the connections between nodes, usually represented by lines between points. Edges can be weighted (stronger or weaker edges) or directional (some relationships are mutual, some are not). The line could be drawn thin or thick based on the weight, or with an arrow to signify direction. The connection between you and your roommate might have a strong weight for example. If you follow a celebrity on Twitter, but they don't follow you back, we can imagine that as a relationship with a single direction. 
 
-* Centrality - the more connections a node has, the more central they are to the network. You can measure centrality in different ways, such as betweenness (the shortest distance between nodes) or eigenvector (way to measure influence in a network).
+* Centrality - the more connections a node has, the more central they are to the network. You can measure centrality in different ways, such as betweenness (the shortest distance between nodes) or eigenvector (way to measure influence in a network). Think about your friends. The person who seems to know everyone might not be the same as the person who can spread information effectively, or to far off parts of the network. 
 
 * Attributes - Information about your nodes. If your network contains people, attributes might be their age, birth dates, affiliation, occupation, etc. 
 
-* Bimodal or multi-modal - a network in which more than one type of thing is being connected. Authors to their books, or people to places. 
+* Bimodal or multi-modal - a network in which more than one type of thing is being connected. While a unimodal network might connect people to people, a bimodal network looks at authors and their books, or people to places. Scott Weingart has more to say about [bimodal networks](http://www.scottbot.net/HIAL/index.html@p=41158.html).
 
 ## Network data 
 To visualize your network, you need to set up your data is particular way. This might vary depending on the software you use, but it's a good place to start: 
@@ -102,7 +102,7 @@ To generate a network, visit the `Graph` tab. Use the menu on the right of the s
 
 ## Activities
 
-### Activity 1 
+### Activity 4.1 
 
 In order to practice using the terminology and methods of network analysis, let's design a network from scratch. 
 1. In your group, select a topic for your network. It should be approachable for all members of your group. Game of Thrones? W&L students? Sports? A novel or TV show?
@@ -111,11 +111,15 @@ In order to practice using the terminology and methods of network analysis, let'
 4. Think about centrality. Do you have an ego network? How might you start calculating centrality?
 
 
-### Activity 2
-Data set to Palladio
+### Activity 4.2
 
-### Activity 3
-Try to learn about another platform... 
+Let's practice putting together a network visualization from our trusty cemetery dataset. 
+
+1. First, what are our questions? Who are the people in our data set? What networks should try to explore? 
+2. Next, we need an edge list. We know that this is a two column spreadsheet, what belongs in each column?
+3. Go ahead and put some data together. This is a big data set, so we'll have to start somewhere. 
+4. Upload your data into [Palladio](https://hdlab.stanford.edu/palladio/) and create your network.
+5. What worked? What didn't? 
 
 
 
