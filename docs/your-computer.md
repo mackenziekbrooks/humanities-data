@@ -78,7 +78,7 @@ Work through [The Command Line Crash Course](https://learnrubythehardway.org/boo
 
 [The Programming Historian](http://programminghistorian.org) is a wonderful website offering tutorials (in multiple languages!) on digital research methods in the humanities. They have two tutorials on the command line that are slightly more advanced than Activity 2.1. Work through the relevant tutorial for your operating system. 
 
-Mac users: Intro to the Bash Command Line](http://programminghistorian.org/lessons/intro-to-bash) 
+Mac users: [Intro to the Bash Command Line](http://programminghistorian.org/lessons/intro-to-bash) 
 
 Windows users: [Intro to Powershell](http://programminghistorian.org/lessons/intro-to-powershell) (This one gets pretty advanced, don't worry if you can't get all the way through.)
 

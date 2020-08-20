@@ -102,16 +102,17 @@ To generate a network, visit the `Graph` tab. Use the menu on the right of the s
 
 ## Activities
 
-### Activity 4.1 
+### Activity 5.1 
 
 In order to practice using the terminology and methods of network analysis, let's design a network from scratch. 
+
 1. In your group, select a topic for your network. It should be approachable for all members of your group. Game of Thrones? W&L students? Sports? A novel or TV show?
 2. List all the nodes in your network. Do they have types? Do they have attributes? Is this a bi-modal or multi-modal network?
 3. Start making connections or edges in your network. What type of edges do you need? Do the edges have a weight?
 4. Think about centrality. Do you have an ego network? How might you start calculating centrality?
 
 
-### Activity 4.2
+### Activity 5.2
 
 Let's practice putting together a network visualization from our trusty cemetery dataset. 
 
