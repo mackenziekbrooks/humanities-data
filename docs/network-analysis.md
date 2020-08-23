@@ -121,12 +121,14 @@ Let's continue practicing our skills reviewing established projects. Instead of 
 * [Linked Jazz](https://linkedjazz.org/)
 * [Viral Texts](https://viraltexts.org/)
 
-During class, we'll divide into groups to discus the project you chose. 
+During class, we'll divide into groups to discuss the project you chose. 
 
 1. What is this project about? What are the goals?
 2. Where is the data? 
-3. How effective are the network visualizations? Why do you say that?
-4. 
+3. How is this a humanities project?
+4. How effective are the network visualizations? Why do you say that?
+5. What about the design, layout, and organization of the project? 
+
 
 ### Activity 5.3
 
