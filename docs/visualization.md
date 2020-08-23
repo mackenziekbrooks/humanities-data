@@ -72,7 +72,7 @@ If you're just starting out, use Excel or Google Sheets to get comfortable. If y
 
 ## Activities
 
-### Activity 4.1
+### Activity 5.1
 
 Before you start making your own visualizations, let's practice improving on existing visualizations. 
 
@@ -81,7 +81,7 @@ Before you start making your own visualizations, let's practice improving on exi
 3. Make a list of what's wrong with the visualization. Be specific! What was the goal of the visualization? How has it failed to meet that goal? 
 4. How can this visualization be improved? Be specific! 
 
-### Activity 4.2
+### Activity 5.2
 
 Let's also make sure you can think critically about professional visualizations that are designed to persuade.
 
@@ -91,7 +91,7 @@ Let's also make sure you can think critically about professional visualizations 
 4. Can you attempt to recreate the visualization? Or make a better version?  
 
 
-### Activity 4.3
+### Activity 5.3
 
 Now it's time to try your hand at creating your own visualization. You may use the cemetery data set from last week, or the [Coeducation data set](assets/coeducationreport.csv). 
 
