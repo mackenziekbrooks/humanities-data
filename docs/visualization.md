@@ -3,7 +3,7 @@ In this section, we'll learn the basics of data visualization.
 [TOC]
 
 ## What is data visualization?
-Data visualization is everywhere. You can hardly turn on the tv, open a book or a new tab without seeing data being visualized. Infographics are prominent examples of data visualization.  Using images to represent  data can help people translate the information into something they better understand.  Commons forms of data visualizations are charts and graphs but maps are also data visualization.  Infact, geographic data is so specialized that we will spend an entire unit focusing just on mapping.  
+Data visualization is everywhere. You can hardly turn on the tv, open a book or a new tab without seeing data being visualized. Using images to represent data can help people translate the information into something they better understand. Commons forms of data visualizations are charts and graphs, but maps are also a form of data visualization. In fact, geographic data is so specialized that we will spend an entire unit focusing just on mapping.  
 
 Can you think of a favorite example of good data visualization? What about a terrible example? What made the visualization work? How did you feel when you realized the visualization was flawed? 
 
@@ -46,7 +46,7 @@ From this list, I could speculate that principles of good visualization might be
 * balanced scale and axises. 
 * meaningful legend and explanatory title and text. 
 
-Good visualizations are built with accessibily issues in mind and improve the value of the visualization for everyone. Read [accessible data viz is better data viz](http://www.storytellingwithdata.com/blog/2018/6/26/accessible-data-viz-is-better-data-viz) and consider the principles it suggests when you are evaluating and creating visualizations.  
+Good visualizations are built with accessibility issues in mind and improve the value of the visualization for everyone. Read [accessible data viz is better data viz](http://www.storytellingwithdata.com/blog/2018/6/26/accessible-data-viz-is-better-data-viz) and consider the principles it suggests when you are evaluating and creating visualizations.  
 
 I walk you through this exercise in hopes that you can use it on other visualizations you encounter. It's easy to look at a list of best practices, it's a little more challenging to apply those practices to your own work or the work of others. 
 
