@@ -99,7 +99,7 @@ Now it's time to try your hand at creating your own visualization. You may use t
 2. Narrow your list down to one or two ideas. What type of visualizations are you interested in using and how will they help you get at the information you want to convey? 
 3. Use Excel or Google Sheets to create a basic graph. Are you happy with it? Why or why not? How do different types of graphs change your understanding of the data? Try creating the same graph in both programs to see if there are any differences. 
 4. If you're still not happy with your graph, try [Raw Graphs](https://rawgraphs.io/). There are some wild options, is your graph still legible? 
-5. Post your visualization to your website with 300-400 words on your goal, your process, and your results. 
+5. Post your visualization to your website with 300-400 words on your goal, your process, and your results. This will count as your blog post for week 4. 
 
 ## Resources
 * [ColorBrewer](http://colorbrewer2.org/) - tool for creating distinct color palettes

@@ -104,15 +104,33 @@ To generate a network, visit the `Graph` tab. Use the menu on the right of the s
 
 ### Activity 5.1 
 
-In order to practice using the terminology and methods of network analysis, let's design a network from scratch. 
+In order to practice using the terminology and methods of network analysis, let's design a network from scratch. I recommend using the whiteboard feature in Zoom, a Google doc, or a Box note for this exercise. 
 
 1. In your group, select a topic for your network. It should be approachable for all members of your group. Game of Thrones? W&L students? Sports? A novel or TV show?
 2. List all the nodes in your network. Do they have types? Do they have attributes? Is this a bi-modal or multi-modal network?
 3. Start making connections or edges in your network. What type of edges do you need? Do the edges have a weight?
 4. Think about centrality. Do you have an ego network? How might you start calculating centrality?
 
-
 ### Activity 5.2
+
+Let's continue practicing our skills reviewing established projects. Instead of a blog post, be prepared to talk about this project with your classmates. Select one of the following projects to explore. Use the review criteria from [Reviews in DH](https://reviewsindh.pubpub.org/review-process) to analyze the project. Make some notes in if you need to. 
+
+* [Kindred Britain](http://kindred.stanford.edu/#)
+* [Belfast Group Poetry](https://belfastgroup.digitalscholarship.emory.edu/)
+* [Six Degrees of Francis Bacon](http://sixdegreesoffrancisbacon.com/)
+* [Linked Jazz](https://linkedjazz.org/)
+* [Viral Texts](https://viraltexts.org/)
+
+During class, we'll divide into groups to discuss the project you chose. 
+
+1. What is this project about? What are the goals?
+2. Where is the data? 
+3. How is this a humanities project?
+4. How effective are the network visualizations? Why do you say that?
+5. What about the design, layout, and organization of the project? 
+
+
+### Activity 5.3
 
 Let's practice putting together a network visualization from our trusty cemetery dataset. 
 

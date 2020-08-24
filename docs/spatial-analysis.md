@@ -77,7 +77,7 @@ The popularity and usefulness of maps means that there are a wide range of comme
 
 ## Activities
 
-### Activity 1 
+### Activity 6.1
 To start thinking spatially, let's create a map from scratch. 
 
 * Gather some blank paper and your favorite writing/drawing/coloring instruments. 
@@ -94,13 +94,3 @@ To start thinking spatially, let's create a map from scratch.
 
 ## Credits
 Material for this section was derived from Lincoln Mullen's [Spatial Humanities Workshop](https://lincolnmullen.com/projects/spatial-workshop/) materials per the CC-BY-NC-SA 4.0 license. 
-
-
-    Raster data = layers historical maps or photographs
-    http://mapwarper.net/
-    .TIFF or .JPG
-    Vector data = layers points, lines, or polygons
-    KML (Keyhole Markup Language)
-    SVG (form of XML)
-    Shapefiles (.shp, .shx, .dbf) mostly open standard by ESRI (Environmental Systems Research Institute)
-    GeoJSON = shapes + geocoordinates
