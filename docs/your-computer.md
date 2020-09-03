@@ -90,7 +90,7 @@ In this activity, we'll apply our new command line skills to working with a corp
 1. Download this zip file and save it to your Desktop. 
 2. Unzip the file by double clicking or using an Extract All option. A zip file is a compression method for bundling up a lot of folders into one so it's easy to share. 
 3. Open the command line shell, and navigate to the folder you just downloaded. 
-4. Use `pwd` `cd` and `ls` to navigate through the RTP-1980s folder.
+4. Use `pwd` `cd` and `ls`(Mac) or `dir`(Windows) to navigate through the RTP-1980s folder.
 5. Can you mirror these action using your mouse and the Finder/Windows Explorer window? What are the differences? 
 6. In a new document, answer the following questions:
 	* What is the basic file structure of the data set as you have received it? What about the file names? * What are the patterns? Where (or when) do the patterns change?
