@@ -26,7 +26,7 @@ This is our common spreadsheet data structure. Data fits into a table, in which 
 |Pet3|Hobbes|Dog|Hound|
 
 
-If you're new to making spreadsheets, it can be tempting to swamp the rows and columns so that each column represents a thing. It can also be tempting to include empty cells as spaces or use visual cues like color or bold/italics to set apart text. These methods will certainly help you as a human, but it's important to keep in mind that most of the software that might process your data will not be able to understand these visual cues. 
+If you're new to making spreadsheets, it can be tempting to swap the rows and columns so that each column represents a thing. It can also be tempting to include empty cells as spaces or use visual cues like color or bold/italics to set apart text. These methods will certainly help you as a human, but it's important to keep in mind that most of the software that might process your data will not be able to understand these visual cues. 
 
 Most of the software that will process your data, whether it's for visualization or analysis, will want to see your data in a format known as **CSV** or Comma Separated Value. This format strips away any visual formatting and stores each cell in plain text, separated by a comma. So the above table about pets, would look like this: 
 
@@ -37,7 +37,7 @@ Pet2,Harper,Dog,Flat Coat Retriever,
 Pet3,Hobbes,Dog,Hound
 ```
 
-The CSV format reduces file size, simplifies the content, and keeps the file from being dependent on proprietary software like Excel. Fortunately, you don't have to construct your data with commas. Applications like Excel or Google Sheets will let you save or export your file with the file extension `.csv`. It's a good habit to get into when working with data. You might also see `.tsv` for tab separated values. 
+The CSV format reduces file size, simplifies the content, and keeps the file from being dependent on proprietary software like Excel. Fortunately, you don't have to construct your data with commas. Applications like Excel or Google Sheets will let you save or export your file with the file extension `.csv`. It's a good habit to get into when working with data. You might also see `.tsv` for tab separated values, in which the spaces we see when we hit the tab button function as a single character.
 
 
 ### Relational data 
@@ -53,17 +53,17 @@ FROM table_name
 WHERE column_name operator value;
 ```
 
-And a more specific example might look like this. In this example, the asterisk means everything, so I'm asking for all fields about the cats. 
+Here's a more specific example. In this one, the asterisk means "give me everything." So I'm asking for all the fields that exist about the cats.
 
 ```
 SELECT * FROM pets
 WHERE animal='cat';
 ```
 
-Asking these types of questions of data is often what humanities scholars are after when they decide to build a database. However, designing a database and the interface that goes along with it is a huge endeavor, and often requires the help of a professional database designer. Databases can be built in many different types of software (you might encounter names like MySQL or PostgreSQL), but web-based databases will need to be installed on a server, not just your own computer. If you're undertaking a big project, it's important to assess your resources for creating a database. Fortunately, there are an increasing number of options for storing, visualizing, and analyzing data without database software. Creating well-structured data ensures that your data can be imported into these tools with ease.
+Asking these types of questions of data is often what humanities scholars are after when they decide to build a database. However, designing a database and the interface that goes along with it is a big endeavor, and often requires the help of a professional database designer. Databases can be built in many different types of software (you might encounter names like MySQL or PostgreSQL), but web-based databases will need to be installed on a server, not just your own computer. If you're undertaking a big project, it's important to assess your resources for creating a database. Fortunately, there are an increasing number of options for storing, visualizing, and analyzing data without database software. Creating well-structured data ensures that your data can be imported into and out of these tools with ease.
 
 ### Data serialization
-Data serialization is the process by which taken is transformed into another format that can be transferred or stored, then reconstituted. Often, this is necessary so that a programming language or software application can more easily and quickly do something with the data. With serialization comes a few different types of data structures that are important to know. 
+Data serialization is the process by which data is transformed into another format that can be transferred or stored, then reconstituted. Often, this is necessary so that a programming language or software application can more easily and quickly do something with the data. With serialization comes a few different types of data structures that are important to know. 
 
 **JSON**, or JavaScript Objection Notation, is a way to structure data based on attribute-value pairs and curly brackets. Just like CSV, if you're working with a JSON file, it will have the file extension `.json`. You probably won't end up writing JSON from scratch, but you might have to convert your data to JSON for a certain application. And FYI, JSON is not only used with JavaScript. 
 
@@ -130,7 +130,7 @@ There are a few others data types, but these will be most relevant in humanities
 ## Clean, tidy, and normal data 
 As you start to work with data, you'll likely encounter these terms "clean, tidy, normal," used as adjectives and verbs. What do they all mean? How do you know when your data is clean and tidy? Maybe your data is just the black sheep of the family! 
 
-* Cleaning data usually refers to the process of correcting the contents of your dataset. Typos, mistakes, new information can all be cleaned up after the data entry process is complete. You don't have to read every cell one by one, there are a number of tools and methods. Often, visualization your data is a great way to find issues you didn't know you had.
+* Cleaning data usually refers to the process of correcting the contents of your dataset. Typos, mistakes, new information can all be cleaned up after the data entry process is complete. You don't have to read every cell one by one, there are a number of tools and methods that will help automate this process. Often, visualization your data is a great way to find issues you didn't know you had.
 
 * Tidy data comes from the community around R, the programming language. Tidy data is well-structured, or as [Hadley Wickham](https://vita.had.co.nz/papers/tidy-data.pdf) puts it, "Tidy datasets are easy to manipulate, model and visualise, and have a specific structure: each variable is a column, each observation is a row, and each type of observational unit is a table." Sounds familiar, right?
 
@@ -210,25 +210,25 @@ Here's some RDF about Audre Lorde:
 
 ```
 <rdf:RDF>
-	<rdf:Description rdf:about="http://viaf.org/viaf/sourceID/DBC%7C87097946621565#skos:Concept">
-	<foaf:focus rdf:resource="http://viaf.org/viaf/61565157"/>
-	<skos:prefLabel>Lorde, Audre f. 1934</skos:prefLabel>
-	<skos:inScheme rdf:resource="http://viaf.org/authorityScheme/DBC"/>
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	</rdf:Description>
-	<rdf:Description rdf:about="http://viaf.org/viaf/8101155708706522580005">
-	<rdfs:label>Sister outsider</rdfs:label>
-	</rdf:Description>
-	<rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NII%7CDA04877615#skos:Concept">
-		<foaf:focus rdf:resource="http://viaf.org/viaf/61565157"/>
-		<skos:altLabel>ロード, オードリ</skos:altLabel>
-		<skos:altLabel>Rollins, Audre Lorde</skos:altLabel>
-		<skos:altLabel>Lorde, Audre Geraldine</skos:altLabel>
-		<skos:altLabel>Lorde, Audre</skos:altLabel>
-		<skos:prefLabel>Lorde, Audre</skos:prefLabel>
-		<skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NII"/>
-		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	</rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/DBC%7C87097946621565#skos:Concept">
+  <foaf:focus rdf:resource="http://viaf.org/viaf/61565157"/>
+  <skos:prefLabel>Lorde, Audre f. 1934</skos:prefLabel>
+  <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/DBC"/>
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/8101155708706522580005">
+  <rdfs:label>Sister outsider</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NII%7CDA04877615#skos:Concept">
+    <foaf:focus rdf:resource="http://viaf.org/viaf/61565157"/>
+    <skos:altLabel>ロード, オードリ</skos:altLabel>
+    <skos:altLabel>Rollins, Audre Lorde</skos:altLabel>
+    <skos:altLabel>Lorde, Audre Geraldine</skos:altLabel>
+    <skos:altLabel>Lorde, Audre</skos:altLabel>
+    <skos:prefLabel>Lorde, Audre</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NII"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
 </rdf:RDF>
 ```
 It's not that much fun to read, but you're a human, not a computer. In this example, you can pick out terms like "SKOS" and "FOAF." If you have been following along and nerding about about data modeling, go ahead and look those up or check out this tutorial: "[Introduction to the Principles of Linked Open Data](https://programminghistorian.org/en/lessons/intro-to-linked-data)". If you're overwhelmed, tuck them in your pocket for later. This is a window into advanced work with humanities data. It's good to know it exists, but it's okay if you're not ready for it yet. 
@@ -240,28 +240,28 @@ It's not that much fun to read, but you're a human, not a computer. In this exam
 In this activity, we'll assess a dataset according to the criteria we've learned about in this section. 
 
 1. Download the [LexingtonCemetery.csv](assets/LexingtonCemetery.csv) file. 
-2. Open in Excel. Since this dataset is a CSV file, you may need to follow these instructions:
-	* Navigate to the Data tab in Excel.
-	* Select "From Text" then find your file.
-	* A wizard should pop up to walk you through the import process. It should automatically detect the commas, but if it doesn't, you will need to check the box to indicate that this file is delimited by commas. The data preview should each distinct column of data, rather than everything running together.
+2. Open in Excel. Since this dataset is a CSV file, you may need to follow these instructions. The process may differ depending on what version of Excel you're using.
+  * Navigate to the Data tab in Excel.
+  * Select "From Text" then find your file.
+  * A wizard should pop up to walk you through the import process. It should automatically detect the commas, but if it doesn't, you will need to check the box to indicate that this file is delimited by commas. The data preview should separate each distinct column of data, rather than everything running together.
 3. What do you see? Take some time to explore this data by scrolling around. Get a sense of what is here and what might be missing. It might help to take a look at the [cemetery website](https://sjcemetery.wlu.edu/) or to read [this press release](https://web.archive.org/web/20161109193310/http://news.blogs.wlu.edu/2013/02/11/wl-creates-website-for-stonewall-jackson-cemetery-census/). 
-4. In a separate document, start to draft a data model for this spreadsheet as you encounter it. Make note of the data types and formats, as well as suggestions for improvement. 
+4. In a separate document, start to draft a data model for this spreadsheet as you encounter it. Make note of the data types and formats, as well as suggestions for improvement. You'll turn in this data model with activity 3.3.
 
 ### Activity 3.2
 Let's take Open Refine for a spin in order to clean up this data set. 
 
-1. Download [Open Refine](http://www.openrefine.org) and run the program. Follow the [installation instruction](https://github.com/OpenRefine/OpenRefine/wiki/Installation-Instructions) if you get stuck. It should open a new tab in your browser with the address `http://127.0.0.1:3333/`. This address is local to your computer. 
+1. Download [Open Refine](http://www.openrefine.org) and run the program. Follow the [installation instruction](https://github.com/OpenRefine/OpenRefine/wiki/Installation-Instructions) if you get stuck. It should open a new tab in your browser with the address `http://127.0.0.1:3333/`. This address is local to your computer, not something you can actually visit on the internet.
 2. Import the LexingtonCemetery.csv file. You will see a page of import options, you should be able to accept the defaults. 
 3. Spend some time clicking on all the options in Open Refine to see what happens. Set a timer and spend 10-15 minutes playing around with the software before you turn to documentation or instructions. What can you learn in this time? If things get too messy, you can always exit out and start over.
 4. Now answer these questions: 
-	* What do the "Text Facet" or "Numeric Facet" features reveal about this data? Are there outliers that need investigation?
-	* Are there columns that should be split or joined? How would you do this in Open Refine (or Excel?)
-	* What columns would be best served by the "cluster and edit" feature? Why?
-	* Which columns need to be modified for consistency? 
+  * What do the "Text Facet" or "Numeric Facet" features reveal about this data? Are there outliers that need investigation?
+  * Are there columns that should be split or joined? How would you do this in Open Refine (or Excel?)
+  * What columns would be best served by the "cluster and edit" feature? Why?
+  * Which columns need to be modified for consistency? 
 
 
 ### Activity 3.3
-Time to take a little step back from this data set and think about its potential. Answer the following questions: 
+Time to take a little step back from this data set and think about its potential. In the same document that you started in Activity 3.1, answer the following questions: 
 
 1. What cleanup work does this data need to be more usable? 
 2. Do you need to adjust your data model? How might you extend this data set? 
@@ -269,31 +269,29 @@ Time to take a little step back from this data set and think about its potential
 4. Do you need to conduct more research to learn about the people in this data set? How will you go about it? 
 5. What (or who?) might be missing from this data set? 
 6. We have yet to learn about the ins and outs of methods of analyzing data, but what would you want to *do* with this data? 
-7. Bonus: visit the cemetery! How does experiencing it in person change your view of the data? Does everything match up? Do you observe other things that should be in this data? 
+7. Update your data model to reflect your thorough thinking about this data set. It should include a list of each field, its data type, and any notes about the content of this field. 
+8. Bonus: visit the cemetery! How does experiencing it in person change your view of the data? Does everything match up? Do you observe other things that should be in this data? 
 
 
 ### Activity 3.4
+
 Try your hand at creating your own dataset in a small group.  
 
 1. Start with the [Alumni Coeducation Correspondence, May 10, 1984 (report)](https://dspace.wlu.edu/handle/11021/34413) from the [W&L Digital Archive](https://repository.wlu.edu/).  Read over the report to get an understanding of what it is telling you.  What is this report covering?
 2. Create your data model.  Look over the consistent pieces of information included in the report.  Choose what fields you think you should include.  Why are you choosing those fields?  What do you hope to use them to explore within the data?
-3. Take a few pages from the report and create your dataset.  
+3. Take a few pages from the report and create your dataset. You'll be supplied with a Google spreadsheet to do this work. 
 4. After we come back from the small groups, compare your data model to that of other groups and answer the following questions.
-  
-  * How are the models different? 
-	* What did your group include that others didn't and visa versa?  
-	* How do your fields change the questions you can ask the data?
+
+    * How are the models different? 
+    * What did your group include that others didn't and visa versa?  
+    * How do your fields change the questions you can ask the data?
+    * How could you use Open Refine to clean up the data you created?
+    
 
 ## Readings
+
 * [Tidy Data for the Humanities](https://matthewlincoln.net/2020/05/26/tidy-data-for-humanities.html) by Matt Lincoln
 * [Big? Smart? Clean? Messy? Data in the Humanities](http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/) by Christof Schöch
-* 
+* [Designing Databases for Historical Research](https://port.sas.ac.uk/mod/book/view.php?id=75&chapterid=133)
+* [Against Cleaning](https://www-jstor-org.ezproxy.wlu.edu/stable/10.5749/j.ctvg251hk.26?seq=1#metadata_info_tab_contents) - W&L login required
 
-## Resources 
-* Open Refine
-* 
-
-https://www-jstor-org.ezproxy.wlu.edu/stable/10.5749/j.ctvg251hk.26?seq=1#metadata_info_tab_contents
- 10.5749/j.ctvg251hk.26 
-
- https://port.sas.ac.uk/mod/book/view.php?id=75&chapterid=133
