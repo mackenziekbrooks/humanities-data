@@ -126,7 +126,6 @@ Theme by GitBook
 </ul>
 </li>
 <li><a href="#readings">Readings</a></li>
-<li><a href="#resources">Resources</a></li>
 </ul>
 </div>
 <h2 id="what-is-data-again">What is data again?<a class="headerlink" href="#what-is-data-again" title="Permanent link">#</a></h2>
@@ -171,7 +170,7 @@ Theme by GitBook
 </tr>
 </tbody>
 </table>
-<p>If you're new to making spreadsheets, it can be tempting to swamp the rows and columns so that each column represents a thing. It can also be tempting to include empty cells as spaces or use visual cues like color or bold/italics to set apart text. These methods will certainly help you as a human, but it's important to keep in mind that most of the software that might process your data will not be able to understand these visual cues. </p>
+<p>If you're new to making spreadsheets, it can be tempting to swap the rows and columns so that each column represents a thing. It can also be tempting to include empty cells as spaces or use visual cues like color or bold/italics to set apart text. These methods will certainly help you as a human, but it's important to keep in mind that most of the software that might process your data will not be able to understand these visual cues. </p>
 <p>Most of the software that will process your data, whether it's for visualization or analysis, will want to see your data in a format known as <strong>CSV</strong> or Comma Separated Value. This format strips away any visual formatting and stores each cell in plain text, separated by a comma. So the above table about pets, would look like this: </p>
 <pre><code>PetID,Name,Animal,Breed,
 Pet1,Huxley,Cat,Tabby,
@@ -179,7 +178,7 @@ Pet2,Harper,Dog,Flat Coat Retriever,
 Pet3,Hobbes,Dog,Hound
 </code></pre>
 
-<p>The CSV format reduces file size, simplifies the content, and keeps the file from being dependent on proprietary software like Excel. Fortunately, you don't have to construct your data with commas. Applications like Excel or Google Sheets will let you save or export your file with the file extension <code>.csv</code>. It's a good habit to get into when working with data. You might also see <code>.tsv</code> for tab separated values. </p>
+<p>The CSV format reduces file size, simplifies the content, and keeps the file from being dependent on proprietary software like Excel. Fortunately, you don't have to construct your data with commas. Applications like Excel or Google Sheets will let you save or export your file with the file extension <code>.csv</code>. It's a good habit to get into when working with data. You might also see <code>.tsv</code> for tab separated values, in which the spaces we see when we hit the tab button function as a single character.</p>
 <h3 id="relational-data">Relational data<a class="headerlink" href="#relational-data" title="Permanent link">#</a></h3>
 <p>For some projects, a single table quickly becomes insufficient. Perhaps your project requires collecting data about a group of people, the houses they live in, the land they occupy, etc. It might be time to look into using a database to store all that data. A database works on a relational model - you might have multiple tables, but they are connected through shared values or "keys." Using a database allows you to gather data about many different things, things that may require different fields to describe them. So my table of people may contain a column to note which house they live in, but I can rely on a totally separate table to list all the details about the house itself. This keeps me from cluttering my people table with information that isn't relevant to the main thing my row is about. Often, this is done with an ID number rather than the full title. </p>
 <p>A second advantage of a database is the ability to ask questions of your data. To continue the example from above, I can now ask questions like: How many people live in houses that are yellow? Of the houses on this block, which ones are occupied by people with children? These questions require that I filter based on certain values within each distinct data table and combine them into a new set. Typically, questions like this are asked with a language called <strong>SQL</strong> or Structure Query Language (yes, another language with its own syntax!). </p>
@@ -189,14 +188,14 @@ FROM table_name
 WHERE column_name operator value;
 </code></pre>
 
-<p>And a more specific example might look like this. In this example, the asterisk means everything, so I'm asking for all fields about the cats. </p>
+<p>Here's a more specific example. In this one, the asterisk means "give me everything." So I'm asking for all the fields that exist about the cats.</p>
 <pre><code>SELECT * FROM pets
 WHERE animal='cat';
 </code></pre>
 
-<p>Asking these types of questions of data is often what humanities scholars are after when they decide to build a database. However, designing a database and the interface that goes along with it is a huge endeavor, and often requires the help of a professional database designer. Databases can be built in many different types of software (you might encounter names like MySQL or PostgreSQL), but web-based databases will need to be installed on a server, not just your own computer. If you're undertaking a big project, it's important to assess your resources for creating a database. Fortunately, there are an increasing number of options for storing, visualizing, and analyzing data without database software. Creating well-structured data ensures that your data can be imported into these tools with ease.</p>
+<p>Asking these types of questions of data is often what humanities scholars are after when they decide to build a database. However, designing a database and the interface that goes along with it is a big endeavor, and often requires the help of a professional database designer. Databases can be built in many different types of software (you might encounter names like MySQL or PostgreSQL), but web-based databases will need to be installed on a server, not just your own computer. If you're undertaking a big project, it's important to assess your resources for creating a database. Fortunately, there are an increasing number of options for storing, visualizing, and analyzing data without database software. Creating well-structured data ensures that your data can be imported into and out of these tools with ease.</p>
 <h3 id="data-serialization">Data serialization<a class="headerlink" href="#data-serialization" title="Permanent link">#</a></h3>
-<p>Data serialization is the process by which taken is transformed into another format that can be transferred or stored, then reconstituted. Often, this is necessary so that a programming language or software application can more easily and quickly do something with the data. With serialization comes a few different types of data structures that are important to know. </p>
+<p>Data serialization is the process by which data is transformed into another format that can be transferred or stored, then reconstituted. Often, this is necessary so that a programming language or software application can more easily and quickly do something with the data. With serialization comes a few different types of data structures that are important to know. </p>
 <p><strong>JSON</strong>, or JavaScript Objection Notation, is a way to structure data based on attribute-value pairs and curly brackets. Just like CSV, if you're working with a JSON file, it will have the file extension <code>.json</code>. You probably won't end up writing JSON from scratch, but you might have to convert your data to JSON for a certain application. And FYI, JSON is not only used with JavaScript. </p>
 <p>Here's an example. Notice the level of structure introduced with the Address line. There are four fields and values (you might see this called an array) that modify one field, Address. </p>
 <pre><code>{
@@ -276,7 +275,7 @@ WHERE animal='cat';
 <p>As you start to work with data, you'll likely encounter these terms "clean, tidy, normal," used as adjectives and verbs. What do they all mean? How do you know when your data is clean and tidy? Maybe your data is just the black sheep of the family! </p>
 <ul>
 <li>
-<p>Cleaning data usually refers to the process of correcting the contents of your dataset. Typos, mistakes, new information can all be cleaned up after the data entry process is complete. You don't have to read every cell one by one, there are a number of tools and methods. Often, visualization your data is a great way to find issues you didn't know you had.</p>
+<p>Cleaning data usually refers to the process of correcting the contents of your dataset. Typos, mistakes, new information can all be cleaned up after the data entry process is complete. You don't have to read every cell one by one, there are a number of tools and methods that will help automate this process. Often, visualization your data is a great way to find issues you didn't know you had.</p>
 </li>
 <li>
 <p>Tidy data comes from the community around R, the programming language. Tidy data is well-structured, or as <a href="https://vita.had.co.nz/papers/tidy-data.pdf">Hadley Wickham</a> puts it, "Tidy datasets are easy to manipulate, model and visualise, and have a specific structure: each variable is a column, each observation is a row, and each type of observational unit is a table." Sounds familiar, right?</p>
@@ -336,25 +335,25 @@ Source: <a href="https://www.w3.org/TR/rdf11-primer/">RDF Primer</a></p>
 <p>We haven't talked about RDF yet, but we can define it using terms we have just learned. <strong>RDF</strong>, or Resource Description Framework, is a data model for describing resources. It structures data through the use of triples or subject-predicate-object expressions, such as the ones we see in the image above. RDF can be serialized in several ways, through formats like Turtle, JSON-LD, RDFa, and RDF-XML. Okay, that was a lot of acronyms, but you should recognize some. </p>
 <p>Here's some RDF about Audre Lorde:</p>
 <pre><code>&lt;rdf:RDF&gt;
-    &lt;rdf:Description rdf:about=&quot;http://viaf.org/viaf/sourceID/DBC%7C87097946621565#skos:Concept&quot;&gt;
+  &lt;rdf:Description rdf:about=&quot;http://viaf.org/viaf/sourceID/DBC%7C87097946621565#skos:Concept&quot;&gt;
+  &lt;foaf:focus rdf:resource=&quot;http://viaf.org/viaf/61565157&quot;/&gt;
+  &lt;skos:prefLabel&gt;Lorde, Audre f. 1934&lt;/skos:prefLabel&gt;
+  &lt;skos:inScheme rdf:resource=&quot;http://viaf.org/authorityScheme/DBC&quot;/&gt;
+  &lt;rdf:type rdf:resource=&quot;http://www.w3.org/2004/02/skos/core#Concept&quot;/&gt;
+  &lt;/rdf:Description&gt;
+  &lt;rdf:Description rdf:about=&quot;http://viaf.org/viaf/8101155708706522580005&quot;&gt;
+  &lt;rdfs:label&gt;Sister outsider&lt;/rdfs:label&gt;
+  &lt;/rdf:Description&gt;
+  &lt;rdf:Description rdf:about=&quot;http://viaf.org/viaf/sourceID/NII%7CDA04877615#skos:Concept&quot;&gt;
     &lt;foaf:focus rdf:resource=&quot;http://viaf.org/viaf/61565157&quot;/&gt;
-    &lt;skos:prefLabel&gt;Lorde, Audre f. 1934&lt;/skos:prefLabel&gt;
-    &lt;skos:inScheme rdf:resource=&quot;http://viaf.org/authorityScheme/DBC&quot;/&gt;
+    &lt;skos:altLabel&gt;ロード, オードリ&lt;/skos:altLabel&gt;
+    &lt;skos:altLabel&gt;Rollins, Audre Lorde&lt;/skos:altLabel&gt;
+    &lt;skos:altLabel&gt;Lorde, Audre Geraldine&lt;/skos:altLabel&gt;
+    &lt;skos:altLabel&gt;Lorde, Audre&lt;/skos:altLabel&gt;
+    &lt;skos:prefLabel&gt;Lorde, Audre&lt;/skos:prefLabel&gt;
+    &lt;skos:inScheme rdf:resource=&quot;http://viaf.org/authorityScheme/NII&quot;/&gt;
     &lt;rdf:type rdf:resource=&quot;http://www.w3.org/2004/02/skos/core#Concept&quot;/&gt;
-    &lt;/rdf:Description&gt;
-    &lt;rdf:Description rdf:about=&quot;http://viaf.org/viaf/8101155708706522580005&quot;&gt;
-    &lt;rdfs:label&gt;Sister outsider&lt;/rdfs:label&gt;
-    &lt;/rdf:Description&gt;
-    &lt;rdf:Description rdf:about=&quot;http://viaf.org/viaf/sourceID/NII%7CDA04877615#skos:Concept&quot;&gt;
-        &lt;foaf:focus rdf:resource=&quot;http://viaf.org/viaf/61565157&quot;/&gt;
-        &lt;skos:altLabel&gt;ロード, オードリ&lt;/skos:altLabel&gt;
-        &lt;skos:altLabel&gt;Rollins, Audre Lorde&lt;/skos:altLabel&gt;
-        &lt;skos:altLabel&gt;Lorde, Audre Geraldine&lt;/skos:altLabel&gt;
-        &lt;skos:altLabel&gt;Lorde, Audre&lt;/skos:altLabel&gt;
-        &lt;skos:prefLabel&gt;Lorde, Audre&lt;/skos:prefLabel&gt;
-        &lt;skos:inScheme rdf:resource=&quot;http://viaf.org/authorityScheme/NII&quot;/&gt;
-        &lt;rdf:type rdf:resource=&quot;http://www.w3.org/2004/02/skos/core#Concept&quot;/&gt;
-    &lt;/rdf:Description&gt;
+  &lt;/rdf:Description&gt;
 &lt;/rdf:RDF&gt;
 </code></pre>
 
@@ -364,31 +363,27 @@ Source: <a href="https://www.w3.org/TR/rdf11-primer/">RDF Primer</a></p>
 <p>In this activity, we'll assess a dataset according to the criteria we've learned about in this section. </p>
 <ol>
 <li>Download the <a href="../assets/LexingtonCemetery.csv">LexingtonCemetery.csv</a> file. </li>
-<li>Open in Excel. Since this dataset is a CSV file, you may need to follow these instructions:<ul>
+<li>Open in Excel. Since this dataset is a CSV file, you may need to follow these instructions. The process may differ depending on what version of Excel you're using.</li>
 <li>Navigate to the Data tab in Excel.</li>
 <li>Select "From Text" then find your file.</li>
-<li>A wizard should pop up to walk you through the import process. It should automatically detect the commas, but if it doesn't, you will need to check the box to indicate that this file is delimited by commas. The data preview should each distinct column of data, rather than everything running together.</li>
-</ul>
-</li>
+<li>A wizard should pop up to walk you through the import process. It should automatically detect the commas, but if it doesn't, you will need to check the box to indicate that this file is delimited by commas. The data preview should separate each distinct column of data, rather than everything running together.</li>
 <li>What do you see? Take some time to explore this data by scrolling around. Get a sense of what is here and what might be missing. It might help to take a look at the <a href="https://sjcemetery.wlu.edu/">cemetery website</a> or to read <a href="https://web.archive.org/web/20161109193310/http://news.blogs.wlu.edu/2013/02/11/wl-creates-website-for-stonewall-jackson-cemetery-census/">this press release</a>. </li>
-<li>In a separate document, start to draft a data model for this spreadsheet as you encounter it. Make note of the data types and formats, as well as suggestions for improvement. </li>
+<li>In a separate document, start to draft a data model for this spreadsheet as you encounter it. Make note of the data types and formats, as well as suggestions for improvement. You'll turn in this data model with activity 3.3.</li>
 </ol>
 <h3 id="activity-32">Activity 3.2<a class="headerlink" href="#activity-32" title="Permanent link">#</a></h3>
 <p>Let's take Open Refine for a spin in order to clean up this data set. </p>
 <ol>
-<li>Download <a href="http://www.openrefine.org">Open Refine</a> and run the program. Follow the <a href="https://github.com/OpenRefine/OpenRefine/wiki/Installation-Instructions">installation instruction</a> if you get stuck. It should open a new tab in your browser with the address <code>http://127.0.0.1:3333/</code>. This address is local to your computer. </li>
+<li>Download <a href="http://www.openrefine.org">Open Refine</a> and run the program. Follow the <a href="https://github.com/OpenRefine/OpenRefine/wiki/Installation-Instructions">installation instruction</a> if you get stuck. It should open a new tab in your browser with the address <code>http://127.0.0.1:3333/</code>. This address is local to your computer, not something you can actually visit on the internet.</li>
 <li>Import the LexingtonCemetery.csv file. You will see a page of import options, you should be able to accept the defaults. </li>
 <li>Spend some time clicking on all the options in Open Refine to see what happens. Set a timer and spend 10-15 minutes playing around with the software before you turn to documentation or instructions. What can you learn in this time? If things get too messy, you can always exit out and start over.</li>
-<li>Now answer these questions: <ul>
+<li>Now answer these questions: </li>
 <li>What do the "Text Facet" or "Numeric Facet" features reveal about this data? Are there outliers that need investigation?</li>
 <li>Are there columns that should be split or joined? How would you do this in Open Refine (or Excel?)</li>
 <li>What columns would be best served by the "cluster and edit" feature? Why?</li>
 <li>Which columns need to be modified for consistency? </li>
-</ul>
-</li>
 </ol>
 <h3 id="activity-33">Activity 3.3<a class="headerlink" href="#activity-33" title="Permanent link">#</a></h3>
-<p>Time to take a little step back from this data set and think about its potential. Answer the following questions: </p>
+<p>Time to take a little step back from this data set and think about its potential. In the same document that you started in Activity 3.1, answer the following questions: </p>
 <ol>
 <li>What cleanup work does this data need to be more usable? </li>
 <li>Do you need to adjust your data model? How might you extend this data set? </li>
@@ -396,6 +391,7 @@ Source: <a href="https://www.w3.org/TR/rdf11-primer/">RDF Primer</a></p>
 <li>Do you need to conduct more research to learn about the people in this data set? How will you go about it? </li>
 <li>What (or who?) might be missing from this data set? </li>
 <li>We have yet to learn about the ins and outs of methods of analyzing data, but what would you want to <em>do</em> with this data? </li>
+<li>Update your data model to reflect your thorough thinking about this data set. It should include a list of each field, its data type, and any notes about the content of this field. </li>
 <li>Bonus: visit the cemetery! How does experiencing it in person change your view of the data? Does everything match up? Do you observe other things that should be in this data? </li>
 </ol>
 <h3 id="activity-34">Activity 3.4<a class="headerlink" href="#activity-34" title="Permanent link">#</a></h3>
@@ -403,15 +399,14 @@ Source: <a href="https://www.w3.org/TR/rdf11-primer/">RDF Primer</a></p>
 <ol>
 <li>Start with the <a href="https://dspace.wlu.edu/handle/11021/34413">Alumni Coeducation Correspondence, May 10, 1984 (report)</a> from the <a href="https://repository.wlu.edu/">W&amp;L Digital Archive</a>.  Read over the report to get an understanding of what it is telling you.  What is this report covering?</li>
 <li>Create your data model.  Look over the consistent pieces of information included in the report.  Choose what fields you think you should include.  Why are you choosing those fields?  What do you hope to use them to explore within the data?</li>
-<li>Take a few pages from the report and create your dataset.  </li>
+<li>Take a few pages from the report and create your dataset. You'll be supplied with a Google spreadsheet to do this work. </li>
 <li>
 <p>After we come back from the small groups, compare your data model to that of other groups and answer the following questions.</p>
-</li>
-<li>
-<p>How are the models different? </p>
 <ul>
+<li>How are the models different? </li>
 <li>What did your group include that others didn't and visa versa?  </li>
 <li>How do your fields change the questions you can ask the data?</li>
+<li>How could you use Open Refine to clean up the data you created?</li>
 </ul>
 </li>
 </ol>
@@ -419,16 +414,9 @@ Source: <a href="https://www.w3.org/TR/rdf11-primer/">RDF Primer</a></p>
 <ul>
 <li><a href="https://matthewlincoln.net/2020/05/26/tidy-data-for-humanities.html">Tidy Data for the Humanities</a> by Matt Lincoln</li>
 <li><a href="http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/">Big? Smart? Clean? Messy? Data in the Humanities</a> by Christof Schöch</li>
-<li></li>
+<li><a href="https://port.sas.ac.uk/mod/book/view.php?id=75&amp;chapterid=133">Designing Databases for Historical Research</a></li>
+<li><a href="https://www-jstor-org.ezproxy.wlu.edu/stable/10.5749/j.ctvg251hk.26?seq=1#metadata_info_tab_contents">Against Cleaning</a> - W&amp;L login required</li>
 </ul>
-<h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">#</a></h2>
-<ul>
-<li>Open Refine</li>
-<li></li>
-</ul>
-<p>https://www-jstor-org.ezproxy.wlu.edu/stable/10.5749/j.ctvg251hk.26?seq=1#metadata_info_tab_contents
- 10.5749/j.ctvg251hk.26 </p>
-<p>https://port.sas.ac.uk/mod/book/view.php?id=75&amp;chapterid=133</p>
 
 
 </section>

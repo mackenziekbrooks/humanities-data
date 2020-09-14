@@ -1,4 +1,4 @@
-In this section, we'll learn about ways of using an
+In this section, we'll learn about ways of analyzing spatial data, through maps or similar visualizations.
 
 [TOC]
 
@@ -80,17 +80,46 @@ The popularity and usefulness of maps means that there are a wide range of comme
 ### Activity 6.1
 To start thinking spatially, let's create a map from scratch. 
 
-* Gather some blank paper and your favorite writing/drawing/coloring instruments. 
-* Without consulting anything or anyone else, draw a map of your campus. 
+1. Gather some blank paper and your favorite writing/drawing/coloring instruments. 
+2. Without consulting any existing maps, draw a map of campus. 
+3. As a group, we'll compare our maps with each other. How are our maps similar or different? What choices did you make? How are your choices informed by your hobbies, extracurriculars, personality, abilities, etc? What was challenging? What makes our campus hard/easy to map? 
+4. Now, let's look at the existing [campus map](https://campusmap.wlu.edu/) as well as images from the firm redesigning some of our spaces on campus. 
 
+### Activity 6.2 
+Let's continue building on our Coeducation Report data set so we can use it to try out some mapping tools in the next activity. Our data set needs coordinates, not just location names, for it to be easily to process by the mapping tools. Before I tell you exactly how to add coordinates, spend some time on Google. What services are out there for converting location names to coordinates? How do they work? What formats do they accept or produce? Remember, while it might be possible to convert each location one at a time, this would not be practical if our data set was any bigger. Let's look for some more automated solutions. 
+
+
+### Activity 6.3 
+There are a lot of options for tools that will create maps. In this activity, we'll divide into groups and test out a platform or two. We'll use the Coeducation Report as the data source for our map. 
+
+Platforms:
+
+* [Palladio](http://hdlab.stanford.edu/palladio/)
+* [ArcGIS Online](https://www.arcgis.com/index.html) - Note that you can create a [free public account](https://www.esri.com/en-us/arcgis/products/create-account) or use the [StoryMaps](storymaps.arcgis.com/) feature. We have an institutional license if you want to use ArcGIS longer term.
+* [Google My Maps](https://www.google.com/maps/d/)
+* [Tableau Public](https://public.tableau.com/en-us/s/)
+
+In your groups, answer the following questions. Record your answers in a Boxnote so that other students can consult the information. 
+
+* Who created this tool? Is it open source? Is it free?
+* How do I use it? Browser or download? OS preference?
+* How do I add data? What formats does it accept?
+* How do I add layers?
+* How do I add shapes or pins?
+* Can I add a historical map? How?
+* Where is the basemap from? (Google, OpenStreetMap, etc.) Can I change it?
+* What type of mapping project would suit this tool?
+* Can you find the documentation? Other tutorials?
+* Using the Coeducation Report data, create a map. You may need to alter the data to fit the requirements of the mapping tool. 
+
+To complete this activity after class, select a second platform and go through the same questions. Compare the two platforms. 
 
 ## Resources
-
+* [Spatial Humanities Workshop](https://lincolnmullen.com/projects/spatial-workshop/)
 
 ## Readings
 * [Anatomy of a Web Map](http://maptime.io/anatomy-of-a-web-map/)
 * [What is Spatial History?](https://web.stanford.edu/group/spatialhistory/cgi-bin/site/pub.php?id=29&project_id)
-* 
 
 ## Credits
 Material for this section was derived from Lincoln Mullen's [Spatial Humanities Workshop](https://lincolnmullen.com/projects/spatial-workshop/) materials per the CC-BY-NC-SA 4.0 license. 

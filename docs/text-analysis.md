@@ -153,30 +153,57 @@ One final note on copyright. Creative works published after 1925 (as of 2020) ar
 
 ## Text Analysis Tools
 
-* Voyant
-* LExos
-* AntConc
+* [Voyant](voyant-tools.org/) - A robust and popular tool for conducting many types of text analysis. FYI, you can run Voyant [locally](docs.voyant-tools.org/resources/run-your-own/voyant-server/) on your own computer. This is useful for large datasets or times when Voyant is slow.
+* [Lexos](http://lexos.wheatoncollege.edu/upload) - This tool from Wheaton College performs some powerful pre-processing of your corpus for text analysis.
+* [AntConc](http://www.laurenceanthony.net/software/antconc/) - Software package for linguistic analysis of texts, particularly concordance work.
+* [Google Books Ngram Viewer](https://books.google.com/ngrams)  -  A popular tool for visualizing n-grams over time in the Google Books data set. Prof. Brandon Walsh delves into the nuances of the Ngram Viewer over on his [text analysis workbook](https://bmw9t.gitbooks.io/introduction-to-text-analysis/content/issues/google-ngram.html). You can apply the same technology to your own corpus with a took called [Bookworm](http://bookworm.culturomics.org/).
+* [MALLET](http://mallet.cs.umass.edu/http://mallet.cs.umass.edu/) - Stands for MAchine Learning for LanguagE Toolkit. It's a powerful command line tool for topic modeling. 
+* [Scott Enderle's Topic Modeling Tool](https://senderle.github.io/topic-modeling-tool/documentation/2017/01/06/quickstart.html) - is an option for topic modeling if you don't want to use the command line. It creates nice HTML pages for interacting with the data. 
+* [NLTK](http://www.nltk.org/) - Python library containing a number of text analysis tools. If you feel comfortable with the command line or have programming experience, you might want to explore this option. Check out the [Steinheil Affair project on GitHub](https://github.com/wludh/frenchnewspapers) for an example of what can be with NLTK. You might also be interested in [A Humanist's Cookbook for Natural Language Processing with Python](https://github.com/walshbr/humanists-nlp-cookbook/blob/release/toc.ipynb).
+
 
 ## Activities
 
-## Activity 1
-Brandon's presentation ? 
+### Activity 7.1 - 4 Ways of Reading a Text
 
-## Activity 2
-
-RTP + OCR + Regex? 
-
-Explore with Lexos
-
-Voyant 
+In this activity, we'll work through Prof. Brandon Walsh's "4 Ways of Reading a Text" lecture. To prepare, please print one copy of this [handout packet](../assets/4waystoread-handouts.docx). 
 
 
+### Activity 7.2 - Voyant
+
+Let's spend some time getting comfortable with [Voyant Tools](http://voyant-tools.org/).
+ 
+1. Visit [Project Gutenberg](https://www.gutenberg.org/browse/scores/top) and find a text you know well. Maybe it's one you read in a class or one that's just a personal favorite. 
+2. Download the plain text version of your selected book. 
+3. In [Voyant Tools](http://voyant-tools.org/), upload the text file you just downloaded. 
+4. Use the little window icon to change the tool being displayed in each window.
+5. Answer the following questions. For each question, identify the visualization tool you used to find the answer. Sometimes there are more than one way to visualize the results. Which methods work bets? 
+	* What are the most common words in your text? The least common? 
+	* Search for a meaningful word in the Trends tool. How is that word used over the course of your text?
+	* What are the topics of your text? Which tool did you use to find the topics?
+	* Which tools help you find connections between words? 
+	* What is the weirdest visualization you can find? 
+	* Which visualization seems totally bizarre and not helpful? Why? 
+	* How do you export your results? 
+	* What types of questions can you form about your text with these tools? 
 
 
-## Resources
+### Activity 7.3
 
-## Readings 
+Now that you're comfortable with Voyant, let's return to the Ring-tum Phi and compare it to another corpus: the Alumni Magazine. 
 
 
+
+## Projects
+* [Mining the Dispatch](http://dsl.richmond.edu/dispatch/)
+* [The Proceedings of the Old Bailey](https://www.oldbaileyonline.org/)
+* [Quantifying Kissinger](http://blog.quantifyingkissinger.com/)
+* [Dash Amerikan](http://dashamerikan.scholarslab.org/)
+* [Robots Reading Vogue](http://dh.library.yale.edu/projects/vogue/)
+* [A Topic Model of Literary Studies Journals](http://www.rci.rutgers.edu/~ag978/quiet/#)
+* [America's Public Bible](http://americaspublicbible.org/)
+
+## Resources 
+* [Corpus Analysis with AntConc](https://programminghistorian.org/en/lessons/corpus-analysis-with-antconc)
 
 
