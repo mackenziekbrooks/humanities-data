@@ -106,11 +106,14 @@ Theme by GitBook
 </ul>
 </li>
 <li><a href="#text-analysis-tools">Text Analysis Tools</a></li>
-<li><a href="#activities">Activities</a></li>
-<li><a href="#activity-1">Activity 1</a></li>
-<li><a href="#activity-2">Activity 2</a></li>
+<li><a href="#activities">Activities</a><ul>
+<li><a href="#activity-71-4-ways-of-reading-a-text">Activity 7.1 - 4 Ways of Reading a Text</a></li>
+<li><a href="#activity-72-voyant">Activity 7.2 - Voyant</a></li>
+<li><a href="#activity-73">Activity 7.3</a></li>
+</ul>
+</li>
+<li><a href="#projects">Projects</a></li>
 <li><a href="#resources">Resources</a></li>
-<li><a href="#readings">Readings</a></li>
 </ul>
 </div>
 <h2 id="close-reading">Close Reading<a class="headerlink" href="#close-reading" title="Permanent link">#</a></h2>
@@ -217,19 +220,52 @@ Theme by GitBook
 <p>One final note on copyright. Creative works published after 1925 (as of 2020) are within copyright, meaning you do not have the right to do anything you want with them. The principles of fair use allow you to use those works for academic purposes, but that does not usually extend to republishing them in full. If you wanted to perform text analysis on a recently published novel, you might have to generate that text yourself, and then only share your results, not the corpus itself. Fortunately, materials published before 1925 are available for use! You can find texts in places like <a href="https://www.gutenberg.org/">Project Gutenburg</a> or the <a href="https://publicdomainreview.org/">Public Domain Review</a>.</p>
 <h2 id="text-analysis-tools">Text Analysis Tools<a class="headerlink" href="#text-analysis-tools" title="Permanent link">#</a></h2>
 <ul>
-<li>Voyant</li>
-<li>LExos</li>
-<li>AntConc</li>
+<li><a href="voyant-tools.org/">Voyant</a> - A robust and popular tool for conducting many types of text analysis. FYI, you can run Voyant <a href="docs.voyant-tools.org/resources/run-your-own/voyant-server/">locally</a> on your own computer. This is useful for large datasets or times when Voyant is slow.</li>
+<li><a href="http://lexos.wheatoncollege.edu/upload">Lexos</a> - This tool from Wheaton College performs some powerful pre-processing of your corpus for text analysis.</li>
+<li><a href="http://www.laurenceanthony.net/software/antconc/">AntConc</a> - Software package for linguistic analysis of texts, particularly concordance work.</li>
+<li><a href="https://books.google.com/ngrams">Google Books Ngram Viewer</a>  -  A popular tool for visualizing n-grams over time in the Google Books data set. Prof. Brandon Walsh delves into the nuances of the Ngram Viewer over on his <a href="https://bmw9t.gitbooks.io/introduction-to-text-analysis/content/issues/google-ngram.html">text analysis workbook</a>. You can apply the same technology to your own corpus with a took called <a href="http://bookworm.culturomics.org/">Bookworm</a>.</li>
+<li><a href="http://mallet.cs.umass.edu/http://mallet.cs.umass.edu/">MALLET</a> - Stands for MAchine Learning for LanguagE Toolkit. It's a powerful command line tool for topic modeling. </li>
+<li><a href="https://senderle.github.io/topic-modeling-tool/documentation/2017/01/06/quickstart.html">Scott Enderle's Topic Modeling Tool</a> - is an option for topic modeling if you don't want to use the command line. It creates nice HTML pages for interacting with the data. </li>
+<li><a href="http://www.nltk.org/">NLTK</a> - Python library containing a number of text analysis tools. If you feel comfortable with the command line or have programming experience, you might want to explore this option. Check out the <a href="https://github.com/wludh/frenchnewspapers">Steinheil Affair project on GitHub</a> for an example of what can be with NLTK. You might also be interested in <a href="https://github.com/walshbr/humanists-nlp-cookbook/blob/release/toc.ipynb">A Humanist's Cookbook for Natural Language Processing with Python</a>.</li>
 </ul>
 <h2 id="activities">Activities<a class="headerlink" href="#activities" title="Permanent link">#</a></h2>
-<h2 id="activity-1">Activity 1<a class="headerlink" href="#activity-1" title="Permanent link">#</a></h2>
-<p>Brandon's presentation ? </p>
-<h2 id="activity-2">Activity 2<a class="headerlink" href="#activity-2" title="Permanent link">#</a></h2>
-<p>RTP + OCR + Regex? </p>
-<p>Explore with Lexos</p>
-<p>Voyant </p>
+<h3 id="activity-71-4-ways-of-reading-a-text">Activity 7.1 - 4 Ways of Reading a Text<a class="headerlink" href="#activity-71-4-ways-of-reading-a-text" title="Permanent link">#</a></h3>
+<p>In this activity, we'll work through Prof. Brandon Walsh's "4 Ways of Reading a Text" lecture. To prepare, please print one copy of this <a href="../assets/4waystoread-handouts.docx">handout packet</a>. </p>
+<h3 id="activity-72-voyant">Activity 7.2 - Voyant<a class="headerlink" href="#activity-72-voyant" title="Permanent link">#</a></h3>
+<p>Let's spend some time getting comfortable with <a href="http://voyant-tools.org/">Voyant Tools</a>.</p>
+<ol>
+<li>Visit <a href="https://www.gutenberg.org/browse/scores/top">Project Gutenberg</a> and find a text you know well. Maybe it's one you read in a class or one that's just a personal favorite. </li>
+<li>Download the plain text version of your selected book. </li>
+<li>In <a href="http://voyant-tools.org/">Voyant Tools</a>, upload the text file you just downloaded. </li>
+<li>Use the little window icon to change the tool being displayed in each window.</li>
+<li>Answer the following questions. For each question, identify the visualization tool you used to find the answer. Sometimes there are more than one way to visualize the results. Which methods work bets? <ul>
+<li>What are the most common words in your text? The least common? </li>
+<li>Search for a meaningful word in the Trends tool. How is that word used over the course of your text?</li>
+<li>What are the topics of your text? Which tool did you use to find the topics?</li>
+<li>Which tools help you find connections between words? </li>
+<li>What is the weirdest visualization you can find? </li>
+<li>Which visualization seems totally bizarre and not helpful? Why? </li>
+<li>How do you export your results? </li>
+<li>What types of questions can you form about your text with these tools? </li>
+</ul>
+</li>
+</ol>
+<h3 id="activity-73">Activity 7.3<a class="headerlink" href="#activity-73" title="Permanent link">#</a></h3>
+<p>Now that you're comfortable with Voyant, let's return to the Ring-tum Phi and compare it to another corpus: the Alumni Magazine. </p>
+<h2 id="projects">Projects<a class="headerlink" href="#projects" title="Permanent link">#</a></h2>
+<ul>
+<li><a href="http://dsl.richmond.edu/dispatch/">Mining the Dispatch</a></li>
+<li><a href="https://www.oldbaileyonline.org/">The Proceedings of the Old Bailey</a></li>
+<li><a href="http://blog.quantifyingkissinger.com/">Quantifying Kissinger</a></li>
+<li><a href="http://dashamerikan.scholarslab.org/">Dash Amerikan</a></li>
+<li><a href="http://dh.library.yale.edu/projects/vogue/">Robots Reading Vogue</a></li>
+<li><a href="http://www.rci.rutgers.edu/~ag978/quiet/#">A Topic Model of Literary Studies Journals</a></li>
+<li><a href="http://americaspublicbible.org/">America's Public Bible</a></li>
+</ul>
 <h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">#</a></h2>
-<h2 id="readings">Readings<a class="headerlink" href="#readings" title="Permanent link">#</a></h2>
+<ul>
+<li><a href="https://programminghistorian.org/en/lessons/corpus-analysis-with-antconc">Corpus Analysis with AntConc</a></li>
+</ul>
 
 
 </section>
