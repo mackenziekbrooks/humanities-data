@@ -190,7 +190,14 @@ Let's spend some time getting comfortable with [Voyant Tools](http://voyant-tool
 
 ### Activity 7.3
 
-Now that you're comfortable with Voyant, let's return to the Ring-tum Phi and compare it to another corpus: the Alumni Magazine. 
+Now that you're comfortable with [Voyant](http://voyant-tools.org/), let's return to the Ring-tum Phi and compare it to another corpus: the [Alumni Magazine](https://wlu.box.com/s/qrx9pmuivgauuite3pshzxx4eb0yeolg). 
+ 
+1. Select similar portions of time from both the Ring-tum Phi and the Alumni Magazine. You probably don't want to start with the entire decade - it's often best to start with a small bit of data and move up from there.  
+2. Assemble your corpus. Now that you're familiar with Voyant, what makes the most sense for each file? How many years should go in each file aka what is the "granularity?" How do you need to structure the corpus to balance the granularity of each file? IE: if one text file contains an entire year and another file contains just one month, how will that affect your graph? 
+3. Upload your corpus to Voyant. To add a multiple files, find the Documents tab in the lower left corner. Press the Modify button, then Add, then Upload, to add more text files to Voyant. Make sure your files are named in a way so that they will be easy to distinguish from one another.
+4. Try out the various visualizations in Voyant. Which work best for a comparison between these two corpora? What can you learn about how these two publications cover the same topics? How might you use text analysis methods in your own project?
+5. Select three of the most meaningful visualizations and include them in a post along with 400-500 on the experience of text analysis, the meaning in your visualizations, and the answers to the questions in step 4. 
+
 
 
 
@@ -205,5 +212,7 @@ Now that you're comfortable with Voyant, let's return to the Ring-tum Phi and co
 
 ## Resources 
 * [Corpus Analysis with AntConc](https://programminghistorian.org/en/lessons/corpus-analysis-with-antconc)
+
+
 
 
